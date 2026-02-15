@@ -30,7 +30,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL "https://tebando.github.io/labo/"
+        run: hugo --minify --baseURL "https://tebando.github.io/tb_lab/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
