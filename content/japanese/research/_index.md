@@ -1,8 +1,8 @@
 ---
-title: "Nos cours"
+title: "研究"
 draft: false
-# page title background image
 bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description: "研究テーマ"
 ---
+
+情報教育・小学校プログラミング教育・教育データ科学を軸に、学校現場で活用可能な研究を進めています。

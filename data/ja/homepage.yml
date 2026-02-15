@@ -3,145 +3,70 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
-    # slider item loop
-    - title : "あなたの輝く未来を支えることが私たちの使命です"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "阪東 哲也 研究室"
+      content : "情報教育・小学校プログラミング教育・教育データ科学を軸に、授業改善と学びの質の向上を探究します。"
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
       button:
         enable : true
-        label : "今すぐ申し込む"
-        link : "contact/"
-
-    # slider item loop
-    - title : "あなたの輝く未来を支えることが私たちの使命です"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
+        label : "研究内容"
+        link : "research/"
+      button_secondary:
         enable : true
-        label : "申し込む"
-        link : "contact/"
-
-    # slider item loop
-    - title : "あなたの輝く未来を支えることが私たちの使命です"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "申し込む"
-        link : "contact/"
-
+        label : "配属・共同研究"
+        link : "join/"
 
 ############################### Banner feature ###############################
 banner_feature:
-  enable : true
+  enable : false
   image : "images/banner/banner-feature.png"
-  feature_item:
-    # feature item loop
-    - name : "奨学金制度"
-      icon : "ti-book" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "オフィス案内"
-      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "実績"
-      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
-    # feature item loop
-    - name : "Admission"
-      icon : "ti-write" # icon pack : https://themify.me/themify-icons
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  dolore magna aliqua. Ut enim ad"
-
+  feature_item: []
 
 ############################## about ##################################
 about:
   enable : true
-  title : "Educenterについて"
+  title : "研究室概要"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "鳴門教育大学 大学院学校教育研究科に所属し、情報教育・小学校プログラミング教育・教育データ科学に関する研究と実践に取り組んでいます。"
   button:
     enable : true
-    label : "詳細を見る"
-    link : "about/"
+    label : "研究室概要を見る"
+    link : "overview/"
 
-
-############################# Course ################################
+############################# Research Themes ################################
 course:
   enable : true
-  title : "コース一覧"
-  # course item comes from "content/**/course" folder.
+  title : "研究テーマ"
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "高度ワークショップへの参加はこちら"
-  title : "先端ネットワーク学習"
+  subtitle : "配属希望・共同研究の相談を受け付けています"
+  title : "研究テーマと目的をご確認のうえ、お問い合わせください"
   button:
     enable : true
-    label : "参加する"
-    link : "contact/"
-
+    label : "配属・共同研究"
+    link : "join/"
 
 ######################## Success story #############################
 success_story:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/success-story.jpg"
-  title : "成功事例"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
-            
-            
-  ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
-  # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
-
+  title : ""
+  content : ""
+  video_link : ""
 
 ############################# event ################################
 event:
   enable : true
-  title : "今後のイベント"
-  # event item comes from "content/**/event" folder.
+  title : "セミナー/イベント"
 
-  
 ########################### funfacts ############################
 funfacts:
-  enable : true
-  funfact_item:
-    # funfact item loop
-    - name : "教員数"
-      count : "60"
+  enable : false
+  funfact_item: []
 
-    # funfact item loop
-    - name : "コース数"
-      count : "50"
-
-    # funfact item loop
-    - name : "学生数"
-      count : "1000"
-
-    # funfact item loop
-    - name : "満足した受講者"
-      count : "1400"
-
-# funfact is for about page
-
-
-
-############################# blog ################################
+############################# notice ################################
 blog:
   enable : true
-  title : "最新ニュース"
-  # blog item comes from "content/**/blog" folder.
+  title : "お知らせ"

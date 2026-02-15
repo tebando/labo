@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>私たちについて on Educenter | hugo education template</title>
-    <link>//localhost:1313/ja/about/</link>
+    <link>/ja/about/</link>
     <description>Recent content in 私たちについて on Educenter | hugo education template</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <atom:link href="//localhost:1313/ja/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/ja/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

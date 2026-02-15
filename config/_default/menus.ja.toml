@@ -1,74 +1,62 @@
 ################### Japanese navigation ####################
 
 [[main]]
-name = "概要"
-url = "about/"
+name = "研究室概要"
+url = "overview/"
 weight = 1
 
 [[main]]
-name = "コース"
-url = "course/"
+name = "研究"
+url = "research/"
 weight = 2
 
 [[main]]
+name = "メンバー"
+url = "members/"
 weight = 3
-name = "ページ"
-hasChildren = true
 
-  [[main]]
-  parent = "ページ"
-  name = "教員"
-  url = "teacher/"
-
-  [[main]]
-  parent = "ページ"
-  name = "お知らせ"
-  url = "notice/"
-
-  [[main]]
-  parent = "ページ"
-  name = "イベント"
-  url = "event/"
-
-  [[main]]
-  parent = "ページ"
-  name = "奨学金"
-  url = "scholarship/"
-
-  [[main]]
-  parent = "ページ"
-  name = "研究"
-  url = "research/"
-  
 [[main]]
-name = "ブログ"
-url = "blog/"
+name = "業績"
+url = "publications/"
 weight = 4
-  
+
+[[main]]
+name = "お知らせ"
+url = "notice/"
+weight = 5
+
+[[main]]
+name = "配属・共同研究"
+url = "join/"
+weight = 6
+
+[[main]]
+name = "アクセス"
+url = "access/"
+weight = 7
+
 [[main]]
 name = "お問い合わせ"
 url = "contact/"
-weight = 5
-
+weight = 8
 
 # footer menu
-
 [[footer]]
-name = "教員"
-url = "teacher/"
-
-[[footer]]
-name = "お知らせ"
-url = "notice/"
-
-[[footer]]
-name = "イベント"
-url = "event/"
-
-[[footer]]
-name = "奨学金"
-url = "scholarship/"
+name = "研究室概要"
+url = "overview/"
 
 [[footer]]
 name = "研究"
 url = "research/"
+
+[[footer]]
+name = "メンバー"
+url = "members/"
+
+[[footer]]
+name = "業績"
+url = "publications/"
+
+[[footer]]
+name = "お問い合わせ"
+url = "contact/"

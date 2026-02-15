@@ -32,7 +32,7 @@
   translation: すべて見る
 
 - id: apply_now
-  translation: 今すぐ申し込む
+  translation: 詳細を見る
 
 - id: posted_by
   translation: 投稿者
@@ -47,7 +47,7 @@
   translation: カテゴリー
 
 - id: related_course
-  translation: 関連コース
+  translation: 関連テーマ
 
 - id: duration
   translation: 期間
@@ -74,22 +74,22 @@
   translation: その他のイベント
 
 - id: join
-  translation: 参加する
+  translation: 送信する
 
 - id: enter_email
   translation: メールアドレスを入力してください
 
 - id: company
-  translation: 会社
+  translation: 研究室
 
 - id: links
-  translation: リンク
+  translation: ページ
 
 - id: courses
-  translation: コース
+  translation: 研究テーマ
 
 - id: new_notice
-  translation: 新着のお知らせ
+  translation: お知らせ
 
 - id: call
   translation: 電話

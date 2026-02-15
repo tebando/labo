@@ -2,255 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/ja/tags/advice/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/advice/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/advice/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/ai/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/ai/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/ai/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/course/course-5/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/course-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/course-5/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/automation/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/automation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/automation/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/automation-system/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/automation-system/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/automation-system/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/deep-learning/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/deep-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/deep-learning/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/eco/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/eco/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/eco/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/eco-system/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/eco-system/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/eco-system/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/education/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/education/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/education/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/education-system/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/education-system/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/education-system/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/english/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/english/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/english/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/english-learning/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/english-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/english-learning/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/research/research-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/research/research-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-1/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/course/course-3/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/course-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/course-3/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/course/course-4/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/course-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/course-4/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/categories/mathmatics-learning/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/categories/mathmatics-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/mathmatics-learning/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/course/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/"
-                />
-  </url><url>
     <loc>//localhost:1313/ja/event/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2026-03-15T10:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -262,21 +15,21 @@
                 href="//localhost:1313/ja/event/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/research/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <loc>//localhost:1313/ja/</loc>
+    <lastmod>2026-03-15T10:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/"
+                href="//localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/"
+                href="//localhost:1313/ja/"
                 />
   </url><url>
     <loc>//localhost:1313/ja/notice/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2026-02-15T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -288,216 +41,8 @@
                 href="//localhost:1313/ja/notice/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/course/course-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/course-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/course-1/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/rules/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/rules/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/rules/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/tags/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/course/course-6/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/course-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/course-6/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/blog-post-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/blog-post-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/blog-post-1/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/blog-post-2/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/blog-post-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/blog-post-2/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/blog-post-3/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/blog-post-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/blog-post-3/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/blog-post-4/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/blog-post-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/blog-post-4/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/blog-post-5/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/blog-post-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/blog-post-5/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/blog-post-6/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/blog-post-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/blog-post-6/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/event/event-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/event/event-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/event/event-1/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/event/event-2/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/event/event-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/event/event-2/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/event/event-3/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/event/event-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/event/event-3/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/event/event-4/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/event/event-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/event/event-4/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/event/event-5/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/event/event-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/event/event-5/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/event/event-6/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/event/event-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/event/event-6/"
-                />
-  </url><url>
     <loc>//localhost:1313/ja/notice/notice-1/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2026-02-15T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -510,7 +55,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/ja/notice/notice-2/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2026-02-14T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -523,7 +68,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/ja/notice/notice-3/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <lastmod>2026-02-13T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -535,99 +80,7 @@
                 href="//localhost:1313/ja/notice/notice-3/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/notice/notice-4/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/notice/notice-4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/notice-4/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/notice/notice-5/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/notice/notice-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/notice-5/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/notice/notice-6/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/notice/notice-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/notice-6/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/blog/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/blog/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/course/course-2/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/course/course-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/course/course-2/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/research/research-2/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/research/research-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-2/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/research/research-3/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/research/research-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-3/"
-                />
-  </url><url>
     <loc>//localhost:1313/ja/research/research-4/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -639,199 +92,31 @@
                 href="//localhost:1313/ja/research/research-4/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/research/research-5/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <loc>//localhost:1313/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/research-5/"
+                href="//localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-5/"
+                href="//localhost:1313/ja/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/research/research-6/</loc>
-    <lastmod>2019-07-06T15:27:17+06:00</lastmod>
+    <loc>//localhost:1313/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/research-6/"
+                href="//localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-6/"
+                href="//localhost:1313/ja/tags/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/teacher/alex-rook/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/alex-rook/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/alex-rook/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/author/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/author/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/author/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/teacher/clark-malik/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/clark-malik/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/clark-malik/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/teacher/devid-luis/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/devid-luis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/devid-luis/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/teacher/duis-rio/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/duis-rio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/duis-rio/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/teacher/jacke-mastio/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/jacke-mastio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/jacke-mastio/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/author/john-doe/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/author/john-doe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/author/john-doe/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/author/mark-dinn/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/author/mark-dinn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/author/mark-dinn/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/teacher/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/teacher/zim-cook/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/teacher/zim-cook/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/teacher/zim-cook/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/scholarship/scholarship-1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/scholarship/scholarship-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/scholarship/scholarship-1/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/scholarship/scholarship-2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/scholarship/scholarship-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/scholarship/scholarship-2/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/scholarship/scholarship-3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/scholarship/scholarship-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/scholarship/scholarship-3/"
-                />
-  </url><url>
-    <loc>//localhost:1313/ja/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="//localhost:1313/ja/about/"
-                />
+    <loc>//localhost:1313/access/</loc>
   </url><url>
     <loc>//localhost:1313/ja/contact/</loc>
     <xhtml:link
@@ -845,16 +130,60 @@
                 href="//localhost:1313/ja/contact/"
                 />
   </url><url>
-    <loc>//localhost:1313/ja/scholarship/</loc>
+    <loc>//localhost:1313/members/</loc>
+  </url><url>
+    <loc>//localhost:1313/ja/research/research-3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/scholarship/"
+                href="//localhost:1313/en/research/research-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/scholarship/"
+                href="//localhost:1313/ja/research/research-3/"
                 />
+  </url><url>
+    <loc>//localhost:1313/publications/</loc>
+  </url><url>
+    <loc>//localhost:1313/ja/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-jp"
+                href="//localhost:1313/ja/research/"
+                />
+  </url><url>
+    <loc>//localhost:1313/overview/</loc>
+  </url><url>
+    <loc>//localhost:1313/ja/research/research-2/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/research/research-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-jp"
+                href="//localhost:1313/ja/research/research-2/"
+                />
+  </url><url>
+    <loc>//localhost:1313/ja/research/research-1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="//localhost:1313/en/research/research-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-jp"
+                href="//localhost:1313/ja/research/research-1/"
+                />
+  </url><url>
+    <loc>//localhost:1313/join/</loc>
   </url>
 </urlset>

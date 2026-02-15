@@ -1,8 +1,10 @@
 ---
-title: "Nos cours"
+title: "セミナー/イベント"
 draft: false
-# page title background image
 bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description: "研究室関連のセミナー・イベント"
 ---
+
+セミナー・イベント情報を掲載します。
+
+TODO: 投稿型で継続運用（必要に応じて `content/japanese/seminar/` への移行を検討）

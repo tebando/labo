@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "Educenter | hugo education template"
+title = "阪東 哲也 研究室 | Tetsuya BANDO Lab"
 theme = "educenter-hugo"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true

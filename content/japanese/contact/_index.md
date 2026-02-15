@@ -1,10 +1,22 @@
 ---
-title: "私たちについて"
+title: "お問い合わせ"
 draft: false
-# page title background image
 bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description: "問い合わせフォーム"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt. Dolore, labore. Accusamus nulla sed cum aliquid exercitationem debitis error harum porro maxime quo iusto aliquam dicta modi earum fugiat, vel possimus commodi, deleniti et veniam, fuga ipsum praesentium. Odit unde optio nulla ipsum quae obcaecati! Quod esse natus quibusdam asperiores quam vel, tempore itaque architecto ducimus expedita
+研究室へのお問い合わせは、以下のフォームからお願いします。  
+電話番号・メールアドレスは公開していません。
+
+## お問い合わせフォーム
+
+<div style="position:relative;padding-top:80%;">
+  <iframe
+    src="TODO: Google Forms の埋め込みURLに差し替え"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    loading="lazy"
+    title="お問い合わせフォーム">
+  </iframe>
+</div>
+
+送信後、内容を確認のうえ、必要に応じてご連絡します。

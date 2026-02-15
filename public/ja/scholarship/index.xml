@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>奨学金 on Educenter | hugo education template</title>
-    <link>//localhost:1313/ja/scholarship/</link>
+    <link>/ja/scholarship/</link>
     <description>Recent content in 奨学金 on Educenter | hugo education template</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <atom:link href="//localhost:1313/ja/scholarship/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/ja/scholarship/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>化学工学</title>
-      <link>//localhost:1313/ja/scholarship/scholarship-1/</link>
+      <link>/ja/scholarship/scholarship-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/scholarship/scholarship-1/</guid>
+      <guid>/ja/scholarship/scholarship-1/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;研究機関&lt;/li&gt;&#xA;&lt;li&gt;研究支援プログラム&lt;/li&gt;&#xA;&lt;li&gt;奨学金情報へのデジタルアクセス&lt;/li&gt;&#xA;&lt;li&gt;スマート触媒&lt;/li&gt;&#xA;&lt;li&gt;スマート図書館ポータル&lt;/li&gt;&#xA;&lt;li&gt;スマート研究プログラム&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>化学工学</title>
-      <link>//localhost:1313/ja/scholarship/scholarship-2/</link>
+      <link>/ja/scholarship/scholarship-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/scholarship/scholarship-2/</guid>
+      <guid>/ja/scholarship/scholarship-2/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;研究機関&lt;/li&gt;&#xA;&lt;li&gt;研究支援プログラム&lt;/li&gt;&#xA;&lt;li&gt;奨学金情報へのデジタルアクセス&lt;/li&gt;&#xA;&lt;li&gt;スマート触媒&lt;/li&gt;&#xA;&lt;li&gt;スマート図書館ポータル&lt;/li&gt;&#xA;&lt;li&gt;スマート研究プログラム&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>化学工学</title>
-      <link>//localhost:1313/ja/scholarship/scholarship-3/</link>
+      <link>/ja/scholarship/scholarship-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/scholarship/scholarship-3/</guid>
+      <guid>/ja/scholarship/scholarship-3/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;研究機関&lt;/li&gt;&#xA;&lt;li&gt;研究支援プログラム&lt;/li&gt;&#xA;&lt;li&gt;奨学金情報へのデジタルアクセス&lt;/li&gt;&#xA;&lt;li&gt;スマート触媒&lt;/li&gt;&#xA;&lt;li&gt;スマート図書館ポータル&lt;/li&gt;&#xA;&lt;li&gt;スマート研究プログラム&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

@@ -1,299 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Educenter | hugo education template</title>
+    <title>阪東 哲也 研究室 | Tetsuya BANDO Lab</title>
     <link>//localhost:1313/ja/</link>
-    <description>Recent content on Educenter | hugo education template</description>
+    <description>Recent content on 阪東 哲也 研究室 | Tetsuya BANDO Lab</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Algorithme</title>
-      <link>//localhost:1313/ja/course/course-5/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/course/course-5/</guid>
-      <description>&lt;h3 id=&#34;コースについて&#34;&gt;コースについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Geographie</title>
-      <link>//localhost:1313/ja/research/research-1/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/research/research-1/</guid>
-      <description>&lt;h3 id=&#34;研究について&#34;&gt;研究について&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Intelligence artificielle</title>
-      <link>//localhost:1313/ja/course/course-3/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/course/course-3/</guid>
-      <description>&lt;h3 id=&#34;コースについて&#34;&gt;コースについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript</title>
-      <link>//localhost:1313/ja/course/course-4/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/course/course-4/</guid>
-      <description>&lt;h3 id=&#34;コースについて&#34;&gt;コースについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Photographie</title>
-      <link>//localhost:1313/ja/course/course-1/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/course/course-1/</guid>
-      <description>&lt;h3 id=&#34;コースについて&#34;&gt;コースについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Vlogging</title>
-      <link>//localhost:1313/ja/course/course-6/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/course/course-6/</guid>
-      <description>&lt;h3 id=&#34;コースについて&#34;&gt;コースについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>エレガントなカットボックス・ジオラマ</title>
-      <link>//localhost:1313/ja/blog/blog-post-1/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/blog/blog-post-1/</guid>
-      <description>&lt;h3 id=&#34;the-standard-lorem-ipsum-passage-used-since-the-1500s&#34;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>エレガントなカットボックス・ジオラマ</title>
-      <link>//localhost:1313/ja/blog/blog-post-2/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/blog/blog-post-2/</guid>
-      <description>&lt;h3 id=&#34;the-standard-lorem-ipsum-passage-used-since-the-1500s&#34;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>エレガントなカットボックス・ジオラマ</title>
-      <link>//localhost:1313/ja/blog/blog-post-3/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/blog/blog-post-3/</guid>
-      <description>&lt;h3 id=&#34;the-standard-lorem-ipsum-passage-used-since-the-1500s&#34;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>エレガントなカットボックス・ジオラマ</title>
-      <link>//localhost:1313/ja/blog/blog-post-4/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/blog/blog-post-4/</guid>
-      <description>&lt;h3 id=&#34;the-standard-lorem-ipsum-passage-used-since-the-1500s&#34;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>エレガントなカットボックス・ジオラマ</title>
-      <link>//localhost:1313/ja/blog/blog-post-5/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/blog/blog-post-5/</guid>
-      <description>&lt;h3 id=&#34;the-standard-lorem-ipsum-passage-used-since-the-1500s&#34;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>エレガントなカットボックス・ジオラマ</title>
-      <link>//localhost:1313/ja/blog/blog-post-6/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/blog/blog-post-6/</guid>
-      <description>&lt;h3 id=&#34;the-standard-lorem-ipsum-passage-used-since-the-1500s&#34;&gt;The standard Lorem Ipsum passage, used since the 1500s&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ソーシャルメディアと行動経済学カンファレンス</title>
-      <link>//localhost:1313/ja/event/event-1/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/event/event-1/</guid>
-      <description>&lt;h3 id=&#34;イベントについて&#34;&gt;イベントについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ソーシャルメディアと行動経済学カンファレンス</title>
-      <link>//localhost:1313/ja/event/event-2/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/event/event-2/</guid>
-      <description>&lt;h3 id=&#34;イベントについて&#34;&gt;イベントについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ソーシャルメディアと行動経済学カンファレンス</title>
-      <link>//localhost:1313/ja/event/event-3/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/event/event-3/</guid>
-      <description>&lt;h3 id=&#34;イベントについて&#34;&gt;イベントについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ソーシャルメディアと行動経済学カンファレンス</title>
-      <link>//localhost:1313/ja/event/event-4/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/event/event-4/</guid>
-      <description>&lt;h3 id=&#34;イベントについて&#34;&gt;イベントについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ソーシャルメディアと行動経済学カンファレンス</title>
-      <link>//localhost:1313/ja/event/event-5/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/event/event-5/</guid>
-      <description>&lt;h3 id=&#34;イベントについて&#34;&gt;イベントについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ソーシャルメディアと行動経済学カンファレンス</title>
-      <link>//localhost:1313/ja/event/event-6/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/event/event-6/</guid>
-      <description>&lt;h3 id=&#34;イベントについて&#34;&gt;イベントについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>教材と試験方法</title>
+      <title>研究室サイトを公開しました（暫定）</title>
       <link>//localhost:1313/ja/notice/notice-1/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <pubDate>Sun, 15 Feb 2026 09:00:00 +0900</pubDate>
       <guid>//localhost:1313/ja/notice/notice-1/</guid>
-      <description>&lt;h3 id=&#34;お知らせについて&#34;&gt;お知らせについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
+      <description>&lt;p&gt;研究室サイトの初期版を公開しました。内容は順次更新します。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>教材と試験方法</title>
+      <title>研究テーマページを更新しました（暫定）</title>
       <link>//localhost:1313/ja/notice/notice-2/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <pubDate>Sat, 14 Feb 2026 09:00:00 +0900</pubDate>
       <guid>//localhost:1313/ja/notice/notice-2/</guid>
-      <description>&lt;h3 id=&#34;お知らせについて&#34;&gt;お知らせについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
+      <description>&lt;p&gt;研究テーマの概要を掲載しました。詳細は今後追記します。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>教材と試験方法</title>
+      <title>お問い合わせフォーム準備中</title>
       <link>//localhost:1313/ja/notice/notice-3/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <pubDate>Fri, 13 Feb 2026 09:00:00 +0900</pubDate>
       <guid>//localhost:1313/ja/notice/notice-3/</guid>
-      <description>&lt;h3 id=&#34;お知らせについて&#34;&gt;お知らせについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
+      <description>&lt;p&gt;お問い合わせページにフォーム埋め込み枠を設置しました。URLは TODO として管理しています。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>教材と試験方法</title>
-      <link>//localhost:1313/ja/notice/notice-4/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/notice/notice-4/</guid>
-      <description>&lt;h3 id=&#34;お知らせについて&#34;&gt;お知らせについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>教材と試験方法</title>
-      <link>//localhost:1313/ja/notice/notice-5/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/notice/notice-5/</guid>
-      <description>&lt;h3 id=&#34;お知らせについて&#34;&gt;お知らせについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>教材と試験方法</title>
-      <link>//localhost:1313/ja/notice/notice-6/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/notice/notice-6/</guid>
-      <description>&lt;h3 id=&#34;お知らせについて&#34;&gt;お知らせについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>数学</title>
-      <link>//localhost:1313/ja/course/course-2/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/course/course-2/</guid>
-      <description>&lt;h3 id=&#34;コースについて&#34;&gt;コースについて&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>地理学</title>
-      <link>//localhost:1313/ja/research/research-2/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/research/research-2/</guid>
-      <description>&lt;h3 id=&#34;研究について&#34;&gt;研究について&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>地理学</title>
-      <link>//localhost:1313/ja/research/research-3/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/research/research-3/</guid>
-      <description>&lt;h3 id=&#34;研究について&#34;&gt;研究について&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>地理学</title>
+      <title>AIリテラシー</title>
       <link>//localhost:1313/ja/research/research-4/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/ja/research/research-4/</guid>
-      <description>&lt;h3 id=&#34;研究について&#34;&gt;研究について&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
+      <description>&lt;p&gt;AIの基礎理解と活用体験を通じたAIリテラシー育成を実践的に検討します。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>地理学</title>
-      <link>//localhost:1313/ja/research/research-5/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/research/research-5/</guid>
-      <description>&lt;h3 id=&#34;研究について&#34;&gt;研究について&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>地理学</title>
-      <link>//localhost:1313/ja/research/research-6/</link>
-      <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/ja/research/research-6/</guid>
-      <description>&lt;h3 id=&#34;研究について&#34;&gt;研究について&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Alex Rook</title>
-      <link>//localhost:1313/ja/teacher/alex-rook/</link>
+      <title>アクセス</title>
+      <link>//localhost:1313/access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/teacher/alex-rook/</guid>
-      <description>&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.&lt;/p&gt;</description>
+      <guid>//localhost:1313/access/</guid>
+      <description>&lt;h2 id=&#34;所在地&#34;&gt;所在地&lt;/h2&gt;&#xA;&lt;p&gt;〒772-8502 徳島県鳴門市鳴門町高島字中島748番地&lt;br&gt;&#xA;鳴門教育大学&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Clark Malik</title>
-      <link>//localhost:1313/ja/teacher/clark-malik/</link>
+      <title>メンバー</title>
+      <link>//localhost:1313/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/teacher/clark-malik/</guid>
-      <description>&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.&lt;/p&gt;</description>
+      <guid>//localhost:1313/members/</guid>
+      <description>&lt;h2 id=&#34;教員&#34;&gt;教員&lt;/h2&gt;&#xA;&lt;h3 id=&#34;阪東-哲也&#34;&gt;阪東 哲也&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;所属: 鳴門教育大学 大学院学校教育研究科&lt;/li&gt;&#xA;&lt;li&gt;職名: 准教授&lt;/li&gt;&#xA;&lt;li&gt;研究キーワード: 情報教育 / 小学校プログラミング教育 / 教育データ科学&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;学生研究協力者&#34;&gt;学生・研究協力者&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TODO: メンバー情報を追記&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Devid Luis</title>
-      <link>//localhost:1313/ja/teacher/devid-luis/</link>
+      <title>教育データ科学</title>
+      <link>//localhost:1313/ja/research/research-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/teacher/devid-luis/</guid>
-      <description>&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.&lt;/p&gt;</description>
+      <guid>//localhost:1313/ja/research/research-3/</guid>
+      <description>&lt;p&gt;学習・授業データを活用した可視化と授業改善に取り組みます。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Duis Rio</title>
-      <link>//localhost:1313/ja/teacher/duis-rio/</link>
+      <title>業績</title>
+      <link>//localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/teacher/duis-rio/</guid>
-      <description>&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.&lt;/p&gt;</description>
+      <guid>//localhost:1313/publications/</guid>
+      <description>&lt;h2 id=&#34;代表業績抜粋&#34;&gt;代表業績（抜粋）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;著書抜粋&#34;&gt;著書（抜粋）&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;今こそ知りたい！ 学び続ける先生のための 基礎と実践から学べる小・中学校プログラミング教育（2021）&lt;/li&gt;&#xA;&lt;li&gt;小・中・高等学校でのプログラミング教育実践 : 問題解決を目的とした論理的思考力の育成（2019）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;論文抜粋&#34;&gt;論文（抜粋）&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;小学校における音楽リテラシーの向上を目指したICT活用による個別学習の効果（2025）&lt;/li&gt;&#xA;&lt;li&gt;展示物とWebを連動させた情報遺産ギャラリーの構築（2025）&lt;/li&gt;&#xA;&lt;li&gt;高校生の主体性及びGritと探究との関係（2024）&lt;/li&gt;&#xA;&lt;li&gt;中学校の計測・制御システム学習におけるPythonを用いたプログラミング教育（2022）&lt;/li&gt;&#xA;&lt;li&gt;小学校における簡単な動きのシミュレーションを取り入れたプログラミング授業実践の提案（2021）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;受賞&#34;&gt;受賞&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 論文賞（2018年度、2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 奨励賞（2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 学生優秀発表賞（2015年度）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;全件リスト&#34;&gt;全件リスト&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TODO: DOI・URLを含む全業績を追記&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Jacke Mastio</title>
-      <link>//localhost:1313/ja/teacher/jacke-mastio/</link>
+      <title>研究室概要</title>
+      <link>//localhost:1313/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/teacher/jacke-mastio/</guid>
-      <description>&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.&lt;/p&gt;</description>
+      <guid>//localhost:1313/overview/</guid>
+      <description>&lt;h2 id=&#34;阪東-哲也-研究室&#34;&gt;阪東 哲也 研究室&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;名称: 阪東 哲也 研究室（Tetsuya BANDO Lab）&lt;/li&gt;&#xA;&lt;li&gt;所属: 鳴門教育大学 大学院学校教育研究科&lt;/li&gt;&#xA;&lt;li&gt;職名: 准教授&lt;/li&gt;&#xA;&lt;li&gt;学位: 博士（学校教育学）&lt;/li&gt;&#xA;&lt;li&gt;学位論文題目: 情報モラル意識の形成に及ぼす個人内特性の影響&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;所属コース&#34;&gt;所属コース&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;高度学校教育実践専攻（教科・総合系）&lt;/li&gt;&#xA;&lt;li&gt;技術・工業・情報科教育コース&lt;/li&gt;&#xA;&lt;li&gt;学習指導力・ICT教育実践力開発コース&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;関連センター&#34;&gt;関連センター&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;情報基盤センター&lt;/li&gt;&#xA;&lt;li&gt;教師のためのAI・DS研究開発センター&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;研究キーワード&#34;&gt;研究キーワード&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;情報教育&lt;/li&gt;&#xA;&lt;li&gt;小学校プログラミング教育&lt;/li&gt;&#xA;&lt;li&gt;教育データ科学&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;所属学会&#34;&gt;所属学会&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会&lt;/li&gt;&#xA;&lt;li&gt;日本教育情報学会&lt;/li&gt;&#xA;&lt;li&gt;日本教育工学会&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;主な活動&#34;&gt;主な活動&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 理事&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;受賞&#34;&gt;受賞&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 論文賞（2018年度、2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 奨励賞（2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 学生優秀発表賞（2015年度）&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>John doe</title>
-      <link>//localhost:1313/ja/author/john-doe/</link>
+      <title>小学校プログラミング教育</title>
+      <link>//localhost:1313/ja/research/research-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/author/john-doe/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.&#xA;Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.&lt;/p&gt;</description>
+      <guid>//localhost:1313/ja/research/research-2/</guid>
+      <description>&lt;p&gt;初等教育段階におけるプログラミング学習の設計と評価を行います。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mark Dinn</title>
-      <link>//localhost:1313/ja/author/mark-dinn/</link>
+      <title>情報教育</title>
+      <link>//localhost:1313/ja/research/research-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/author/mark-dinn/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.&#xA;Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.&lt;/p&gt;</description>
+      <guid>//localhost:1313/ja/research/research-1/</guid>
+      <description>&lt;p&gt;学校現場でのICT活用と学習の質向上に関する研究を進めています。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Zim Cook</title>
-      <link>//localhost:1313/ja/teacher/zim-cook/</link>
+      <title>配属・共同研究</title>
+      <link>//localhost:1313/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/teacher/zim-cook/</guid>
-      <description>&lt;h3 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut&#xA;labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>化学工学</title>
-      <link>//localhost:1313/ja/scholarship/scholarship-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/scholarship/scholarship-1/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;研究機関&lt;/li&gt;&#xA;&lt;li&gt;研究支援プログラム&lt;/li&gt;&#xA;&lt;li&gt;奨学金情報へのデジタルアクセス&lt;/li&gt;&#xA;&lt;li&gt;スマート触媒&lt;/li&gt;&#xA;&lt;li&gt;スマート図書館ポータル&lt;/li&gt;&#xA;&lt;li&gt;スマート研究プログラム&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>化学工学</title>
-      <link>//localhost:1313/ja/scholarship/scholarship-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/scholarship/scholarship-2/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;研究機関&lt;/li&gt;&#xA;&lt;li&gt;研究支援プログラム&lt;/li&gt;&#xA;&lt;li&gt;奨学金情報へのデジタルアクセス&lt;/li&gt;&#xA;&lt;li&gt;スマート触媒&lt;/li&gt;&#xA;&lt;li&gt;スマート図書館ポータル&lt;/li&gt;&#xA;&lt;li&gt;スマート研究プログラム&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>化学工学</title>
-      <link>//localhost:1313/ja/scholarship/scholarship-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/scholarship/scholarship-3/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;研究機関&lt;/li&gt;&#xA;&lt;li&gt;研究支援プログラム&lt;/li&gt;&#xA;&lt;li&gt;奨学金情報へのデジタルアクセス&lt;/li&gt;&#xA;&lt;li&gt;スマート触媒&lt;/li&gt;&#xA;&lt;li&gt;スマート図書館ポータル&lt;/li&gt;&#xA;&lt;li&gt;スマート研究プログラム&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>//localhost:1313/join/</guid>
+      <description>&lt;h2 id=&#34;配属を希望する方へ&#34;&gt;配属を希望する方へ&lt;/h2&gt;&#xA;&lt;p&gt;まずは研究テーマを確認のうえ、問い合わせフォームからご連絡ください。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
