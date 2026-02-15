@@ -24,9 +24,13 @@
             {{ end }}
           </div>
         </div>
-        {{ with .bg_image }}
+        {{ if or $item.icon_image .bg_image }}
         <div class="col-lg-4 d-none d-lg-block">
-          <div class="home-hero-art" data-background="{{ . | absURL }}"></div>
+          <div class="home-hero-art{{ if $item.icon_image }} home-hero-art--icon{{ end }}" {{ if and (not $item.icon_image) .bg_image }}data-background="{{ .bg_image | absURL }}"{{ end }}>
+            {{ with $item.icon_image }}
+            <img class="home-hero-art-icon" src="{{ . | absURL }}" alt="Lab icon" loading="lazy" decoding="async">
+            {{ end }}
+          </div>
         </div>
         {{ end }}
       </div>
@@ -65,17 +69,12 @@
 {{ with $data.homepage.about }}
 <section class="section">
   <div class="container">
+    {{ $hasImage := .image }}
     <article class="home-about-card">
-      <div class="row align-items-center no-gutters">
-        {{ with .image }}
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <div class="home-about-image-wrap">
-            {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100 home-about-image" ) }}
-          </div>
-        </div>
-        {{ end }}
-        <div class="col-lg-8">
+      <div class="row align-items-stretch no-gutters home-about-layout">
+        <div class="{{ if $hasImage }}col-lg-7 order-2 order-lg-1{{ else }}col-12{{ end }}">
           <div class="home-about-body">
+            <span class="home-about-kicker">Lab Overview</span>
             <h2 class="section-title">{{ .title | markdownify }}</h2>
             <p>{{ .content | markdownify }}</p>
             {{ if .button.enable }}
@@ -85,6 +84,13 @@
             {{ end }}
           </div>
         </div>
+        {{ with .image }}
+        <div class="col-lg-5 order-1 order-lg-2">
+          <div class="home-about-image-wrap">
+            {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100 home-about-image" ) }}
+          </div>
+        </div>
+        {{ end }}
       </div>
     </article>
   </div>
