@@ -1,0 +1,277 @@
+{{ define "main" }}
+
+{{ $members := where site.RegularPages "Section" "members" }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "journalByKey" (dict) }}
+{{ $scratch.Set "conferenceByKey" (dict) }}
+{{ $scratch.Set "miscByKey" (dict) }}
+
+{{ range $members }}
+  {{ $journalItems := slice }}
+  {{ with .Params.journal_peer_reviewed }}
+    {{ range . }}{{ $journalItems = $journalItems | append . }}{{ end }}
+  {{ end }}
+  {{ with .Params.publications.journal_peer_reviewed }}
+    {{ range . }}{{ $journalItems = $journalItems | append . }}{{ end }}
+  {{ end }}
+  {{ range $journalItems }}
+    {{ $item := . }}
+    {{ $title := "" }}
+    {{ $authors := "" }}
+    {{ $source := "" }}
+    {{ $url := "" }}
+    {{ $yearRaw := "" }}
+    {{ if reflect.IsMap $item }}
+      {{ $title = $item.title | default "" }}
+      {{ $authors = $item.authors | default "" }}
+      {{ $source = $item.source | default "" }}
+      {{ $url = $item.url | default "" }}
+      {{ with $item.year }}{{ $yearRaw = printf "%v" . }}{{ end }}
+    {{ else }}
+      {{ $title = printf "%v" $item }}
+    {{ end }}
+    {{ $key := printf "%s" (partial "pub/normalize-title.html" $title) }}
+    {{ if and $title $key }}
+      {{ $yearInt := 0 }}
+      {{ if $yearRaw }}
+        {{ $yearMatch := findRE "[0-9]{4}" $yearRaw }}
+        {{ if gt (len $yearMatch) 0 }}{{ $yearInt = int (index $yearMatch 0) }}{{ end }}
+      {{ end }}
+      {{ if eq $yearInt 0 }}
+        {{ $titleYearMatch := findRE "[0-9]{4}" $title }}
+        {{ if gt (len $titleYearMatch) 0 }}{{ $yearInt = int (index $titleYearMatch 0) }}{{ end }}
+      {{ end }}
+      {{ $record := dict
+        "title" $title
+        "authors" $authors
+        "source" $source
+        "url" $url
+        "yearInt" $yearInt
+      }}
+      {{ $byKey := $scratch.Get "journalByKey" }}
+      {{ $existing := index $byKey $key }}
+      {{ if not $existing }}
+        {{ $scratch.Set "journalByKey" (merge $byKey (dict $key $record)) }}
+      {{ else }}
+        {{ $existingYear := int (default 0 (index $existing "yearInt")) }}
+        {{ if gt $yearInt $existingYear }}
+          {{ $scratch.Set "journalByKey" (merge $byKey (dict $key $record)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $conferenceItems := slice }}
+  {{ with .Params.conference_peer_reviewed }}
+    {{ range . }}{{ $conferenceItems = $conferenceItems | append . }}{{ end }}
+  {{ end }}
+  {{ with .Params.publications.conference_peer_reviewed }}
+    {{ range . }}{{ $conferenceItems = $conferenceItems | append . }}{{ end }}
+  {{ end }}
+  {{ with .Params.publications.oral_presentations }}
+    {{ range . }}{{ $conferenceItems = $conferenceItems | append . }}{{ end }}
+  {{ end }}
+  {{ range $conferenceItems }}
+    {{ $item := . }}
+    {{ $title := "" }}
+    {{ $authors := "" }}
+    {{ $source := "" }}
+    {{ $url := "" }}
+    {{ $yearRaw := "" }}
+    {{ if reflect.IsMap $item }}
+      {{ $title = $item.title | default "" }}
+      {{ $authors = $item.authors | default "" }}
+      {{ $source = $item.source | default "" }}
+      {{ $url = $item.url | default "" }}
+      {{ with $item.year }}{{ $yearRaw = printf "%v" . }}{{ end }}
+    {{ else }}
+      {{ $title = printf "%v" $item }}
+    {{ end }}
+    {{ $key := printf "%s" (partial "pub/normalize-title.html" $title) }}
+    {{ if and $title $key }}
+      {{ $yearInt := 0 }}
+      {{ if $yearRaw }}
+        {{ $yearMatch := findRE "[0-9]{4}" $yearRaw }}
+        {{ if gt (len $yearMatch) 0 }}{{ $yearInt = int (index $yearMatch 0) }}{{ end }}
+      {{ end }}
+      {{ if eq $yearInt 0 }}
+        {{ $titleYearMatch := findRE "[0-9]{4}" $title }}
+        {{ if gt (len $titleYearMatch) 0 }}{{ $yearInt = int (index $titleYearMatch 0) }}{{ end }}
+      {{ end }}
+      {{ $record := dict
+        "title" $title
+        "authors" $authors
+        "source" $source
+        "url" $url
+        "yearInt" $yearInt
+      }}
+      {{ $byKey := $scratch.Get "conferenceByKey" }}
+      {{ $existing := index $byKey $key }}
+      {{ if not $existing }}
+        {{ $scratch.Set "conferenceByKey" (merge $byKey (dict $key $record)) }}
+      {{ else }}
+        {{ $existingYear := int (default 0 (index $existing "yearInt")) }}
+        {{ if gt $yearInt $existingYear }}
+          {{ $scratch.Set "conferenceByKey" (merge $byKey (dict $key $record)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $miscItems := slice }}
+  {{ with .Params.misc }}
+    {{ range . }}{{ $miscItems = $miscItems | append . }}{{ end }}
+  {{ end }}
+  {{ with .Params.publications.misc }}
+    {{ range . }}{{ $miscItems = $miscItems | append . }}{{ end }}
+  {{ end }}
+  {{ range $miscItems }}
+    {{ $item := . }}
+    {{ $title := "" }}
+    {{ $authors := "" }}
+    {{ $source := "" }}
+    {{ $url := "" }}
+    {{ $yearRaw := "" }}
+    {{ if reflect.IsMap $item }}
+      {{ $title = $item.title | default "" }}
+      {{ $authors = $item.authors | default "" }}
+      {{ $source = $item.source | default "" }}
+      {{ $url = $item.url | default "" }}
+      {{ with $item.year }}{{ $yearRaw = printf "%v" . }}{{ end }}
+    {{ else }}
+      {{ $title = printf "%v" $item }}
+    {{ end }}
+    {{ $key := printf "%s" (partial "pub/normalize-title.html" $title) }}
+    {{ if and $title $key }}
+      {{ $yearInt := 0 }}
+      {{ if $yearRaw }}
+        {{ $yearMatch := findRE "[0-9]{4}" $yearRaw }}
+        {{ if gt (len $yearMatch) 0 }}{{ $yearInt = int (index $yearMatch 0) }}{{ end }}
+      {{ end }}
+      {{ if eq $yearInt 0 }}
+        {{ $titleYearMatch := findRE "[0-9]{4}" $title }}
+        {{ if gt (len $titleYearMatch) 0 }}{{ $yearInt = int (index $titleYearMatch 0) }}{{ end }}
+      {{ end }}
+      {{ $record := dict
+        "title" $title
+        "authors" $authors
+        "source" $source
+        "url" $url
+        "yearInt" $yearInt
+      }}
+      {{ $byKey := $scratch.Get "miscByKey" }}
+      {{ $existing := index $byKey $key }}
+      {{ if not $existing }}
+        {{ $scratch.Set "miscByKey" (merge $byKey (dict $key $record)) }}
+      {{ else }}
+        {{ $existingYear := int (default 0 (index $existing "yearInt")) }}
+        {{ if gt $yearInt $existingYear }}
+          {{ $scratch.Set "miscByKey" (merge $byKey (dict $key $record)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $journal := slice }}
+{{ range $key, $record := $scratch.Get "journalByKey" }}
+  {{ $journal = $journal | append $record }}
+{{ end }}
+{{ $journal = sort $journal "yearInt" "desc" }}
+
+{{ $conference := slice }}
+{{ range $key, $record := $scratch.Get "conferenceByKey" }}
+  {{ $conference = $conference | append $record }}
+{{ end }}
+{{ $conference = sort $conference "yearInt" "desc" }}
+
+{{ $misc := slice }}
+{{ range $key, $record := $scratch.Get "miscByKey" }}
+  {{ $misc = $misc | append $record }}
+{{ end }}
+{{ $misc = sort $misc "yearInt" "desc" }}
+
+{{ $total := add (len $journal) (len $conference) (len $misc) }}
+
+<section class="section">
+  <div class="container">
+    {{ if .Content }}
+    <div class="row">
+      <div class="col-12">
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="publication-filter-box">
+      <label for="pub-year-from">開始年</label>
+      <input id="pub-year-from" type="number" min="1900" max="2100" step="1" placeholder="例: 2021">
+      <label for="pub-year-to">終了年</label>
+      <input id="pub-year-to" type="number" min="1900" max="2100" step="1" placeholder="例: 2026">
+      <button id="pub-apply" type="button" class="btn btn-sm btn-outline-primary">適用</button>
+      <button id="pub-reset" type="button" class="btn btn-sm btn-outline-primary">リセット</button>
+    </div>
+
+    <p id="pub-filter-status" class="publication-filter-status">すべて表示中（{{ $total }}件）</p>
+
+    {{ partial "pub/render-items.html" (dict "heading" "論文誌(査読付き)" "items" $journal) }}
+    {{ partial "pub/render-items.html" (dict "heading" "口頭発表・査読付き国際会議" "items" $conference) }}
+    {{ partial "pub/render-items.html" (dict "heading" "MISC" "items" $misc) }}
+  </div>
+</section>
+
+<script>
+  (function () {
+    function parseYear(value) {
+      if (!value) return null;
+      var parsed = parseInt(value, 10);
+      return Number.isNaN(parsed) ? null : parsed;
+    }
+
+    function shouldShow(year, from, to) {
+      if (from === null && to === null) return true;
+      if (!year || year <= 0) return false;
+      if (from !== null && year < from) return false;
+      if (to !== null && year > to) return false;
+      return true;
+    }
+
+    function applyPublicationFilter() {
+      var from = parseYear(document.getElementById("pub-year-from").value);
+      var to = parseYear(document.getElementById("pub-year-to").value);
+      var items = document.querySelectorAll(".publication-item");
+      var visibleCount = 0;
+
+      items.forEach(function (item) {
+        var year = parseInt(item.getAttribute("data-year"), 10);
+        var show = shouldShow(year, from, to);
+        item.style.display = show ? "" : "none";
+        if (show) visibleCount += 1;
+      });
+
+      var status = document.getElementById("pub-filter-status");
+      if (from === null && to === null) {
+        status.textContent = "すべて表示中（" + items.length + "件）";
+      } else {
+        status.textContent = "表示件数: " + visibleCount + "件";
+      }
+    }
+
+    function resetPublicationFilter() {
+      document.getElementById("pub-year-from").value = "";
+      document.getElementById("pub-year-to").value = "";
+      applyPublicationFilter();
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var apply = document.getElementById("pub-apply");
+      var reset = document.getElementById("pub-reset");
+      if (apply) apply.addEventListener("click", applyPublicationFilter);
+      if (reset) reset.addEventListener("click", resetPublicationFilter);
+    });
+  })();
+</script>
+
+{{ end }}

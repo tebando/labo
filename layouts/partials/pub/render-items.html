@@ -1,0 +1,25 @@
+{{ $heading := .heading }}
+{{ $items := .items }}
+
+<section class="publication-group">
+  <h3 class="publication-group-title">{{ $heading }}</h3>
+  {{ if gt (len $items) 0 }}
+  <ol class="publication-list publication-list-integrated">
+    {{ range $items }}
+    <li class="publication-item" data-year="{{ .yearInt }}">
+      <span class="publication-year">{{ if gt .yearInt 0 }}{{ .yearInt }}{{ else }}-{{ end }}</span>
+      <span class="publication-text">
+        {{ if .authors }}<span class="publication-authors">{{ .authors }}</span>{{ end }}
+        <span class="publication-title">{{ .title }}</span>
+        {{ if .source }}<span class="publication-source">{{ .source }}</span>{{ end }}
+        {{ if .url }}
+        <a class="publication-link" href="{{ .url | safeURL }}" target="_blank" rel="noopener noreferrer">[link]</a>
+        {{ end }}
+      </span>
+    </li>
+    {{ end }}
+  </ol>
+  {{ else }}
+  <p class="publication-empty">該当する業績はありません。</p>
+  {{ end }}
+</section>

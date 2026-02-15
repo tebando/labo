@@ -1,0 +1,12 @@
+{{- $raw := printf "%v" . -}}
+{{- $normalized := $raw | plainify -}}
+{{- $normalized = replace $normalized "　" " " -}}
+{{- $normalized = replace $normalized "：" ":" -}}
+{{- $normalized = replace $normalized "，" "," -}}
+{{- $normalized = replace $normalized "、" "," -}}
+{{- $normalized = replace $normalized "・" " " -}}
+{{- $normalized = replaceRE "[‐‑‒–—―ー−]+" "-" $normalized -}}
+{{- $normalized = replaceRE "\\s+" " " $normalized -}}
+{{- $normalized = trim $normalized " " -}}
+{{- $normalized = lower $normalized -}}
+{{- $normalized -}}

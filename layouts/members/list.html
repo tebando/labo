@@ -30,7 +30,6 @@
               <th>氏名</th>
               <th>職位</th>
               <th>所属</th>
-              <th>コース等</th>
               <th>研究テーマ（キーワード）</th>
             </tr>
           </thead>
@@ -40,7 +39,6 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ .Params.role | default "-" }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ .Params.course | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
             {{ end }}
@@ -60,7 +58,6 @@
               <th>氏名</th>
               <th>学年</th>
               <th>所属</th>
-              <th>コース等</th>
               <th>研究テーマ（キーワード）</th>
             </tr>
           </thead>
@@ -71,7 +68,6 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ if $grade }}{{ $grade }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ .Params.course | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
             {{ end }}
@@ -91,7 +87,6 @@
               <th>氏名</th>
               <th>学年</th>
               <th>所属</th>
-              <th>コース等</th>
               <th>研究テーマ（キーワード）</th>
             </tr>
           </thead>
@@ -102,7 +97,6 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ if $grade }}{{ $grade }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ .Params.course | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
             {{ end }}
@@ -122,7 +116,6 @@
               <th>氏名</th>
               <th>学年 / 注記</th>
               <th>所属</th>
-              <th>コース等</th>
               <th>研究テーマ（キーワード）</th>
             </tr>
           </thead>
@@ -133,7 +126,6 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ if $grade }}{{ $grade }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ .Params.course | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else if .Params.note }}{{ .Params.note }}{{ else }}-{{ end }}</td>
             </tr>
             {{ end }}
@@ -153,7 +145,6 @@
               <th>氏名</th>
               <th>職位</th>
               <th>所属</th>
-              <th>コース等</th>
               <th>研究テーマ（キーワード）</th>
             </tr>
           </thead>
@@ -163,7 +154,6 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ .Params.role | default "-" }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ .Params.course | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
             </tr>
             {{ end }}

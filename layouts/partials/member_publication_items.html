@@ -1,0 +1,23 @@
+{{ $items := .items }}
+{{ if $items }}
+<ol class="member-bio-list member-bio-list-numbered">
+  {{ range $items }}
+  <li>
+    {{ if reflect.IsMap . }}
+      {{ $authors := .authors | default "" }}
+      {{ $year := .year | default "" }}
+      {{ $title := .title | default "" }}
+      {{ $source := .source | default "" }}
+      {{ if $authors }}{{ $authors }}{{ end }}{{ if $year }}（{{ $year }}）{{ end }}{{ if $title }}「{{ $title }}」{{ end }}{{ if $source }} {{ $source }}{{ end }}
+      {{ with .url }}
+      <a class="member-bio-url" href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">[link]</a>
+      {{ end }}
+    {{ else }}
+      {{ . }}
+    {{ end }}
+  </li>
+  {{ end }}
+</ol>
+{{ else }}
+<p class="member-bio-section-text">記載準備中です。</p>
+{{ end }}

@@ -2,55 +2,1049 @@
 title: "阪東 哲也"
 draft: false
 description: "教員プロフィール"
+member_id: "faculty"
 weight: 10
 member_group: "staff"
 internal: true
 role: "准教授"
-affiliation: "鳴門教育大学 大学院学校教育研究科"
-course: "高度学校教育実践専攻（教科・総合系） / 技術・工業・情報科教育コース / 学習指導力・ICT教育実践力開発コース"
+degree: "博士（学校教育学）"
+affiliation: "鳴門教育大学"
+website: "https://researchmap.jp/kt2324/"
+profile_image: "images/members/t1.jpg"
+education_career:
+  - "2025年4月 鳴門教育大学 教師のためのAI・DS研究開発センター プロジェクト室長"
+  - "2021年4月 鳴門教育大学 大学院学校教育研究科 准教授"
+  - "2018年10月 鳴門教育大学 情報基盤センター 研究員"
+  - "2017年4月 常葉大学 外国語学部 講師"
+research_overview: "情報教育・小学校プログラミング教育・教育データ科学を横断し、実践知とデータを結びつけた研究を進めています。"
+awards:
+  - "2021年5月 日本産業技術教育学会 論文賞"
+  - "2021年5月 日本産業技術教育学会 奨励賞"
+  - "2018年8月 日本産業技術教育学会 論文賞"
+  - "2015年8月 日本産業技術教育学会 学生優秀発表賞"
+publications:
+  journal_peer_reviewed:
+  
+  - authors: "宮崎幸弘; 長井映雄; 阪東哲也"
+    year: "2026"
+    title: "探究の深化に向けた高校生の社会的問題解決と個人特性の関係性の検討"
+    source: "教育情報研究：日本教育情報学会 41(2・3合併) 2026年2月"
+    url: ""
+
+  - authors: "福多朝子; 阪東哲也"
+    year: "2026"
+    title: "小学校中・高学年段階における情報を活用した問題解決能力とICT活用能力の関係"
+    source: "教育情報研究：日本教育情報学会 41(2・3合併) 2026年2月"
+    url: ""
+
+  - authors: "Carlot Charline; Bando Tetsuya"
+    year: "2025"
+    title: "Transitioning from Visual to Textual Programming Using a Hybrid Environment in a Creative Project"
+    source: "Proceedings of International Conference on Technology Education (ICTE) 2025 597-607 2025年8月25日"
+    url: ""
+
+  - authors: "福多朝子; 長井映雄; 阪東哲也"
+    year: "2025"
+    title: "小学校における音楽リテラシーの向上を目指したICT活用による個別学習の効果"
+    source: "教育情報研究：日本教育情報学会 40(2) 15-22 2025年3月"
+    url: ""
+
+  - authors: "菊地 章; 阪東 哲也; 長井 映雄; 曽根 直人"
+    year: "2025"
+    title: "展示物とWebを連動させた情報遺産ギャラリーの構築"
+    source: "日本産業技術教育学会誌 66(4) 191-200 2025年1月"
+    url: ""
+
+  - authors: "CARLOT Charline; KUMPS Audrey; DE LIEVRE Bruno; BANDO Tetsuya"
+    year: "2025"
+    title: "ベルギーの教員志望学生のプログラミング教育に取り組む意識に与えるサンドボックスゲームの影響"
+    source: "教育情報研究：日本教育情報学会誌 40(1) 39-50 2025年1月"
+    url: ""
+
+  - authors: "田中 茂道; 阪東 哲也"
+    year: "2025"
+    title: "児童の価値創造力を育成するための生成AI を活用した授業デザイン"
+    source: "日本教育工学会 48(Suppl) 149-152 2025年1月"
+    url: ""
+
+  - authors: "宮崎幸弘; 長井映雄; 阪東哲也"
+    year: "2024"
+    title: "高校生の主体性及びGritと探究との関係"
+    source: "教育情報研究 39(2/3) 15-24 2024年8月"
+    url: ""
+
+  - authors: "Aya Motozawa; Tetsuya Bando; Masanori Fukui"
+    year: "2024"
+    title: "For Teacher Training to Foster AI Literacy among Japanese Teachers"
+    source: "2023 TENZ Conference Research Papers 5-17 2024年1月"
+    url: ""
+
+  - authors: "西脇 勇斗; 岡 朋哉; 宮本 裕貴; 阪東 哲也"
+    year: "2023"
+    title: "小学校高学年における安全なパスワードに対する意識を高める体験型教材を活用した授業実践の提案"
+    source: "教育情報研究：日本教育情報学会 38(3) 15-25 2023年3月"
+    url: ""
+
+  - authors: "Aya Motozawa; Tetsuya Bando; Masanori Fukui"
+    year: "2022"
+    title: "Factors that Promote and Hinder AI Use in Japanese Classrooms"
+    source: "Proceedings of 11th DATTArc-ICTE-TENZ-ITEEA 2022 in press 2022年12月7日"
+    url: ""
+
+  - authors: "Tetsuya Bando; Tomoya Oka; Masanori Fukui; Yuji Sasaki; Aya Motozawa; Masakatsu Kuroda; Nobuhiko Fujihara"
+    year: "2022"
+    title: "Fostering Basic AI Literary through AI Developing Experience in a Japanese Elementary School"
+    source: "Proceedings of 11th DATTArc-ICTE-TENZ-ITEEA 2022 in press 2022年12月7日"
+    url: ""
+
+  - authors: "伊藤陽介; 安田慎吾; 山田哲也; 阪東哲也; 曽根直人; 藤原伸彦; 長野仁志"
+    year: "2022"
+    title: "中学校の計測・制御システム学習におけるPythonを用いたプログラミング教育"
+    source: "日本産業技術教育学会誌 64(3) 225-231 2022年9月30日"
+    url: ""
+
+  - authors: "村田晋太朗; 阪東哲也; 岩崎サオ里"
+    year: "2022"
+    title: "小学校家庭科「ナップザック製作」における学習の個性化を支援するプログラミングを取り入れた教材の効果"
+    source: "教育情報研究：日本教育情報学会 38(1) 15-26 2022年7月31日"
+    url: ""
+
+  - authors: "岡 朋哉; 阪東 哲也; 長野 仁志; 藤原 伸彦; 曽根 直人; 山田 哲也; 伊藤 陽介"
+    year: "2022"
+    title: "英語の文字に関する素地を育む小学校外国語活動のプログラミング授業実践の提案"
+    source: "日本産業技術教育学会誌 64(2) 149-158 2022年3月31日"
+    url: ""
+
+  - authors: "阪東哲也; 森山潤"
+    year: "2022"
+    title: "援助モデルに着目した健康維持に関する情報モラル意識を高めるグループ編成の効果"
+    source: "日本産業技術教育学会 64(2) 131-138 2022年3月31日"
+    url: ""
+
+  - authors: "阪東 哲也; 岩崎 サオ里; 村田 晋太朗"
+    year: "2021"
+    title: "小学校家庭科「調理の基礎」における基礎的知識の精緻化を促進させるプログラミング授業実践の提案"
+    source: "教育情報研究 37(1) 21-30 2021年10月"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2021"
+    title: "小学校における簡単な動きのシミュレーションを取り入れたプログラミング授業実践の提案"
+    source: "教育情報研究 36(3) 27-36 2021年4月"
+    url: ""
+
+  - authors: "阪東 哲也; 長野 仁志; 藤原 伸彦; 曽根 直人; 山田 哲也; 伊藤 陽介"
+    year: "2021"
+    title: "小学校低学年におけるプログラミング的思考のプロセス評価"
+    source: "日本産業技術教育学会誌 63(1) 111-119 2021年3月"
+    url: ""
+
+  - authors: "豊田 洸輔; 阪東 哲也; 森山 潤"
+    year: "2021"
+    title: "マルウェアに関する情報セキュリティの理解を促進させる小学校プログラミング教育の提案"
+    source: "日本産業技術教育学会誌 63(1) 101-110 2021年3月"
+    url: ""
+
+  - authors: "岩崎 サオ里; 阪東 哲也; 長野 仁志; 藤原 伸彦; 曽根 直人; 山田 哲也; 伊藤 陽介"
+    year: "2021"
+    title: "小学校家庭科「消費者教育」における能動的な学習を促進するプログラミング教育実践の提案"
+    source: "日本産業技術教育学会誌 63(1) 75-82 2021年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 菊地 章"
+    year: "2021"
+    title: "PIC-GPE組込LED発光教材を利用した小学校プログラミング教育の実践と保護者への調査"
+    source: "日本産業技術教育学会誌 63(1) 55-63 2021年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 世良 啓太; 掛川 淳一; 森山 潤"
+    year: "2021"
+    title: "大学生における情報の科学的な理解に着目した情報セキュリティ意識を高めるICTに関する知識群"
+    source: "日本産業技術教育学会誌 63(1) 31-39 2021年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 本沢 彩"
+    year: "2021"
+    title: "大学生におけるコンピュテーショナルシンキングとGritの関係性の検討"
+    source: "日本産業技術教育学会誌 63(1) 23-29 2021年3月"
+    url: ""
+
+  - authors: "Tetsuya BANDO; Shunsuke TOMINAGA; Hitoshi CHONO; Naoto SONE; Nobuhiko FUJIHARA; Tetsuya YAMADA; Yosuke ITO"
+    year: "2020"
+    title: "Trial practices of programming education using problem-solving strategy in elementary school"
+    source: "Journal of Technology and Engineering Education 50(1/2) 14-26 2020年12月"
+    url: ""
+
+  - authors: "阪東 哲也; 冨山 敦史; 大井 雄平"
+    year: "2020"
+    title: "学校現場におけるマルチメディアDAISY教科書の活用に向けた特別支援教育コーディネーター向け教員研修と課題"
+    source: "教育情報研究 36(1) 63-73 2020年10月"
+    url: ""
+
+  - authors: "Tetsuya Bando; Hitoshi Chono; Nobuhiko Fujihara; Naoto Sone; Tetsuya Yamada; Yosuke Ito"
+    year: "2019"
+    title: "Trial classroom study on programming thinking in Japanese primary education"
+    source: "Proceedings of TENZ conference 1-14 2019年10月"
+    url: ""
+
+  - authors: "Tetsuya Bando"
+    year: "2019"
+    title: "A Study on Personal Traits Influencing Class Design of Programming Education at Elementary School Level: Focusing on Cognitive Reflection-Impulsivity"
+    source: "Proceeding of The 13th International Conference on Technology Education in the Asia Pacific Region 33-36 2019年1月"
+    url: ""
+
+  - authors: "Peter Hourdequin; Seiji Tani; Tetsuya Bando; Jirayu Ponvarut"
+    year: "2018"
+    title: "Participatory game design as education for sustainability: Lessons from a Japanese university campus"
+    source: "SET Journal 3 20-27 2018年12月"
+    url: ""
+
+  - authors: "阪東 哲也; 川島 芳昭; 菊地 章; 加部 昌凡; 森山 潤"
+    year: "2017"
+    title: "PIC-GPE組込LED発光教材を利用した小学校プログラミング教育の実践と評価方法の提案"
+    source: "日本産業技術教育学会誌 59(3) 187-197 2017年9月"
+    url: ""
+
+  - authors: "Tetsuya, B.; Jun, M."
+    year: "2016"
+    title: "CONSTITUTION OF AN INFORMATION ETHICS INSTRUCTION MODEL BASED ON PERSONAL TRAITS"
+    source: "Proceedings of the 9th BIENNIAL INTERNATIONAL CONFERENCE ON TECHNOLOGY EDUCATION RESEARCH 1-7 2016年12月"
+    url: ""
+
+  - authors: "Jun, M; Yusuke, S; Masaaki, N; Keita, S; Naotaka, H; Tetsuya, B"
+    year: "2016"
+    title: "TEACHERS’ STRATEGIES FOR SUPPORTING STUDENTS’ PROBLEM SOLVING IN PROJECT-BASED TECHNOLOGY EDUCATION"
+    source: "Proceedings of the 9th BIENNIAL INTERNATIONAL CONFERENCE ON TECHNOLOGY EDUCATION RESEARCH 183-192 2016年12月"
+    url: ""
+
+  - authors: "宮川洋一; 阪東哲也; 森山潤"
+    year: "2016"
+    title: "「氷山モデル」を用いてネットワーク利用犯罪の問題に関する情報モラル意識の形成を図る授業実践の効果"
+    source: "教育情報研究 32(2) 37-48 2016年11月"
+    url: ""
+
+  - authors: "T. Bando; Y. Ichihara; Y. Miyagawa; J. Moriyama"
+    year: "2016"
+    title: "What are the factors that influence Information Morals Consciousness formation? Connecting formation with personal traits"
+    source: "Industrial Engineering Research 8(1) 43-57 2016年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 市原 靖士; 宮川 洋一; 森山 潤"
+    year: "2016"
+    title: "大学生の情報の安全な利用に関する情報モラル意識形成に対する社会的自己制御の影響"
+    source: "教育情報研究 31(3) 23-30 2016年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 宮川 洋一; 森山 潤"
+    year: "2016"
+    title: "大学生の情報モラル意識形成に対する情動制御水準の影響"
+    source: "日本教育工学会論文誌 39 25-28 2016年3月"
+    url: ""
+
+  - authors: "Bando, T; Moriyama, J"
+    year: "2015"
+    title: "The Relationships between Personal Traits and Information Morals Consciousness"
+    source: "Proceedings of the 23rd International Conference on Computers in Education 727-732 2015年12月"
+    url: ""
+
+  - authors: "阪東 哲也; 市原 靖士; 森山 潤"
+    year: "2015"
+    title: "大学生の健康維持に関する情報モラル意識と個人内特性との関連性の検討 : 情報機器使用時における身体疲労への配慮及びインターネット依存傾向に着目して"
+    source: "教育情報研究 31(1) 25-32 2015年"
+    url: ""
+
+  - authors: "島田 和典; 市原 靖士; 阪東 哲也"
+    year: "2015"
+    title: "工業高校における生徒の自己概念と自尊感情との関連性 : 1年生を対象とした調査から"
+    source: "工業技術教育研究 : 日本工業技術教育学会誌 20(1) 1-6 2015年"
+    url: ""
+
+  - authors: "阪東 哲也; 市原 靖士; 森山 潤"
+    year: "2014"
+    title: "自他の権利尊重に関する情報モラルに影響する個人内特性の検討 : 自尊感情及び他者理解力に焦点を当てて"
+    source: "教育情報研究 30(1) 19-26 2014年7月"
+    url: ""
+
+  - authors: "市原 靖士; 島田 和典; 阪東 哲也"
+    year: "2013"
+    title: "ものづくり技能習得のためのマルチメディア教材と認知スタイルの関係:―場依存・独立型認知スタイルに焦点をあてて―"
+    source: "コンピュータ＆エデュケーション 34 50-55 2013年6月"
+    url: ""
+
+  - authors: "市原 靖士; 阪東 哲也; 森山 潤"
+    year: "2008"
+    title: "中学生の「情報活用の実践力」における構造モデルの検討"
+    source: "日本教育工学会論文誌 32 101-104 2008年12月"
+    url: ""
+
+  oral_presentations: []
+  oral_presentations:
+  - authors: "阪東哲也"
+    year: "2025"
+    title: "教育データ科学から見えてくる授業改善と教師のパースペクティブ"
+    source: "一般社団法人エビデンス駆動型教育研究協議会 SIG3研究会「教員養成系大学を基軸としたLA実践導入に向けて～いま教師に求められる教育データの見取り～」 2025年12月20日"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2025"
+    title: "教育データ科学を拓く教員養成の挑戦"
+    source: "数理・データサイエンス・AI教育強化拠点コンソーシアム(四国ブロック) 2025年12月9日"
+    url: ""
+
+  - authors: "Tetsuya BANDO; Masakatsu KURODA; Masanori FUKUI; Nobuhiko FUJIHARA"
+    year: "2025"
+    title: "Toward a Lesson Model for AI Learning and Application in Japanese Elementary Schools"
+    source: "The Association for Educational Communications and Technology (AECT) 2025 2025年10月20日"
+    url: ""
+
+  - authors: "田中 茂道; 阪東 哲也"
+    year: "2025"
+    title: "小学校における画像生成AIを用いた創造的統合が促される協働学習の授業設計"
+    source: "日本教育工学会2025年秋季全国大会 2025年9月28日"
+    url: ""
+
+  - authors: "相澤 崇; 島橋 尚吾; 中野 淳; 阪東 哲也; 古川 健; 若杉 祥太"
+    year: "2025"
+    title: "シンポジウム：Next GIGA と教育現場の変革"
+    source: "日本教育情報学会 第41回年会 2025年8月25日"
+    url: ""
+
+  - authors: "阪東哲也; Carlot Charline; 竹内精治; 曽根直人"
+    year: "2025"
+    title: "映像脈波を用いた学習者の感情安定性評価と教育改善の可能性"
+    source: "日本教育情報学会 第41回年会 2025年8月25日"
+    url: ""
+
+  - authors: "福多朝子; 長井映雄; 阪東哲也"
+    year: "2025"
+    title: "スモールステップによる音楽リテラシー向上を目指したScratch教材の設計"
+    source: "日本教育情報学会 第41回年会 2025年8月25日"
+    url: ""
+
+  - authors: "宮崎幸弘; 長井映雄; 阪東哲也"
+    year: "2025"
+    title: "Computational Thinkingが社会的問題解決プロセスに与える影響の検討"
+    source: "日本教育情報学会 第41回年会 2025年8月25日"
+    url: ""
+
+  - authors: "Carlot Charline; 阪東哲也"
+    year: "2025"
+    title: "ハイブリッド型プログラミング環境利用時における学習者の行動特性に関する探索的研究"
+    source: "日本教育情報学会 第41回年会 2025年8月25日"
+    url: ""
+
+  - authors: "阪東哲也; 菊地章; 長井映雄; 曽根直人"
+    year: "2025"
+    title: "情報遺産の活用と計算器具の体験を組み合わせた情報教育のアプローチの可能性"
+    source: "日本産業技術教育学会第40回情報分科会(上越) 2025年3月16日"
+    url: ""
+
+  - authors: "黒田 昌克; 阪東 哲也; 藤原 伸彦; 福井 昌則"
+    year: "2025"
+    title: "カードゲームを用いたAIリテラシーに関する教員研修の提案"
+    source: "一般社団法人 日本産業技術教育学会 第40回情報分科会（上越）研究発表会 2025年3月16日"
+    url: ""
+
+  - authors: "阪東 哲也; 古川 雅子"
+    year: "2025"
+    title: "教育データ活用力向上を目指すラーニングアナリティクス基盤を活用した教員研修の検討"
+    source: "日本教育工学会2025年春季全国大会 2025年3月8日"
+    url: ""
+
+  - authors: "田中 茂道; 阪東 哲也"
+    year: "2025"
+    title: "画像生成AIの活用が児童の創造性発揮に及ぼす影響"
+    source: "日本教育工学会2025年春季全国大会 2025年3月8日"
+    url: ""
+
+  - authors: "本沢 彩; 福井 昌則; 阪東 哲也"
+    year: "2025"
+    title: "先行研究レビューから見る英語のリーディング活動での機械翻訳活用に向けた課題"
+    source: "言語教育エキスポ2025：JACET教育問題研究会（中央大学） 2025年3月2日"
+    url: ""
+
+  - authors: "Osuyah Ebenezer; Bando Tetsuya"
+    year: "2024"
+    title: "A Comparative Study of Technology Education Curriculum: Ghana's Approach and Insights from Japan"
+    source: "一般社団法人 日本産業技術教育学会 第40回 四国支部大会(香川大学) 2024年12月7日"
+    url: ""
+
+  - authors: "正原 尚輝; 阪東 哲也"
+    year: "2024"
+    title: "中学生が防災を自分事として捉えるためのICT活用型防災教育の授業モデルの構想"
+    source: "一般社団法人 日本産業技術教育学会 第40回 四国支部大会(香川大学) 2024年12月7日"
+    url: ""
+
+  - authors: "田中 茂道; 阪東 哲也"
+    year: "2024"
+    title: "改訂版タキソノミーによる生成AIを活用した先行事例の分析"
+    source: "日本教育工学会2024年秋季全国大会(東北学院大学) 2024年9月7日"
+    url: ""
+
+  - authors: "福多朝子; 長井映雄; 阪東哲也"
+    year: "2024"
+    title: "小学校音楽科「即興的な表現」を実現させるためのICTを活用した学習活動の検討"
+    source: "日本教育情報学会第40回年会(青山学院大学) 2024年8月25日"
+    url: ""
+
+  - authors: "Carlot Charline; 阪東哲也"
+    year: "2024"
+    title: "小学生を対象としたビデオゲームを用いたプロジェクトベース型STEAM活動の構想"
+    source: "日本教育情報学会第40回年会（青山学院大学） 2024年8月25日"
+    url: ""
+
+  - authors: "宮崎幸弘; 長井映雄; 阪東哲也"
+    year: "2024"
+    title: "高校生の問題解決能力に影響する個人特性の探索的検討"
+    source: "日本教育情報学会第40回年会(青山学院大学 オンラインセッション) 2024年8月25日"
+    url: ""
+
+  - authors: "Charline Carlot; Tetsuya Bando"
+    year: "2024"
+    title: "Integrating 21st century skills development with programming activities by video-game pedagogy"
+    source: "ICoME（International Conference for Media in Education）2024 2024年8月22日"
+    url: ""
+
+  - authors: "Shigemichi Tanaka; Tetsuya Bando"
+    year: "2024"
+    title: "Exploring the Educational Effect of Generative AI-Driven \"Wall-Hitting\" Activities in Elementary Japanese Language Classes"
+    source: "ICoME（International Conference for Media in Education）2024 2024年8月21日"
+    url: ""
+
+  - authors: "阪東哲也; 川真田心; 山田芳明; 美井野優; 高下瑛吉"
+    year: "2024"
+    title: "小学校図画工作科における学習ログ活用方法の検討"
+    source: "日本産業技術教育学会第67回全国大会 2024年8月17日"
+    url: ""
+
+  - authors: "菊地章; 阪東哲也; 長井映雄; 曽根直人"
+    year: "2024"
+    title: "仮想現実と動画・音声を組み込んだ情報遺産ギャラリーの構築"
+    source: "日本産業技術教育学会第67回全国大会 2024年8月18日"
+    url: ""
+
+  - authors: "宮崎幸弘; 長井映雄; 阪東哲也"
+    year: "2024"
+    title: "自己効力感の向上を目指した高等学校「情報Ⅰ」オープンデータ活用授業の検証"
+    source: "日本産業技術教育学会第67回全国大会(鳴門) 2024年8月18日"
+    url: ""
+
+  - authors: "岡朋哉; 阪東哲也; 藤原伸彦"
+    year: "2024"
+    title: "AI開発プロジェクトを取り入れた小学校総合的な学習の時間の単元の検討"
+    source: "日本産業技術教育学会第67回全国大会(鳴門) 2024年8月17日"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2024"
+    title: "学びをデザインする教育データリテラシー習得に向けて"
+    source: "数理・データサイエンス・AI教育強化拠点コンソーシアム四国ブロックAXIES-CSD部会合同企画ワークショップ 2024年6月17日"
+    url: ""
+
+  - authors: "阪東哲也; 岡朋哉; 多田勝彦; 藤原伸彦"
+    year: "2023"
+    title: "小学校でのSTEAM for IC教育に向けての取り組みについて"
+    source: "令和５年度日本教育大学協会四国地区研究集会「香川集会」 2023年12月8日"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2023"
+    title: "リテラシーレベル申請に向けて～事例紹介3～"
+    source: "数理・データサイエンス・AI教育強化拠点 コンソーシアム四国ブロックワークショップ 2023年12月5日"
+    url: ""
+
+  - authors: "宮崎幸弘; 阪東哲也"
+    year: "2023"
+    title: "高校生の主体性とGritが探究的な学習に与える影響の検討"
+    source: "日本教育情報学会 第39回年会 2023年8月27日"
+    url: ""
+
+  - authors: "福多朝子; 阪東哲也"
+    year: "2023"
+    title: "小学校高学年における情報を活用した問題解決とICT活用の関係の検討"
+    source: "日本教育情報学会 第39回年会 2023年8月27日"
+    url: ""
+
+  - authors: "CarlotCharline; KumpsAudrey; DeLièvreBruno; 阪東哲也"
+    year: "2023"
+    title: "プログラミングを教える意識に与えるサンドボックス型ゲームの効果の検討"
+    source: "日本教育情報学会 第39回年会 2023年8月27日"
+    url: ""
+
+  - authors: "阪東哲也; 福井昌則; 本沢彩"
+    year: "2023"
+    title: "AI リテラシーと教員の ICT 活用指導力の関連性の検討"
+    source: "日本教育情報学会 第39回年会 2023年8月26日"
+    url: ""
+
+  - authors: "黒田昌克; 阪東哲也; 福井昌則; 藤原伸彦"
+    year: "2023"
+    title: "AIリテラシー育成を目指したプログラミング教育授業実践の提案"
+    source: "日本産業技術教育学会第66回全国大会 2023年8月20日"
+    url: ""
+
+  - authors: "阪東哲也; 佐藤孝之; 山本豪"
+    year: "2022"
+    title: "館内スカベンジャーハントによる初年次生の大学図書館利用意識の変容"
+    source: "日本産業技術教育学会第38回四国支部大会 2022年12月3日"
+    url: ""
+
+  - authors: "宮本裕貴; 谷村千絵; 西脇勇斗; 阪東哲也"
+    year: "2022"
+    title: "改善に焦点を当てた防災教育を取り入れたSTEAMワークショップの効果"
+    source: "日本産業技術教育学会第38回四国支部大会 2022年12月3日"
+    url: ""
+
+  - authors: "西脇勇斗; 阪東哲也"
+    year: "2022"
+    title: "暗号化と認証の仕組みを学べる電子商取引のカード決済体験型教材の開発"
+    source: "日本産業技術教育学会第38回四国支部大会 2022年12月3日"
+    url: ""
+
+  - authors: "西脇勇斗; 岡朋哉; 阪東哲也"
+    year: "2022"
+    title: "Scratchを用いた安全なパスワードを作成する体験の学習効果"
+    source: "日本教育情報学会第38回年会 2022年8月21日"
+    url: ""
+
+  - authors: "胸組 虎胤; 金児 正史; 曽根 直人; 田村 和之; 内藤 隆; 阪東 哲也; 山田 芳明"
+    year: "2021"
+    title: "異分野の大学教員が協働で担当する講座：「松茂町 STEAM 学び隊」への取組み"
+    source: "令和３年度日本教育大学協会四国地区研究集会 2021年12月10日"
+    url: ""
+
+  - authors: "西脇勇斗; 阪東哲也"
+    year: "2021"
+    title: "小学校高学年に向けた安全なパスワードを考えるための体験型教材開発"
+    source: "日本産業技術教育学会 第37回四国支部大会 2021年12月4日"
+    url: ""
+
+  - authors: "岡朋哉; 阪東哲也"
+    year: "2021"
+    title: "小学校クラブ活動における scratch を活用した教育用ゲームづくり活動の効果"
+    source: "日本産業技術教育学会 第37回四国支部大会 2021年12月4日"
+    url: ""
+
+  - authors: "阪東哲也; 胸組虎胤; 西脇勇斗; 宮本裕貴"
+    year: "2021"
+    title: "地域活動における技術に着目した STEAM 教育ワークショップ"
+    source: "日本産業技術教育学会 第37回四国支部大会 2021年12月4日"
+    url: ""
+
+  - authors: "村田晋太朗; 阪東哲也; 岩崎サオ里"
+    year: "2021"
+    title: "個別最適な学習の視点を踏まえた小学校家庭科「ナップザックの製作」に関する試行的実践"
+    source: "日本教育情報学会第37回年会 2021年8月29日"
+    url: ""
+
+  - authors: "世良啓太; 阪東哲也; 掛川淳一; 森山潤"
+    year: "2021"
+    title: "マルウェアに関する疑似体験を取り入れたプログラミング教育講習会の試み"
+    source: "日本教育情報学会第37回年会 2021年8月29日"
+    url: ""
+
+  - authors: "阪東哲也; 長野仁志; 藤原伸彦; 曽根直人"
+    year: "2021"
+    title: "簡単な3Dモデリング体験を取り入れた小学校クラブ活動の試行的実践と評価"
+    source: "日本教育情報学会第37回年会 2021年8月29日"
+    url: ""
+
+  - authors: "安田慎吾; 山田哲也; 伊藤陽介; 阪東哲也; 曽根直人; 藤原伸彦; 長野仁志"
+    year: "2021"
+    title: "中学校における計測・制御システムのプログラミング教育の実践と学習効果"
+    source: "一般社団法人 日本産業技術教育学会 第36回情報分科会 2021年3月14日"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2021"
+    title: "通信の仕組みに関する気づきを促す疑似体験を取り入れた小学生向け情報セキュリティ教育実践の検討"
+    source: "一般社団法人 日本産業技術教育学会 第36回情報分科会 2021年3月13日"
+    url: ""
+
+  - authors: "阪東哲也; 掛川淳一; 世良啓太; 森山潤"
+    year: "2020"
+    title: "小学生を対象とした情報セキュリティ教育の指導に対する小学校教員の意識調査"
+    source: "一般社団法人 日本産業技術教育学会 技術教育分科会 2020年度研究発表会 2020年12月19日"
+    url: ""
+
+  - authors: "安田慎吾; 山田哲也; 伊藤陽介; 阪東哲也; 曽根直人; 藤原伸彦; 長野仁志"
+    year: "2020"
+    title: "Pythonを用いた計測・制御システムのプログラミング教育の開発"
+    source: "一般社団法人 日本産業技術教育学会 第36回四国支部大会 2020年12月5日"
+    url: ""
+
+  - authors: "岡朋哉; 阪東哲也; 長野仁志; 藤原伸彦; 曽根直人; 山田哲也; 伊藤 陽介"
+    year: "2020"
+    title: "小学校外国語活動におけるプログラミングの授業実践の検討"
+    source: "一般社団法人 日本産業技術教育学会 第36回四国支部大会 2020年12月5日"
+    url: ""
+
+  - authors: "阪東哲也; 曽根直人; 黒田昌克; 世良啓太; 掛川淳一; 森山潤"
+    year: "2020"
+    title: "情報の科学的な理解に着目したIoT体験を取り入れた小学校プログラミング教育実践の検討"
+    source: "日本産業技術教育学会 第63回全国大会 2020年9月5日"
+    url: ""
+
+  - authors: "阪東哲也; 岩崎サオ里; 村田晋太朗"
+    year: "2020"
+    title: "小学校家庭科「調理の基礎」におけるプログラミング教育実践の検討"
+    source: "日本教育情報学会第36回年会 2020年8月22日"
+    url: ""
+
+  - authors: "岩崎サオ里; 阪東哲也; 長野仁志; 藤原伸彦; 曽根直人; 山田哲也; 伊藤陽介"
+    year: "2020"
+    title: "小学校家庭科「消費者教育」におけるプログラミングの授業実践の検討"
+    source: "日本産業技術教育学会第35回情報分科会 2020年3月"
+    url: ""
+
+  - authors: "長野仁志; 阪東哲也; 藤原伸彦; 曽根直人; 山田哲也; 伊藤陽介"
+    year: "2020"
+    title: "小学校生活科「身近な自然」におけるプログラミング実践の検討"
+    source: "日本産業技術教育学会第35回情報分科会 2020年3月"
+    url: ""
+
+  - authors: "阪東哲也; 菊地章"
+    year: "2020"
+    title: "小学校プログラミング教育に対する保護者の理解を促進させる要因の検討"
+    source: "日本産業技術教育学会第35回情報分科会 2020年3月"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2019"
+    title: "情報活用能力育成を基盤とした小学校プログラミング教育の実施に向けて"
+    source: "小学校プログラミング教育に関するシンポジウム 2019年12月15日"
+    url: ""
+
+  - authors: "阪東哲也; 世良啓太; 掛川淳一; 森山潤"
+    year: "2019"
+    title: "教員養成系学生における情報セキュリティ意識とICTに関する知識の関係"
+    source: "日本産業技術教育学会第35回四国支部大会 2019年11月"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2019"
+    title: "教員養成系学生におけるビジュアル型プログラミング体験が小学校プログラミング教育の捉え方に与える影響"
+    source: "日本産業技術教育学会第35回四国支部大会 2019年11月"
+    url: ""
+
+  - authors: "阪東哲也; 冨山敦史; 大井雄平"
+    year: "2019"
+    title: "マルチメディアDAISY教科書の活用に関する学校現場の課題把握"
+    source: "日本教育情報学会第35回年会 2019年8月"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2019"
+    title: "小学校5年生理科における簡単な動きのシミュレーションを取り入れたプログラミングの授業実践"
+    source: "日本教育情報学会第35回年会 2019年8月"
+    url: ""
+
+  - authors: "阪東哲也; 大井雄平"
+    year: "2019"
+    title: "プログラミングとプログラミング的思考の捉えに関する小学校教員の意識：教科の専門性による違い"
+    source: "日本産業技術教育学会第34回情報分科会 2019年3月"
+    url: ""
+
+  - authors: "阪東哲也; 大井雄平"
+    year: "2019"
+    title: "「社会性と情動の学習」導入に関する小学校教員の意識の検討：教職経験とICT活用状況から"
+    source: "日本産業技術教育学会第34回情報分科会 2019年3月"
+    url: ""
+
+  - authors: "阪東哲也; 本沢彩"
+    year: "2018"
+    title: "児童・生徒の特性に応じたプログラミング教育の授業設計のための基礎的検討：コンピュテーショナルシンキングとGritに着目して"
+    source: "日本産業技術教育学会第34回四国支部大会 2018年12月"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2018"
+    title: "小学校プログラミング教育のレディネス把握に関する基礎的検討：3年生と6年生の比較を通して"
+    source: "日本産業技術教育学会技術教育分科会 2018年11月"
+    url: ""
+
+  - authors: "大井雄平; 阪東哲也; 社浦竜太; 佐藤和紀"
+    year: "2018"
+    title: "発達障害児に向けたICT機器の活用状況に関する実態調査指導の場および障害種による違い"
+    source: "日本特殊教育学会第56回大会 2018年9月"
+    url: ""
+
+  - authors: "阪東哲也"
+    year: "2018"
+    title: "プログラミング教育準備に関する小学校教員の不安感を軽減する要因の検討"
+    source: "日本教育情報学会第34回年会 2018年8月26日"
+    url: ""
+
+  - authors: "阪東哲也; 社浦竜太; 佐藤和紀; 大井雄平"
+    year: "2018"
+    title: "プログラミング教育の授業設計に関する小学校教員の意識調査"
+    source: "日本産業技術教育学会第33回情報分科会 2018年3月"
+    url: ""
+
+  - authors: "阪東哲也; 大井雄平; 佐藤和紀; 社浦竜太"
+    year: "2017"
+    title: "小学校教員におけるプログラミング教育の授業実践の意識に関する基礎的検討"
+    source: "日本産業技術教育学会技術教育分科会 2017年12月"
+    url: ""
+
+  - authors: "Tetsuya,B; Jun,M"
+    year: "2017"
+    title: "Effects of group work to enhance appropriate information moral judgment"
+    source: "The Japan Society of Technology Education 60th Annual Conference 2017年8月"
+    url: ""
+
+  - authors: "阪東哲也; 森山潤"
+    year: "2017"
+    title: "個人内特性に着目したロールプレイを取り入れた情報モラル教育実践の検討〜小学校5年生の事例を通して〜"
+    source: "日本産業技術教育学会 第32回情報分科会 2017年2月"
+    url: ""
+
+  - authors: "阪東哲也; 森山潤"
+    year: "2016"
+    title: "道徳的判断に基づく情報モラル学習モデルの検討"
+    source: "日本教育工学会第32回全国大会 2016年9月"
+    url: ""
+
+  - authors: "阪東哲也; 加部昌凡; 菊地章; 森山潤"
+    year: "2016"
+    title: "PIC-GPE を活用した小学生対象のプログラミング学習の提案"
+    source: "日本産業技術教育学会第59回全国大会 2016年8月26日"
+    url: ""
+
+  - authors: "阪東哲也; 森山潤"
+    year: "2016"
+    title: "小学生の情報モラル意識に対するスクリーニングスケールの検討"
+    source: "日本教育情報学会第32回年会 2016年8月20日"
+    url: ""
+
+  - authors: "阪東哲也; 森山潤"
+    year: "2015"
+    title: "共分散構造分析を用いた情報モラル意識形成に影響する諸要因の検討"
+    source: "日本産業技術教育学会近畿支部第32回研究発表会 2015年12月"
+    url: ""
+
+  - authors: "阪東哲也; 宮川洋一; 森山潤"
+    year: "2015"
+    title: "情報モラル意識形成に影響を与える個人内特性の検討「道徳的な判断の社会的モデル」に基づいて"
+    source: "日本教育工学会第31回全国大会 2015年9月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 森山潤"
+    year: "2015"
+    title: "「情報の安全な利用」に関する情報モラルにおける社会的自己制御の影響"
+    source: "日本産業技術教育学会 第30回情報分科会 2015年3月"
+    url: ""
+
+  - authors: "Bando, T; Ichihara, Y; Miyagawa, Y; Moriyama, J"
+    year: "2015"
+    title: "Influence of Emotional Regulation on Students’ Consciousness of Information Ethics"
+    source: "the 11th International Conference on Technology Education in the Asia Pacific Region 2015年1月"
+    url: ""
+
+  - authors: "阪東哲也; 宮川洋一; 森山潤"
+    year: "2014"
+    title: "学習者の情動制御機能が情報モラル意識の形成に及ぼす影響"
+    source: "日本産業技術教育学会近畿支部第31回研究発表会 2014年11月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 島田和典; 森山潤"
+    year: "2014"
+    title: "自他の権利尊重に関する情報モラル意識に対するメタ認知の影響"
+    source: "日本教育工学会第30回全国大会 2014年9月"
+    url: ""
+
+  - authors: "阪東 哲也; 森山 潤"
+    year: "2014"
+    title: "情報機器使用時の健康維持意識及びネット依存傾向に与える個人内特性の影響"
+    source: "日本教育情報学会第30回年会 2014年"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 森山潤"
+    year: "2013"
+    title: "情報モラルに対する自尊感情及び他者理解力の及ぼす影響"
+    source: "日本産業技術教育学会近畿支部第30回研究発表会 2013年12月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 森山潤"
+    year: "2013"
+    title: "自尊感情及び自己効力と情報モラルに対する意識との関連性"
+    source: "日本産業技術教育学会第56回全国大会 2013年8月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 島田和典"
+    year: "2012"
+    title: "CMCに与える情報モラルに対する意識と自尊感情の影響"
+    source: "日本産業技術教育学会近畿支部第29回研究発表会 2012年12月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 宮川洋一; 島田和典"
+    year: "2012"
+    title: "情報モラルに対する意識とコミュニケーション力の関係―大学生と中学生の比較―"
+    source: "日本教育工学会第28回全国大会 2012年9月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 島田和典; 森山潤"
+    year: "2011"
+    title: "情報モラルが自尊感情と自己効力感に与える影響"
+    source: "日本産業技術教育学会近畿支部第28回研究発表会 2011年12月"
+    url: ""
+
+  - authors: "阪東哲也; 市原靖士; 島田和典; 森山潤"
+    year: "2010"
+    title: "テキストマイニング手法による教員志望の大学生における情報モラルの捉え方"
+    source: "日本産業技術教育学会近畿支部第27回研究発表会 2010年11月"
+    url: ""
+
+  misc:
+  
+  - authors: "黒田昌克; 阪東哲也; 藤原伸彦; 福井昌則"
+    year: "2025"
+    title: "小学校プログラミング教育の文脈を考慮したDCPアプローチに基づくAIリテラシー育成を目指した授業実践の提案"
+    source: "兵庫教育大学学校教育学研究 38 35-43 2025年11月"
+    url: ""
+
+  - authors: "阪東 哲也"
+    year: "2025"
+    title: "教育実習生の授業リフレクション支援に向けた感情データと授業映像データを統合した可視化システム活用方法の検討"
+    source: "鳴門教育大学情報教育ジャーナル 22 79-86 2025年3月"
+    url: ""
+
+  - authors: "OSUYAH EBENEZER; BANDO TETSUYA"
+    year: "2025"
+    title: "INTEGRATION OF TECHNOLOGY EDUCATION IN JUNIOR HIGH SCHOOLS: A CASE STUDY OF GHANA AND JAPAN"
+    source: "鳴門教育大学情報教育ジャーナル 22 19-25 2025年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 森山 潤"
+    year: "2024"
+    title: "教員養成系学生を対象としたデジタル市民育成に向けた情報モラル・情報セキュリティ教育関連シラバスの構成"
+    source: "鳴門教育大学情報教育ジャーナル (21) 63-66 2024年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 佐藤 孝之; 山本 豪"
+    year: "2023"
+    title: "教員と大学図書館員が連携するスカベンジャーハントを取り入れた初年次情報リテラシー教育"
+    source: "鳴門教育大学情報教育ジャーナル 20 67-72 2023年3月"
+    url: ""
+
+  - authors: "宮本 裕貴; 谷村 千絵; 西脇 勇斗; 阪東 哲也"
+    year: "2023"
+    title: "ICT機器を活用し改善を促す防災教育をテーマとしたSTEAM教育ワークショップの提案"
+    source: "鳴門教育大学情報教育ジャーナル 20 59-66 2023年3月"
+    url: ""
+
+  - authors: "西脇 勇斗; 阪東 哲也"
+    year: "2023"
+    title: "中学生を対象とした暗号化と認証の仕組みを理解するための電子商取引でのカード決済体験型教材の開発"
+    source: "鳴門教育大学情報教育ジャーナル 20 53-58 2023年3月"
+    url: ""
+
+  - authors: "高下 瑛吉; 美井野 優; 阪東 哲也"
+    year: "2023"
+    title: "Microsoft Power Apps による学習成果物管理アプリケーションの開発"
+    source: "鳴門教育大学情報教育ジャーナル 20 47-52 2023年3月"
+    url: ""
+
+  - authors: "岡 朋哉; 阪東 哲也"
+    year: "2023"
+    title: "小学校クラブ活動における協働学習を取り入れたくじプログラミング学習活動の工夫"
+    source: "鳴門教育大学情報教育ジャーナル 20 17-22 2023年3月"
+    url: ""
+
+  - authors: "西脇 勇斗; 阪東 哲也"
+    year: "2022"
+    title: "Scratchを用いた小学校高学年における安全なパスワードを考えるための体験型教材開発"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education 19 43-47 2022年3月"
+    url: ""
+
+  - authors: "阪東 哲也"
+    year: "2022"
+    title: "オンライングループディスカッションによるデジタル教科書の活用に対する意識の変化"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education 19 79-84 2022年3月"
+    url: ""
+
+  - authors: "岡 朋哉; 阪東 哲也"
+    year: "2022"
+    title: "制作の目的に着目した小学校クラブ活動におけるScratchを用いた教育用ゲームづくり活動の効果"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education 19 1-7 2022年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 胸組 虎胤; 西脇 勇斗; 宮本 裕貴"
+    year: "2022"
+    title: "モビリティをテーマとした地域活動における技術に着目したSTEAM教育ワークショップ"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education 19 49-53 2022年3月"
+    url: ""
+
+  - authors: "伊藤陽介; 曽根直人; 藤原伸彦; 阪東哲也; 長野仁志; 山田哲也"
+    year: "2021"
+    title: "プログラミング教育プロジェクト研究成果報告書"
+    source: "鳴門教育大学情報教育ジャーナル 18 87-93 2021年3月"
+    url: ""
+
+  - authors: "長野 仁志; 阪東 哲也; 曽根 直人; 藤原 伸彦; 山田 哲也; 伊藤 陽介"
+    year: "2021"
+    title: "小学校プログラミング教育実践に取り組んだ小学校教員の意識に関する質的研究:ICTを活用した授業の充実に向けて"
+    source: "鳴門教育大学情報教育ジャーナル 18 51-56 2021年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 藤原 伸彦; 曽根 直人; 長野 仁志; 山田 哲也; 伊藤陽介"
+    year: "2021"
+    title: "技術と社会の関係性理解に着目した小学校プログラミング教育の検討：小学校検定教科書とSTELを参考に"
+    source: "鳴門教育大学情報教育ジャーナル 18 41-50 2021年3月"
+    url: ""
+
+  - authors: "安田 慎吾; 山田 哲也; 伊藤 陽介; 阪東 哲也; 曽根 直人; 藤原 伸彦; 長野 仁志"
+    year: "2021"
+    title: "中学校技術・家庭科（技術分野）におけるPythonを用いた計測・制御システムのプログラミング環境の構築と利用"
+    source: "鳴門教育大学情報教育ジャーナル 18 31-35 2021年3月"
+    url: ""
+
+  - authors: "岡 朋哉; 渡辺 楓; 阪東 哲也; 長野 仁志; 石坂 広樹"
+    year: "2021"
+    title: "小学校外国語におけるオンライン会議システムを活用した異文化交流に対する意欲を促進させる実践～留学生に自分の考えや気持ちを伝える言語活動に着目して～"
+    source: "鳴門教育大学情報教育ジャーナル 18 15-20 2021年3月"
+    url: ""
+
+  - authors: "藤原 伸彦; 阪東 哲也; 曽根 直人; 長野 仁志; 山田 哲也; 伊藤 陽介"
+    year: "2020"
+    title: "地域の児童を対象としたプログラミングワークショップ"
+    source: "鳴門教育大学情報教育ジャーナル 17 48-53 2020年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 長野 仁志; 曽根 直人; 藤原 伸彦; 山田 哲也; 伊藤 陽介"
+    year: "2020"
+    title: "学校全体で取り組む小学校プログラミング教育の校内研修とカリキュラム・マネジメント"
+    source: "鳴門教育大学情報教育ジャーナル 17 41-47 2020年3月"
+    url: ""
+
+  - authors: "長野仁志; 阪東哲也; 曽根直人; 藤原伸彦; 山田哲也; 伊藤陽介"
+    year: "2020"
+    title: "情報活用能力の育成を目指す小学校プログラミングの実践 : 附属小学校の「コンピュータを活用する力」の再整理に向けて"
+    source: "鳴門教育大学情報教育ジャーナル 17 35-40 2020年3月"
+    url: ""
+
+  - authors: "山田 哲也; 香西 孝行; 雲本 直人; 岩山 敦志; 伊藤 陽介; 阪東 哲也; 曽根 直人; 藤原 伸彦; 長野 仁志"
+    year: "2019"
+    title: "双方向のデジタルコンテンツをJavascriptでプログラミングする授業実践 : 国土地理院サーバの利用"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education (16) 1-6 2019年3月"
+    url: ""
+
+  - authors: "藤原 伸彦; 阪東 哲也; 曽根 直人; 長野 仁志; 山田 哲也; 伊藤 陽介"
+    year: "2019"
+    title: "ティンカリングとしてのプログラミング"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education (16) 21-26 2019年3月"
+    url: ""
+
+  - authors: "阪東 哲也; 藤原 伸彦; 曽根 直人; 長野 仁志; 山田 哲也; 伊藤 陽介"
+    year: "2019"
+    title: "情報活用能力育成を基盤とした小学校プログラミング教育カリキュラム・マネジメントの提案"
+    source: "鳴門教育大学情報教育ジャーナル = Journal of information education, Naruto University of Education (16) 27-36 2019年3月"
+    url: ""
+
+  - authors: "ハーディケン ピーター; 阪東 哲也; 谷 誠司; ポンワルット チラユ"
+    year: "2017"
+    title: "オープンスペースを活用したゲーム学習活動における大学生参加者の実践コミュニティ形成過程に関する予備調査"
+    source: "常葉大学教育学部紀要 = Tokoha University Faculty of Education research review (38) 433-445 2017年12月"
+    url: ""
+
+  - authors: "阪東 哲也; 黒田 昌克; 福井 昌則; 森山 潤"
+    year: "2017"
+    title: "我が国の初等中等教育におけるプログラミング教育の制度化に関する批判的検討"
+    source: "兵庫教育大学学校教育学研究 (30) 173-184 2017年11月"
+    url: ""
+
+  - authors: "森山 潤; 長田 和浩; 阪東 哲也; 世良 啓太; 福井 昌則; 黒田 昌克"
+    year: "2017"
+    title: "授業におけるICT活用に対する中学校理科教員の意識とニーズ : 活用状況の違いによる差異に着目して"
+    source: "兵庫教育大学研究紀要 (51) 79-84 2017年9月"
+    url: ""
+
+  - authors: "森山潤; 福井昌則; 黒田昌克; 原田崇弘; 渡邉瑶介; 吉田侑平; 袴田未優; 世良啓太; 阪東哲也; 井原貴幸"
+    year: "2017"
+    title: "地域活動としての小学生対象ロボットコンテストの実践"
+    source: "日本産業技術教育学会小学校委員会 研究報告書「技術イノベーション力の育成を図る小学校段階における技術教育実践の開発と展開」 163-168 2017年3月"
+    url: ""
+
+  - authors: "森山 潤; 井本 絵里; 世良 啓太; 阪東 哲也; 萩嶺 直孝"
+    year: "2017"
+    title: "高校情報科の授業における生徒の学習意欲の構造的把握"
+    source: "兵庫教育大学研究紀要 (50) 71-78 2017年2月"
+    url: ""
+
+  - authors: "阪東 哲也"
+    year: "2017"
+    title: "学習者の個人内特性を考慮した情報モラル教育の提案 (II私（たち）の研究)"
+    source: "教育実践学論集 S99-S105 2017年"
+    url: ""
+
+  - authors: "阪東 哲也; 森山 潤"
+    year: "2016"
+    title: "学習者の個人内特性に着目した情報モラル教育に関する研究課題の展望"
+    source: "兵庫教育大学学校教育学研究 (29) 25-34 2016年11月"
+    url: ""
+
+  - authors: "森山 潤; 横山 新司; 世良 啓太; 阪東 哲也; 萩嶺 直孝"
+    year: "2016"
+    title: "実験・観察場面におけるタブレット端末のカメラ機能活用による学習効果の実践的検討"
+    source: "兵庫教育大学学校教育学研究 (29) 1-8 2016年11月"
+    url: ""
+
+  - authors: "森山 潤; 横山 新司; 世良 啓太; 阪東 哲也; 萩嶺 直孝"
+    year: "2016"
+    title: "実験・観察場面におけるカメラ機能活用時の撮影デバイスの違いによる有効性の検討 : タブレット端末とデジタルカメラの比較"
+    source: "兵庫教育大学研究紀要 = Hyogo University of Teacher Education journal 49 59-67 2016年9月"
+    url: ""
+
+  - authors: "森山 潤; 横山 新司; 阪東 哲也; 萩嶺 直孝; 勝本 敦洋; 世良 啓太"
+    year: "2016"
+    title: "実験・観察場面におけるタブレット端末等のカメラ機能活用に対する学習者の反応に関する探索的検討"
+    source: "兵庫教育大学研究紀要 48 69-76 2016年2月"
+    url: ""
+
+  - authors: "阪東 哲也; 掛川 淳一; 森山 潤"
+    year: "2015"
+    title: "動画コンテンツ教材の視聴時における学習方略に対する意識付けの効果に関する実践的検討 : 小学校5年生理科「メダカのたんじょう」を事例として"
+    source: "兵庫教育大学学校教育学研究 (28) 31-37 2015年11月"
+    url: ""
+
+  - authors: "森山 潤; 宮崎 啓; 中原 久志; 勝本 敦洋; 阪東 哲也; 萩嶺 直孝"
+    year: "2015"
+    title: "活動システムのモデルに基づくICT授業活用の実践解釈と教員研修への応用可能性の検討"
+    source: "兵庫教育大学学校教育学研究 (28) 1-9 2015年11月"
+    url: ""
+
+  - authors: "森山 潤; 竹内 伸行; 勝本 敦洋; 中原 久志; 萩嶺 直孝; 阪東 哲也"
+    year: "2015"
+    title: "学習活動中に撮りためた写真画像を活用する凝縮ポートフォリオ作成支援ツールの開発 : 技術科「材料と加工に関する技術」における実践を事例として"
+    source: "兵庫教育大学研究紀要 47 85-94 2015年9月"
+    url: ""
+
+  - authors: "井本 絵里; 阪東 哲也; 森山 潤"
+    year: "2015"
+    title: "高校情報科の授業における生徒の学習意欲の促進・減退要因の探索的検討"
+    source: "兵庫教育大学学校教育学研究 (27) 49-58 2015年2月"
+    url: ""
+
+  - authors: "森山 潤; 浦 耕太郎; 阪東 哲也"
+    year: "2014"
+    title: "学習コミュニケーションに対する小学校高学年児童の意識に関する探索的検討"
+    source: "兵庫教育大学研究紀要 44 141-147 2014年2月"
+    url: ""
+
+  - authors: "市原 靖士; 島田 和典; 阪東 哲也"
+    year: "2012"
+    title: "生物育成と道徳的規範の関連に関する一考察"
+    source: "大分大学教育福祉科学部研究紀要 34(2) 183-191 2012年10月"
+    url: ""
+
+  - authors: "遠藤 由美; 阪東 哲也"
+    year: "2006"
+    title: "他者からのフィードバックの解釈に影響を及ぼす自尊感情の効果"
+    source: "関西大学社会学部紀要 38(1) 39-55 2006年10月"
+    url: ""
+
 keywords:
   - "情報教育"
   - "小学校プログラミング教育"
   - "教育データ科学"
 ---
-
-## プロフィール
-
-- 名称: 教育データ活用・学びデザイン研究室（Education Data & Learning Design Lab）
-- 所属: 鳴門教育大学 大学院学校教育研究科
-- 職位: 准教授
-- 学位: 博士（学校教育学）
-- 学位論文題目: 情報モラル意識の形成に及ぼす個人内特性の影響
-
-### 所属コース
-
-- 高度学校教育実践専攻（教科・総合系）
-- 技術・工業・情報科教育コース
-- 学習指導力・ICT教育実践力開発コース
-
-### 関連センター
-
-- 情報基盤センター
-- 教師のためのAI・DS研究開発センター
-
-### 研究キーワード
-
-- 情報教育
-- 小学校プログラミング教育
-- 教育データ科学
-
-### 所属学会
-
-- 日本産業技術教育学会
-- 日本教育情報学会
-- 日本教育工学会
-
-### 主な活動
-
-- 日本産業技術教育学会 理事
-
-### 受賞
-
-- 日本産業技術教育学会 論文賞（2018年度、2021年度）
-- 日本産業技術教育学会 奨励賞（2021年度）
-- 日本産業技術教育学会 学生優秀発表賞（2015年度）
