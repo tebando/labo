@@ -26,7 +26,7 @@ url = "notice/"
 weight = 5
 
 [[main]]
-name = "研究を希望される方へ"
+name = "一緒に研究したい方へ"
 url = "join/"
 weight = 6
 

@@ -67,7 +67,7 @@
 <!-- about us -->
 {{ if $data.homepage.about.enable }}
 {{ with $data.homepage.about }}
-<section class="section">
+<section class="section home-about-section">
   <div class="container">
     {{ $hasImage := .image }}
     <article class="home-about-card">
@@ -171,28 +171,30 @@
 
 <!-- notice -->
 {{ if $data.homepage.blog.enable }}
-<section class="section">
+<section class="section home-notice-section">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+    <article class="home-notice-card">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <ul class="notice-slim-list">
-          {{ range first 10 (where site.RegularPages "Type" "notice") }}
-          <li class="notice-slim-item">
-            <a class="notice-slim-link" href="{{ .Permalink }}">
-              <time class="notice-slim-date" datetime="{{ .PublishDate.Format `2006-01-02` }}">{{ .PublishDate.Format "2006.01.02" }}</time>
-              <span class="notice-slim-title">{{ .Title }}</span>
-              <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
-            </a>
-          </li>
-          {{ end }}
-        </ul>
+      <div class="row">
+        <div class="col-12">
+          <ul class="notice-slim-list">
+            {{ range first 10 (where site.RegularPages "Type" "notice") }}
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="{{ .Permalink }}">
+                <time class="notice-slim-date" datetime="{{ .PublishDate.Format `2006-01-02` }}">{{ .PublishDate.Format "2006.01.02" }}</time>
+                <span class="notice-slim-title">{{ .Title }}</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
-    </div>
+    </article>
   </div>
 </section>
 {{ end }}

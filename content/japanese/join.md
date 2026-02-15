@@ -1,10 +1,10 @@
 ---
-title: "研究を希望する人へ"
+title: "一緒に研究したい方へ"
 draft: false
 layout: "pages"
 url: "join/"
 bg_image: "images/backgrounds/page-title.jpg"
-description: "研究を希望する人へ"
+description: "一緒に研究したい方へ"
 ---
 
 ## はじめに
