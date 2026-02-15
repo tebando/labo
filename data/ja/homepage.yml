@@ -66,11 +66,8 @@ blog:
 cta:
   enable : true
   subtitle : "研究を希望される方を受け付けています"
-  content : "研究テーマと目的を、お問い合わせください"
+  title : "研究テーマと目的をご確認のうえ、お問い合わせください"
   button:
-    enable : true
-    label : "研究を希望される方へ"
-    link : "join/"
     enable : true
     label : "お問い合わせ"
     link : "https://forms.gle/27n7coB55JCUKAwFA"

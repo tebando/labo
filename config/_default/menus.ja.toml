@@ -32,7 +32,7 @@ weight = 6
 
 [[main]]
 name = "アクセス"
-url = "access/"
+url = "https://www.naruto-u.ac.jp/access.html"
 weight = 7
 
 [[main]]

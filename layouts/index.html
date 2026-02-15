@@ -65,22 +65,28 @@
 {{ with $data.homepage.about }}
 <section class="section">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <p>{{ .content | markdownify }}</p>
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary">{{ .label }}</a>
+    <article class="home-about-card">
+      <div class="row align-items-center no-gutters">
+        {{ with .image }}
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="home-about-image-wrap">
+            {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100 home-about-image" ) }}
+          </div>
+        </div>
         {{ end }}
-        {{ end }}
+        <div class="col-lg-8">
+          <div class="home-about-body">
+            <h2 class="section-title">{{ .title | markdownify }}</h2>
+            <p>{{ .content | markdownify }}</p>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
       </div>
-      {{ with .image }}
-      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-        {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100" ) }}
-      </div>
-      {{ end }}
-    </div>
+    </article>
   </div>
 </section>
 {{ end }}
@@ -118,32 +124,6 @@
 </section>
 {{ end }}
 <!-- /research themes -->
-
-<!-- cta -->
-{{ if $data.homepage.cta.enable }}
-{{ with $data.homepage.cta }}
-<section class="home-cta">
-  <div class="container">
-    <div class="home-cta-panel">
-      <div class="row align-items-center">
-        <div class="col-lg-8 mb-4 mb-lg-0">
-          <h6 class="home-cta-subtitle font-secondary mb-2">{{ .subtitle | markdownify }}</h6>
-          <h2 class="home-cta-title">{{ .title | markdownify }}</h2>
-        </div>
-        <div class="col-lg-4 text-lg-right">
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /cta -->
 
 <!-- success story -->
 {{ if $data.homepage.success_story.enable }}
@@ -211,5 +191,31 @@
 </section>
 {{ end }}
 <!-- /notice -->
+
+<!-- cta -->
+{{ if $data.homepage.cta.enable }}
+{{ with $data.homepage.cta }}
+<section class="home-cta">
+  <div class="container">
+    <div class="home-cta-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <h6 class="home-cta-subtitle font-secondary mb-2">{{ .subtitle | markdownify }}</h6>
+          <h2 class="home-cta-title">{{ .title | markdownify }}</h2>
+        </div>
+        <div class="col-lg-4 text-lg-right">
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /cta -->
 
 {{ end }}

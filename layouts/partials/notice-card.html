@@ -1,0 +1,13 @@
+<li class="notice-uniform-item mb-4">
+  <a class="notice-uniform-link" href="{{ .Permalink }}">
+    <div class="notice-uniform-date">
+      <span class="notice-uniform-day">{{ humanize .PublishDate.Day }}</span>
+      <span class="notice-uniform-month">{{ .PublishDate.Format "Jan, 2006" }}</span>
+    </div>
+    <div class="notice-uniform-body">
+      <h4 class="notice-uniform-title">{{ .Title }}</h4>
+      <p class="notice-uniform-summary">{{ .Summary | plainify | truncate 120 }}</p>
+    </div>
+    <span class="notice-uniform-more">{{ i18n "read_more" }}</span>
+  </a>
+</li>

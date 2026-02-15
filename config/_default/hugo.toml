@@ -17,7 +17,7 @@ disableLanguages = []
 hasCJKLanguage = true
 
 [services.disqus]
-shortname = "themefisher-template"
+shortname = ""
 
 #################### default parameters ################################
 [params]
@@ -121,12 +121,12 @@ mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 # google map
 [params.map]
 enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+gmap_api = ""
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
