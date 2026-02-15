@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+{{ $isEn := eq site.Language.Lang "en" }}
 {{ $members := where site.RegularPages "Section" "members" }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "journalByKey" (dict) }}
@@ -206,18 +207,18 @@
     {{ end }}
 
     <div class="publication-filter-box">
-      <label for="pub-year-from">開始年</label>
-      <input id="pub-year-from" type="number" min="1900" max="2100" step="1" placeholder="例: 2021">
-      <label for="pub-year-to">終了年</label>
-      <input id="pub-year-to" type="number" min="1900" max="2100" step="1" placeholder="例: 2026">
-      <button id="pub-apply" type="button" class="btn btn-sm btn-outline-primary">適用</button>
-      <button id="pub-reset" type="button" class="btn btn-sm btn-outline-primary">リセット</button>
+      <label for="pub-year-from">{{ if $isEn }}From Year{{ else }}開始年{{ end }}</label>
+      <input id="pub-year-from" type="number" min="1900" max="2100" step="1" placeholder="{{ if $isEn }}e.g. 2021{{ else }}例: 2021{{ end }}">
+      <label for="pub-year-to">{{ if $isEn }}To Year{{ else }}終了年{{ end }}</label>
+      <input id="pub-year-to" type="number" min="1900" max="2100" step="1" placeholder="{{ if $isEn }}e.g. 2026{{ else }}例: 2026{{ end }}">
+      <button id="pub-apply" type="button" class="btn btn-sm btn-outline-primary">{{ if $isEn }}Apply{{ else }}適用{{ end }}</button>
+      <button id="pub-reset" type="button" class="btn btn-sm btn-outline-primary">{{ if $isEn }}Reset{{ else }}リセット{{ end }}</button>
     </div>
 
-    <p id="pub-filter-status" class="publication-filter-status">すべて表示中（{{ $total }}件）</p>
+    <p id="pub-filter-status" class="publication-filter-status">{{ if $isEn }}Showing all ({{ $total }} items){{ else }}すべて表示中（{{ $total }}件）{{ end }}</p>
 
-    {{ partial "pub/render-items.html" (dict "heading" "論文誌(査読付き)" "items" $journal) }}
-    {{ partial "pub/render-items.html" (dict "heading" "口頭発表・査読付き国際会議" "items" $conference) }}
+    {{ partial "pub/render-items.html" (dict "heading" (cond $isEn "Peer-reviewed Journals" "論文誌(査読付き)") "items" $journal) }}
+    {{ partial "pub/render-items.html" (dict "heading" (cond $isEn "Oral Presentations and Peer-reviewed International Conferences" "口頭発表・査読付き国際会議") "items" $conference) }}
     {{ partial "pub/render-items.html" (dict "heading" "MISC" "items" $misc) }}
   </div>
 </section>
@@ -239,6 +240,9 @@
     }
 
     function applyPublicationFilter() {
+      var statusAll = "{{ if $isEn }}Showing all{{ else }}すべて表示中{{ end }}";
+      var statusVisible = "{{ if $isEn }}Visible items{{ else }}表示件数{{ end }}";
+      var unit = "{{ if $isEn }}items{{ else }}件{{ end }}";
       var from = parseYear(document.getElementById("pub-year-from").value);
       var to = parseYear(document.getElementById("pub-year-to").value);
       var items = document.querySelectorAll(".publication-item");
@@ -253,9 +257,9 @@
 
       var status = document.getElementById("pub-filter-status");
       if (from === null && to === null) {
-        status.textContent = "すべて表示中（" + items.length + "件）";
+        status.textContent = statusAll + " (" + items.length + " " + unit + ")";
       } else {
-        status.textContent = "表示件数: " + visibleCount + "件";
+        status.textContent = statusVisible + ": " + visibleCount + " " + unit;
       }
     }
 

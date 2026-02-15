@@ -1,4 +1,5 @@
 {{ $items := .items }}
+{{ $isEn := eq site.Language.Lang "en" }}
 {{ if $items }}
 <ol class="member-bio-list member-bio-list-numbered">
   {{ range $items }}
@@ -8,7 +9,11 @@
       {{ $year := .year | default "" }}
       {{ $title := .title | default "" }}
       {{ $source := .source | default "" }}
-      {{ if $authors }}{{ $authors }}{{ end }}{{ if $year }}（{{ $year }}）{{ end }}{{ if $title }}「{{ $title }}」{{ end }}{{ if $source }} {{ $source }}{{ end }}
+      {{ if $isEn }}
+        {{ if $authors }}{{ $authors }}{{ end }}{{ if $year }} ({{ $year }}){{ end }}{{ if $title }} "{{ $title }}"{{ end }}{{ if $source }} {{ $source }}{{ end }}
+      {{ else }}
+        {{ if $authors }}{{ $authors }}{{ end }}{{ if $year }}（{{ $year }}）{{ end }}{{ if $title }}「{{ $title }}」{{ end }}{{ if $source }} {{ $source }}{{ end }}
+      {{ end }}
       {{ with .url }}
       <a class="member-bio-url" href="{{ . | safeURL }}" target="_blank" rel="noopener noreferrer">[link]</a>
       {{ end }}
@@ -19,5 +24,5 @@
   {{ end }}
 </ol>
 {{ else }}
-<p class="member-bio-section-text">記載準備中です。</p>
+<p class="member-bio-section-text">{{ if $isEn }}Information coming soon.{{ else }}記載準備中です。{{ end }}</p>
 {{ end }}

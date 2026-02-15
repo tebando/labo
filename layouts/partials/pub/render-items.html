@@ -1,5 +1,6 @@
 {{ $heading := .heading }}
 {{ $items := .items }}
+{{ $isEn := eq site.Language.Lang "en" }}
 
 <section class="publication-group">
   <h3 class="publication-group-title">{{ $heading }}</h3>
@@ -20,6 +21,6 @@
     {{ end }}
   </ol>
   {{ else }}
-  <p class="publication-empty">該当する業績はありません。</p>
+  <p class="publication-empty">{{ if $isEn }}No publications found.{{ else }}該当する業績はありません。{{ end }}</p>
   {{ end }}
 </section>

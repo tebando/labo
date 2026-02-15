@@ -1,4 +1,5 @@
 <!-- footer -->
+{{ $isEn := eq site.Language.Lang "en" }}
 <footer>
   <div class="footer bg-footer section">
     <div class="container">
@@ -9,9 +10,9 @@
           </a>
         </div>
         <div class="col-md-8 text-center text-md-left">
-          <p class="footer-meta mb-1">教育データ活用・学びデザイン研究室</p>
-          <p class="footer-meta mb-1">鳴門教育大学｜情報基盤センター 1F（奥側）</p>
-          <p class="footer-meta mb-0">© 2026 教育データ活用・学びデザイン研究室</p>
+          <p class="footer-meta mb-1">{{ if $isEn }}Education Data Utilization and Learning Design Lab{{ else }}教育データ活用・学びデザイン研究室{{ end }}</p>
+          <p class="footer-meta mb-1">{{ if $isEn }}Naruto University of Education | Information Infrastructure Center, 1F (rear side){{ else }}鳴門教育大学｜情報基盤センター 1F（奥側）{{ end }}</p>
+          <p class="footer-meta mb-0">© 2026 {{ if $isEn }}Education Data Utilization and Learning Design Lab{{ else }}教育データ活用・学びデザイン研究室{{ end }}</p>
         </div>
       </div>
     </div>

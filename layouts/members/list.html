@@ -7,6 +7,21 @@
 {{ $researchStudent := (where $memberPages "Params.member_group" "research_student").ByWeight }}
 {{ $collaborator := (where $memberPages "Params.member_group" "collaborator").ByWeight }}
 {{ $alumni := (where $memberPages "Params.member_group" "alumni").ByWeight }}
+{{ $isEn := eq site.Language.Lang "en" }}
+{{ $staffTitle := cond $isEn "Staff" "スタッフ" }}
+{{ $phdTitle := cond $isEn "Doctoral Students" "博士学生" }}
+{{ $masterTitle := cond $isEn "Master's Students" "修士学生" }}
+{{ $researchStudentTitle := cond $isEn "Doctoral Research Students" "博士研究生" }}
+{{ $collaboratorTitle := cond $isEn "Collaborators" "共同研究者" }}
+{{ $nameLabel := cond $isEn "Name" "氏名" }}
+{{ $positionLabel := cond $isEn "Position" "職位" }}
+{{ $gradeLabel := cond $isEn "Year" "学年" }}
+{{ $gradeNoteLabel := cond $isEn "Year / Note" "学年 / 注記" }}
+{{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
+{{ $themeKeywordLabel := cond $isEn "Research Themes (Keywords)" "研究テーマ（キーワード）" }}
+{{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年度" }}
+{{ $researchThemeLabel := cond $isEn "Research Theme" "研究テーマ" }}
+{{ $commentLabel := cond $isEn "Comment (Optional)" "一言（任意）" }}
 
 <section class="section">
   <div class="container members-page">
@@ -21,16 +36,16 @@
     {{ end }}
 
     <section class="members-section">
-      <h2 class="members-section-title">スタッフ</h2>
+      <h2 class="members-section-title">{{ $staffTitle }}</h2>
       {{ if gt (len $staff) 0 }}
       <div class="table-responsive members-table-wrap">
         <table class="table members-table">
           <thead>
             <tr>
-              <th>氏名</th>
-              <th>職位</th>
-              <th>所属</th>
-              <th>研究テーマ（キーワード）</th>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $positionLabel }}</th>
+              <th>{{ $affiliationLabel }}</th>
+              <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
@@ -49,16 +64,16 @@
     </section>
 
     <section class="members-section">
-      <h2 class="members-section-title">博士学生</h2>
+      <h2 class="members-section-title">{{ $phdTitle }}</h2>
       {{ if gt (len $phd) 0 }}
       <div class="table-responsive members-table-wrap">
         <table class="table members-table">
           <thead>
             <tr>
-              <th>氏名</th>
-              <th>学年</th>
-              <th>所属</th>
-              <th>研究テーマ（キーワード）</th>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $gradeLabel }}</th>
+              <th>{{ $affiliationLabel }}</th>
+              <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
@@ -78,16 +93,16 @@
     </section>
 
     <section class="members-section">
-      <h2 class="members-section-title">修士学生</h2>
+      <h2 class="members-section-title">{{ $masterTitle }}</h2>
       {{ if gt (len $master) 0 }}
       <div class="table-responsive members-table-wrap">
         <table class="table members-table">
           <thead>
             <tr>
-              <th>氏名</th>
-              <th>学年</th>
-              <th>所属</th>
-              <th>研究テーマ（キーワード）</th>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $gradeLabel }}</th>
+              <th>{{ $affiliationLabel }}</th>
+              <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
@@ -107,16 +122,16 @@
     </section>
 
     <section class="members-section">
-      <h2 class="members-section-title">博士研究生</h2>
+      <h2 class="members-section-title">{{ $researchStudentTitle }}</h2>
       {{ if gt (len $researchStudent) 0 }}
       <div class="table-responsive members-table-wrap">
         <table class="table members-table">
           <thead>
             <tr>
-              <th>氏名</th>
-              <th>学年 / 注記</th>
-              <th>所属</th>
-              <th>研究テーマ（キーワード）</th>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $gradeNoteLabel }}</th>
+              <th>{{ $affiliationLabel }}</th>
+              <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
@@ -136,16 +151,16 @@
     </section>
 
     <section class="members-section">
-      <h2 class="members-section-title">共同研究者</h2>
+      <h2 class="members-section-title">{{ $collaboratorTitle }}</h2>
       {{ if gt (len $collaborator) 0 }}
       <div class="table-responsive members-table-wrap">
         <table class="table members-table">
           <thead>
             <tr>
-              <th>氏名</th>
-              <th>職位</th>
-              <th>所属</th>
-              <th>研究テーマ（キーワード）</th>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $positionLabel }}</th>
+              <th>{{ $affiliationLabel }}</th>
+              <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
@@ -170,10 +185,10 @@
         <table class="table members-table">
           <thead>
             <tr>
-              <th>氏名</th>
-              <th>修了年度</th>
-              <th>研究テーマ</th>
-              <th>一言（任意）</th>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $graduationYearLabel }}</th>
+              <th>{{ $researchThemeLabel }}</th>
+              <th>{{ $commentLabel }}</th>
             </tr>
           </thead>
           <tbody>

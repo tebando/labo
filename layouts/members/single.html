@@ -1,16 +1,31 @@
 {{ define "main" }}
 
+{{ $isEn := eq site.Language.Lang "en" }}
 {{ $name := .Params.member_name | default .Title }}
 {{ $role := .Params.role | default "-" }}
 {{ $degree := .Params.degree | default "-" }}
 {{ $affiliation := .Params.affiliation | default "-" }}
 {{ $website := .Params.website | default "" }}
 {{ $education := .Params.education_career }}
-{{ $research := .Params.research_overview | default "研究内容を記入してください。" }}
+{{ $researchFallback := cond $isEn "Please add research details." "研究内容を記入してください。" }}
+{{ $comingSoon := cond $isEn "Information coming soon." "記載準備中です。" }}
+{{ $research := .Params.research_overview | default $researchFallback }}
 {{ $awards := .Params.awards }}
 {{ $journal := slice }}
 {{ $oral := slice }}
 {{ $misc := slice }}
+{{ $profileLabel := cond $isEn "Profile" "プロフィール" }}
+{{ $nameLabel := cond $isEn "Name" "氏名" }}
+{{ $positionLabel := cond $isEn "Position" "職位" }}
+{{ $degreeLabel := cond $isEn "Degree" "学位" }}
+{{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
+{{ $educationLabel := cond $isEn "Education and Career" "学歴・職歴" }}
+{{ $researchLabel := cond $isEn "Research" "研究" }}
+{{ $awardsLabel := cond $isEn "Awards" "受賞歴" }}
+{{ $publicationsLabel := cond $isEn "Publications" "研究業績" }}
+{{ $journalLabel := cond $isEn "Peer-reviewed Journals" "論文誌(査読付き)" }}
+{{ $oralLabel := cond $isEn "Oral Presentations" "口頭発表" }}
+{{ $freeTextLabel := cond $isEn "Additional Notes" "自由記述" }}
 {{ with .Params.publications }}
   {{ with .journal_peer_reviewed }}{{ $journal = . }}{{ end }}
   {{ with .oral_presentations }}{{ $oral = . }}{{ end }}
@@ -35,24 +50,24 @@
         </div>
         <div class="col-lg-8 order-lg-1 member-bio-main">
           <section class="member-bio-section">
-            <h2 class="member-bio-section-title">プロフィール</h2>
+            <h2 class="member-bio-section-title">{{ $profileLabel }}</h2>
             <div class="table-responsive member-bio-fact-wrap">
               <table class="table member-bio-fact-table">
                 <tbody>
                   <tr>
-                    <th>氏名</th>
+                    <th>{{ $nameLabel }}</th>
                     <td>{{ $name }}</td>
                   </tr>
                   <tr>
-                    <th>職位</th>
+                    <th>{{ $positionLabel }}</th>
                     <td>{{ $role }}</td>
                   </tr>
                   <tr>
-                    <th>学位</th>
+                    <th>{{ $degreeLabel }}</th>
                     <td>{{ $degree }}</td>
                   </tr>
                   <tr>
-                    <th>所属</th>
+                    <th>{{ $affiliationLabel }}</th>
                     <td>{{ $affiliation }}</td>
                   </tr>
                   <tr>
@@ -71,7 +86,7 @@
           </section>
 
           <section class="member-bio-section">
-            <h2 class="member-bio-section-title">学歴・職歴</h2>
+            <h2 class="member-bio-section-title">{{ $educationLabel }}</h2>
             {{ if $education }}
             <ul class="member-bio-list">
               {{ range $education }}
@@ -79,7 +94,7 @@
               {{ end }}
             </ul>
             {{ else }}
-            <p class="member-bio-section-text">記載準備中です。</p>
+            <p class="member-bio-section-text">{{ $comingSoon }}</p>
             {{ end }}
           </section>
         </div>
@@ -87,12 +102,12 @@
 
       <div class="member-bio-wide">
         <section class="member-bio-section">
-          <h2 class="member-bio-section-title">研究</h2>
+          <h2 class="member-bio-section-title">{{ $researchLabel }}</h2>
           <p class="member-bio-section-text">{{ $research | markdownify }}</p>
         </section>
 
         <section class="member-bio-section">
-          <h2 class="member-bio-section-title">受賞歴</h2>
+          <h2 class="member-bio-section-title">{{ $awardsLabel }}</h2>
           {{ if $awards }}
           <ul class="member-bio-list">
             {{ range $awards }}
@@ -100,16 +115,16 @@
             {{ end }}
           </ul>
           {{ else }}
-          <p class="member-bio-section-text">記載準備中です。</p>
+          <p class="member-bio-section-text">{{ $comingSoon }}</p>
           {{ end }}
         </section>
 
         <section class="member-bio-section">
-          <h2 class="member-bio-section-title">研究業績</h2>
-          <h3 class="member-bio-subtitle">論文誌(査読付き)</h3>
+          <h2 class="member-bio-section-title">{{ $publicationsLabel }}</h2>
+          <h3 class="member-bio-subtitle">{{ $journalLabel }}</h3>
           {{ partial "member_publication_items.html" (dict "items" $journal) }}
 
-          <h3 class="member-bio-subtitle">口頭発表</h3>
+          <h3 class="member-bio-subtitle">{{ $oralLabel }}</h3>
           {{ partial "member_publication_items.html" (dict "items" $oral) }}
 
           <h3 class="member-bio-subtitle">MISC</h3>
@@ -118,7 +133,7 @@
 
         {{ if .Content }}
         <section class="member-bio-section">
-          <h2 class="member-bio-section-title">自由記述</h2>
+          <h2 class="member-bio-section-title">{{ $freeTextLabel }}</h2>
           <div class="content">{{ .Content }}</div>
         </section>
         {{ end }}

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Mark Dinn"
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"

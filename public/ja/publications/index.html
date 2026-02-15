@@ -16,6 +16,12 @@
   <meta name="generator" content="Hugo 0.149.0">
   <!-- multilingual SEO optimizations -->
   
+  
+  <link rel="alternate" hreflang="ja" href="//localhost:1313/ja/publications/">
+  
+  <link rel="alternate" hreflang="en" href="//localhost:1313/en/publications/">
+  
+  
 
   <!-- plugins -->
   
@@ -309,6 +315,37 @@
 
           
           
+          <select class="m-2 border-0 mb-3 mb-lg-0" id="select-language" onchange="location = this.value;">
+            
+            
+            
+            
+            
+            
+            
+            
+            <option id="ja" value="//localhost:1313/ja/publications/" selected>日本語
+            </option>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <option id="en" value="//localhost:1313/en/publications/">English</option>
+            
+            
+            
+            
+          </select>
+          
         </div>
       </nav>
     </div>
@@ -335,6 +372,7 @@
 </section>
 
 	
+
 
 
 
@@ -5917,6 +5955,7 @@
     
 
 
+
 <section class="publication-group">
   <h3 class="publication-group-title">論文誌(査読付き)</h3>
   
@@ -6347,6 +6386,7 @@
 </section>
 
     
+
 
 
 <section class="publication-group">
@@ -7241,6 +7281,7 @@
     
 
 
+
 <section class="publication-group">
   <h3 class="publication-group-title">MISC</h3>
   
@@ -7720,6 +7761,9 @@
     }
 
     function applyPublicationFilter() {
+      var statusAll = "すべて表示中";
+      var statusVisible = "表示件数";
+      var unit = "件";
       var from = parseYear(document.getElementById("pub-year-from").value);
       var to = parseYear(document.getElementById("pub-year-to").value);
       var items = document.querySelectorAll(".publication-item");
@@ -7734,9 +7778,9 @@
 
       var status = document.getElementById("pub-filter-status");
       if (from === null && to === null) {
-        status.textContent = "すべて表示中（" + items.length + "件）";
+        status.textContent = statusAll + " (" + items.length + " " + unit + ")";
       } else {
-        status.textContent = "表示件数: " + visibleCount + "件";
+        status.textContent = statusVisible + ": " + visibleCount + " " + unit;
       }
     }
 
@@ -7754,6 +7798,7 @@
     });
   })();
 </script>
+
 
 
 <footer>

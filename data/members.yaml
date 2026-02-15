@@ -1,0 +1,94 @@
+- id: faculty
+  name: "阪東 哲也"
+  group: "staff"
+  internal: true
+  role: "准教授"
+  affiliation: "鳴門教育大学 大学院学校教育研究科"
+  keywords:
+    - "情報教育"
+    - "小学校プログラミング教育"
+    - "教育データ科学"
+  profile: "/members/faculty/"
+  enrolled_year:
+  external_url:
+  note:
+
+- id: phd-1
+  name: "博士学生A"
+  group: "phd"
+  internal: true
+  role:
+  affiliation: "鳴門教育大学 大学院学校教育研究科"
+  keywords:
+    - "学習分析"
+    - "教育データ可視化"
+  profile: "/members/phd-1/"
+  enrolled_year: 2024
+  external_url:
+  note:
+
+- id: m-1
+  name: "修士学生A"
+  group: "master"
+  internal: true
+  role:
+  affiliation: "鳴門教育大学 大学院学校教育研究科"
+  keywords:
+    - "最適化"
+    - "LLM"
+  profile: "/members/m-1/"
+  enrolled_year: 2023
+  external_url:
+  note:
+
+- id: m-2
+  name: "修士学生B"
+  group: "master"
+  internal: true
+  role:
+  affiliation: "鳴門教育大学 大学院学校教育研究科"
+  keywords:
+    - "学習履歴分析"
+    - "可視化"
+  profile: "/members/m-2/"
+  enrolled_year: 2024
+  external_url:
+  note:
+
+- id: m-3
+  name: "修士学生C"
+  group: "master"
+  internal: true
+  role:
+  affiliation: "鳴門教育大学 大学院学校教育研究科"
+  keywords:
+    - "AIリテラシー"
+    - "評価設計"
+  profile: "/members/m-3/"
+  enrolled_year: 2025
+  external_url:
+  note:
+
+- id: collab-1
+  name: "共同研究者"
+  group: "collaborator"
+  internal: false
+  role: 
+  affiliation: 
+  keywords:
+  profile:
+  enrolled_year:
+  external_url: 
+  note:
+
+- id: collab-2
+  name: "共同研究者"
+  group: "collaborator"
+  internal: false
+  role: 
+  affiliation: 
+  keywords:
+  profile:
+  enrolled_year:
+  external_url: 
+  note:
