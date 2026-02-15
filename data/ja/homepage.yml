@@ -18,9 +18,18 @@ slider:
 
 ############################### Banner feature ###############################
 banner_feature:
-  enable : false
+  enable : true
   image : "images/banner/banner-feature.png"
-  feature_item: []
+  feature_item:
+    - name : "Education Analytics"
+      icon : "ti-bar-chart"
+      content : "学習ログや授業データを可視化し、意思決定と授業改善につながる分析を行います。"
+    - name : "Learning Design"
+      icon : "ti-layout-grid2"
+      content : "目標・評価・活動を接続し、実践可能な学びのデザインを設計・検証します。"
+    - name : "AI Literacy"
+      icon : "ti-light-bulb"
+      content : "教育現場での生成AI活用を踏まえ、基礎理解と実践的なAIリテラシー育成に取り組みます。"
 
 ############################## about ##################################
 about:

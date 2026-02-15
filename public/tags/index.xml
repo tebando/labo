@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Educenter | hugo education template</title>
-    <link>//localhost:1313/tags/</link>
-    <description>Recent content in Tags on Educenter | hugo education template</description>
+    <title>Tags on labo</title>
+    <link>http://localhost:1313/labo/tags/</link>
+    <description>Recent content in Tags on labo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/labo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advice</title>
-      <link>//localhost:1313/tags/advice/</link>
+      <link>http://localhost:1313/labo/tags/advice/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/advice/</guid>
+      <guid>http://localhost:1313/labo/tags/advice/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>//localhost:1313/tags/ai/</link>
+      <link>http://localhost:1313/labo/tags/ai/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/ai/</guid>
+      <guid>http://localhost:1313/labo/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>//localhost:1313/tags/automation/</link>
+      <link>http://localhost:1313/labo/tags/automation/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/automation/</guid>
+      <guid>http://localhost:1313/labo/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Eco</title>
-      <link>//localhost:1313/tags/eco/</link>
+      <link>http://localhost:1313/labo/tags/eco/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/eco/</guid>
+      <guid>http://localhost:1313/labo/tags/eco/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>//localhost:1313/tags/education/</link>
+      <link>http://localhost:1313/labo/tags/education/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/education/</guid>
+      <guid>http://localhost:1313/labo/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>English</title>
-      <link>//localhost:1313/tags/english/</link>
+      <link>http://localhost:1313/labo/tags/english/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/english/</guid>
+      <guid>http://localhost:1313/labo/tags/english/</guid>
       <description></description>
     </item>
     <item>
       <title>Rules</title>
-      <link>//localhost:1313/tags/rules/</link>
+      <link>http://localhost:1313/labo/tags/rules/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/tags/rules/</guid>
+      <guid>http://localhost:1313/labo/tags/rules/</guid>
       <description></description>
     </item>
   </channel>

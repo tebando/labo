@@ -38,7 +38,7 @@
 
   <!-- Main Stylesheet -->
   
-  <link rel="stylesheet" href="/scss/main.e9c18eef6f9c452e39dfa5690e447e5b71fc733172e86ed88e5a120d752120bfe7f1a6895341fc11c8a615146eb1d2067c7ece90b93df89219ecd091ab31aada.css" integrity="sha512-6cGO72&#43;cRS4536VpDkR&#43;W3H8czFy6G7YjloSDXUhIL/n8aaJU0H8EcimFRRusdIGfH7OkLk9&#43;JIZ7NCRqzGq2g==" media="screen">
+  <link rel="stylesheet" href="/scss/main.7adc47677c8e4d0273d0b1421fc67ecc10e819781abfaa3f2ac91b326397237d0907733ffdcc62133d77571515adeb04eed1a9e15078bf1638663e6e3db08e39.css" integrity="sha512-etxHZ3yOTQJz0LFCH8Z&#43;zBDoGXgav6o/KskbMmOXI30JB3M//cxiEz13VxUVresE7tGp4VB4vxY4Zj5uPbCOOQ==" media="screen">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
@@ -134,7 +134,7 @@
   
   <div class="navigation w-100 ">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
         <a class="navbar-brand" href="/ja/">
           
 
@@ -257,7 +257,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="collapse navbar-collapse text-left" id="navigation">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="/ja/">ホーム</a>
@@ -315,7 +315,7 @@
 
           
           
-          <select class="m-2 border-0 mb-5 mb-lg-2" id="select-language" onchange="location = this.value;">
+          <select class="m-2 border-0 mb-3 mb-lg-0" id="select-language" onchange="location = this.value;">
             
             
             
@@ -359,27 +359,31 @@
 
 
 
-<section class="hero-section overlay bg-cover" data-background="/images/banner/banner-1.jpg">
+
+
+<section class="home-hero">
   <div class="container">
-    <div class="hero-slider">
-      
-      
-      <div class="hero-slider-item">
-        <div class="row">
-          <div class="col-md-8">
-            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3"
-              data-animation-in="fadeInLeft" data-delay-in=".1">教育データ活用・学びデザイン研究室</h1>
-            <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">情報教育・小学校プログラミング教育・教育データ科学を軸に、授業改善と学びの質の向上を探究します。</p>
+    <div class="home-hero-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="home-hero-kicker">Education Data &amp; Learning Design Lab</span>
+          <h1 class="home-hero-title">教育データ活用・学びデザイン研究室</h1>
+          <p class="home-hero-text">情報教育・小学校プログラミング教育・教育データ科学を軸に、授業改善と学びの質の向上を探究します。</p>
+          <div class="home-hero-actions">
             
-            <a href="/ja/research/" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">研究内容</a>
+            <a href="/ja/research/" class="btn btn-primary">研究内容</a>
             
             
-            <a href="/ja/join/" class="btn btn-light ml-2" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".8">配属・共同研究</a>
+            <a href="/ja/join/" class="btn btn-outline-primary">配属・共同研究</a>
             
           </div>
         </div>
+        
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="home-hero-art" data-background="/images/banner/banner-1.jpg"></div>
+        </div>
+        
       </div>
-      
     </div>
   </div>
 </section>
@@ -387,6 +391,41 @@
 
 
 
+
+
+
+
+<section class="home-pillars section-sm">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="ti-bar-chart"></i></div>
+          <h3 class="pillar-title">Education Analytics</h3>
+          <p class="pillar-text">学習ログや授業データを可視化し、意思決定と授業改善につながる分析を行います。</p>
+        </article>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="ti-layout-grid2"></i></div>
+          <h3 class="pillar-title">Learning Design</h3>
+          <p class="pillar-text">目標・評価・活動を接続し、実践可能な学びのデザインを設計・検証します。</p>
+        </article>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="ti-light-bulb"></i></div>
+          <h3 class="pillar-title">AI Literacy</h3>
+          <p class="pillar-text">教育現場での生成AI活用を踏まえ、基礎理解と実践的なAIリテラシー育成に取り組みます。</p>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
 
 
@@ -547,9 +586,7 @@
         </div>
       </div>
     </div>
-    
     <div class="row justify-content-center">
-      
       
       <div class="col-lg-4 col-sm-6 mb-5">
         <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
@@ -1048,8 +1085,6 @@
       </div>
       
     </div>
-    
-    
     <div class="row">
       <div class="col-12 text-center">
         <a href="/ja/research" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">すべて見る</a>
@@ -1063,17 +1098,21 @@
 
 
 
-<section class="section bg-primary">
+<section class="home-cta">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h6 class="text-white font-secondary mb-0">配属希望・共同研究の相談を受け付けています</h6>
-        <h2 class="section-title text-white">研究テーマと目的をご確認のうえ、お問い合わせください</h2>
-        
-        
-        <a href="/ja/join/" class="btn btn-light">配属・共同研究</a>
-        
-        
+    <div class="home-cta-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <h6 class="home-cta-subtitle font-secondary mb-2">配属希望・共同研究の相談を受け付けています</h6>
+          <h2 class="home-cta-title">研究テーマと目的をご確認のうえ、お問い合わせください</h2>
+        </div>
+        <div class="col-lg-4 text-lg-right">
+          
+          
+          <a href="/ja/join/" class="btn btn-primary">配属・共同研究</a>
+          
+          
+        </div>
       </div>
     </div>
   </div>
@@ -1103,9 +1142,7 @@
     </div>
     <div class="row justify-content-center">
       
-      
     </div>
-    
     <div class="row">
       <div class="col-12 text-center">
         <a href="/ja/event" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">すべて見る</a>
@@ -1128,7 +1165,7 @@
     <div class="row">
       <div class="col-12">
         <ul class="list-unstyled">
-      
+          
           <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
   <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">15th</span> Feb, 2026</div>
   <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
@@ -1137,7 +1174,7 @@
   </div>
   <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="/ja/notice/notice-1/" class="btn btn-primary">続きを読む</a></div>
 </li>
-      
+          
           <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
   <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">14th</span> Feb, 2026</div>
   <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
@@ -1146,7 +1183,7 @@
   </div>
   <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="/ja/notice/notice-2/" class="btn btn-primary">続きを読む</a></div>
 </li>
-      
+          
           <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
   <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">13th</span> Feb, 2026</div>
   <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
@@ -1155,7 +1192,7 @@
   </div>
   <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="/ja/notice/notice-3/" class="btn btn-primary">続きを読む</a></div>
 </li>
-      
+          
         </ul>
       </div>
     </div>
@@ -1292,8 +1329,8 @@
 
           </a>
           <ul class="list-unstyled">
-            <li class="mb-4">〒772-8502 徳島県鳴門市鳴門町高島字中島748番地<br>
-鳴門教育大学<br>
+            <li class="mb-4">〒772-8502 徳島県鳴門市鳴門町高島字中島748番地
+鳴門教育大学
 <a href="https://www.naruto-u.ac.jp/access.html">鳴門教育大学 交通アクセス</a></li>
             
             

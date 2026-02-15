@@ -4,18 +4,129 @@ title = "教育データ活用・学びデザイン研究室 | Education Data & 
 theme = "educenter-hugo"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+# Default time zone for time stamps; use any valid tz database name.
 timeZone = "America/New_York"
 # post pagination
-pagination.pagerSize = 6 # see https://gohugo.io/extras/pagination/
+pagination.pagerSize = 6
 # post excerpt
-summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+summaryLength = 10
 # google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disable language
-disableLanguages = [
-] # example: ["en"] to disable English. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = true #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+googleAnalytics = "UA-123456-78"
+# disable language (example: ["en"])
+disableLanguages = []
+hasCJKLanguage = true
 
 [services.disqus]
-shortname = 'themefisher-template' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+shortname = "themefisher-template"
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "情報教育・小学校プログラミング教育・教育データ科学を軸に、授業改善と学びの質の向上を探究する研究室です。"
+author = "Education Data & Learning Design Lab"
+copyright = "© 教育データ活用・学びデザイン研究室"
+# contact info
+address = """
+〒772-8502 徳島県鳴門市鳴門町高島字中島748番地
+鳴門教育大学
+[鳴門教育大学 交通アクセス](https://www.naruto-u.ac.jp/access.html)
+"""
+# contact form action
+contact_form_action = "TODO: Replace with actual form endpoint"
+# Google Analytics
+google_analitycs_id = ""
+# top header
+top_header = false
+
+############################# Build ##############################
+[build]
+noJSConfigInAssets = false
+useResourceCacheWhen = "fallback"
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = "assets/.*\\.(js|ts|jsx|tsx)"
+target = "(js|scripts|javascript)"
+[[build.cachebusters]]
+source = "assets/.*\\.(css|sass|scss)$"
+target = "(css|styles|scss|sass)"
+[[build.cachebusters]]
+source = "assets/.*\\.(.*)$"
+target = "$1"
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS"]
+
+############################# Imaging ##############################
+[imaging]
+quality = 90
+resampleFilter = "lanczos"
+
+############################# Caches ###############################
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+############################# Markup ###############################
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif"
+
+# Subscription
+[params.subscription]
+enable = false
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2

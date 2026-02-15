@@ -1,0 +1,209 @@
+{{ define "main" }}
+
+{{ $data := index site.Data site.Language.Lang }}
+
+<!-- hero -->
+{{ if $data.homepage.slider.enable }}
+{{ with $data.homepage.slider }}
+{{ if gt (len .slider_item) 0 }}
+{{ $item := index .slider_item 0 }}
+<section class="home-hero">
+  <div class="container">
+    <div class="home-hero-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="home-hero-kicker">{{ site.Params.author }}</span>
+          <h1 class="home-hero-title">{{ $item.title | markdownify }}</h1>
+          <p class="home-hero-text">{{ $item.content | markdownify }}</p>
+          <div class="home-hero-actions">
+            {{ if $item.button.enable }}
+            <a href="{{ $item.button.link | absLangURL }}" class="btn btn-primary">{{ $item.button.label }}</a>
+            {{ end }}
+            {{ if $item.button_secondary.enable }}
+            <a href="{{ $item.button_secondary.link | absLangURL }}" class="btn btn-outline-primary">{{ $item.button_secondary.label }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ with .bg_image }}
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="home-hero-art" data-background="{{ . | absURL }}"></div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+<!-- /hero -->
+
+<!-- 3 cards -->
+{{ if and $data.homepage.banner_feature.enable (gt (len $data.homepage.banner_feature.feature_item) 0) }}
+{{ with $data.homepage.banner_feature }}
+<section class="home-pillars section-sm">
+  <div class="container">
+    <div class="row">
+      {{ range first 3 .feature_item }}
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="{{ .icon }}"></i></div>
+          <h3 class="pillar-title">{{ .name | markdownify }}</h3>
+          <p class="pillar-text">{{ .content | markdownify }}</p>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /3 cards -->
+
+<!-- about us -->
+{{ if $data.homepage.about.enable }}
+{{ with $data.homepage.about }}
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ with .image }}
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        {{ partial "image.html" (dict "Src" . "Alt" "about image" "Class" "img-fluid w-100" ) }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about us -->
+
+<!-- research themes -->
+{{ if $data.homepage.course.enable }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{ `research` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ range first 6 (where site.RegularPages "Type" "research") }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ partial "research-card.html" . }}
+      </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{ `research` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /research themes -->
+
+<!-- cta -->
+{{ if $data.homepage.cta.enable }}
+{{ with $data.homepage.cta }}
+<section class="home-cta">
+  <div class="container">
+    <div class="home-cta-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <h6 class="home-cta-subtitle font-secondary mb-2">{{ .subtitle | markdownify }}</h6>
+          <h2 class="home-cta-title">{{ .title | markdownify }}</h2>
+        </div>
+        <div class="col-lg-4 text-lg-right">
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absLangURL }}" class="btn btn-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /cta -->
+
+<!-- success story -->
+{{ if $data.homepage.success_story.enable }}
+{{ partial "success-story.html" . }}
+{{ end }}
+<!-- /success story -->
+
+<!-- events -->
+{{ if $data.homepage.event.enable }}
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.event.title }}</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="{{ `event` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{{ i18n "see_all" }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      {{ range first 2 (where site.RegularPages "Type" "event") }}
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        {{ partial "event-card.html" . }}
+      </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{{ `event` | relLangURL }}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{{ i18n "see_all" }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /events -->
+
+<!-- notice -->
+{{ if $data.homepage.blog.enable }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">{{ $data.homepage.blog.title }}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <ul class="list-unstyled">
+          {{ range first 3 (where site.RegularPages "Type" "notice") }}
+          {{ partial "notice-card.html" . }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /notice -->
+
+{{ end }}
