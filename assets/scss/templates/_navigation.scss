@@ -17,11 +17,13 @@
 
   .navbar-brand {
     padding: 10px 0;
+    flex-shrink: 0;
   }
 
-  .img-fluid {
+  .navbar-brand .img-fluid {
     max-height: 56px;
     width: auto;
+    max-width: none;
   }
 }
 

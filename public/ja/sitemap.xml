@@ -160,6 +160,14 @@
   </url><url>
     <loc>/ja/overview/</loc>
   </url><url>
+    <loc>/ja/members/faculty/</loc>
+  </url><url>
+    <loc>/ja/members/m-1/</loc>
+  </url><url>
+    <loc>/ja/members/m-2/</loc>
+  </url><url>
+    <loc>/ja/members/m-3/</loc>
+  </url><url>
     <loc>/ja/research/research-2/</loc>
     <xhtml:link
                 rel="alternate"
@@ -185,5 +193,7 @@
                 />
   </url><url>
     <loc>/ja/join/</loc>
+  </url><url>
+    <loc>/ja/members/phd-1/</loc>
   </url>
 </urlset>

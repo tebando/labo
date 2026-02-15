@@ -7,14 +7,7 @@ slider:
       content : "情報教育・小学校プログラミング教育・教育データ科学を軸に、授業改善と学びの質の向上を探究します。"
       animation_in : "left"
       animation_out : "right"
-      button:
-        enable : true
-        label : "研究内容"
-        link : "research/"
-      button_secondary:
-        enable : true
-        label : "配属・共同研究"
-        link : "join/"
+
 
 ############################### Banner feature ###############################
 banner_feature:
