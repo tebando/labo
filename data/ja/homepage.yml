@@ -3,7 +3,7 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
-    - title : "阪東 哲也 研究室"
+    - title : "教育データ活用・学びデザイン研究室"
       content : "情報教育・小学校プログラミング教育・教育データ科学を軸に、授業改善と学びの質の向上を探究します。"
       animation_in : "left"
       animation_out : "right"

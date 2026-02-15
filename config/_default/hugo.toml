@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
-title = "阪東 哲也 研究室 | Tetsuya BANDO Lab"
+title = "教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab"
 theme = "educenter-hugo"
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true

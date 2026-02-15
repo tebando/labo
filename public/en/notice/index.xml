@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notice on 阪東 哲也 研究室 | Tetsuya BANDO Lab</title>
-    <link>//localhost:1313/en/notice/</link>
-    <description>Recent content in Notice on 阪東 哲也 研究室 | Tetsuya BANDO Lab</description>
+    <title>Notice on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+    <link>/en/notice/</link>
+    <description>Recent content in Notice on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2019 15:27:17 +0600</lastBuildDate>
-    <atom:link href="//localhost:1313/en/notice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/notice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Teaching Materials and Testing Methods</title>
-      <link>//localhost:1313/en/notice/notice-1/</link>
+      <link>/en/notice/notice-1/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/en/notice/notice-1/</guid>
+      <guid>/en/notice/notice-1/</guid>
       <description>&lt;h3 id=&#34;about-notice&#34;&gt;About Notice&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching Materials and Testing Methods</title>
-      <link>//localhost:1313/en/notice/notice-2/</link>
+      <link>/en/notice/notice-2/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/en/notice/notice-2/</guid>
+      <guid>/en/notice/notice-2/</guid>
       <description>&lt;h3 id=&#34;about-notice&#34;&gt;About Notice&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching Materials and Testing Methods</title>
-      <link>//localhost:1313/en/notice/notice-3/</link>
+      <link>/en/notice/notice-3/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/en/notice/notice-3/</guid>
+      <guid>/en/notice/notice-3/</guid>
       <description>&lt;h3 id=&#34;about-notice&#34;&gt;About Notice&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching Materials and Testing Methods</title>
-      <link>//localhost:1313/en/notice/notice-4/</link>
+      <link>/en/notice/notice-4/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/en/notice/notice-4/</guid>
+      <guid>/en/notice/notice-4/</guid>
       <description>&lt;h3 id=&#34;about-notice&#34;&gt;About Notice&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching Materials and Testing Methods</title>
-      <link>//localhost:1313/en/notice/notice-5/</link>
+      <link>/en/notice/notice-5/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/en/notice/notice-5/</guid>
+      <guid>/en/notice/notice-5/</guid>
       <description>&lt;h3 id=&#34;about-notice&#34;&gt;About Notice&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching Materials and Testing Methods</title>
-      <link>//localhost:1313/en/notice/notice-6/</link>
+      <link>/en/notice/notice-6/</link>
       <pubDate>Sat, 06 Jul 2019 15:27:17 +0600</pubDate>
-      <guid>//localhost:1313/en/notice/notice-6/</guid>
+      <guid>/en/notice/notice-6/</guid>
       <description>&lt;h3 id=&#34;about-notice&#34;&gt;About Notice&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et&#xA;dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea&#xA;commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat&#xA;nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit&#xA;anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque&#xA;laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&#xA;dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia&#xA;consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem&#xA;ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut&#xA;labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;</description>
     </item>
   </channel>

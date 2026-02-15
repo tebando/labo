@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>阪東 哲也 研究室 | Tetsuya BANDO Lab</title>
-    <link>//localhost:1313/ja/</link>
-    <description>Recent content on 阪東 哲也 研究室 | Tetsuya BANDO Lab</description>
+    <title>教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+    <link>/ja/</link>
+    <description>Recent content on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/ja/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>研究室サイトを公開しました（暫定）</title>
-      <link>//localhost:1313/ja/notice/notice-1/</link>
+      <link>/ja/notice/notice-1/</link>
       <pubDate>Sun, 15 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>//localhost:1313/ja/notice/notice-1/</guid>
+      <guid>/ja/notice/notice-1/</guid>
       <description>&lt;p&gt;研究室サイトの初期版を公開しました。内容は順次更新します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>研究テーマページを更新しました（暫定）</title>
-      <link>//localhost:1313/ja/notice/notice-2/</link>
+      <link>/ja/notice/notice-2/</link>
       <pubDate>Sat, 14 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>//localhost:1313/ja/notice/notice-2/</guid>
+      <guid>/ja/notice/notice-2/</guid>
       <description>&lt;p&gt;研究テーマの概要を掲載しました。詳細は今後追記します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>お問い合わせフォーム準備中</title>
-      <link>//localhost:1313/ja/notice/notice-3/</link>
+      <link>/ja/notice/notice-3/</link>
       <pubDate>Fri, 13 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>//localhost:1313/ja/notice/notice-3/</guid>
+      <guid>/ja/notice/notice-3/</guid>
       <description>&lt;p&gt;お問い合わせページにフォーム埋め込み枠を設置しました。URLは TODO として管理しています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>AIリテラシー</title>
-      <link>//localhost:1313/ja/research/research-4/</link>
+      <link>/ja/research/research-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/research/research-4/</guid>
+      <guid>/ja/research/research-4/</guid>
       <description>&lt;p&gt;AIの基礎理解と活用体験を通じたAIリテラシー育成を実践的に検討します。&lt;/p&gt;</description>
     </item>
     <item>
       <title>アクセス</title>
-      <link>//localhost:1313/access/</link>
+      <link>/access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/access/</guid>
+      <guid>/access/</guid>
       <description>&lt;h2 id=&#34;所在地&#34;&gt;所在地&lt;/h2&gt;&#xA;&lt;p&gt;〒772-8502 徳島県鳴門市鳴門町高島字中島748番地&lt;br&gt;&#xA;鳴門教育大学&lt;/p&gt;</description>
     </item>
     <item>
       <title>メンバー</title>
-      <link>//localhost:1313/members/</link>
+      <link>/members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/members/</guid>
+      <guid>/members/</guid>
       <description>&lt;h2 id=&#34;教員&#34;&gt;教員&lt;/h2&gt;&#xA;&lt;h3 id=&#34;阪東-哲也&#34;&gt;阪東 哲也&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;所属: 鳴門教育大学 大学院学校教育研究科&lt;/li&gt;&#xA;&lt;li&gt;職名: 准教授&lt;/li&gt;&#xA;&lt;li&gt;研究キーワード: 情報教育 / 小学校プログラミング教育 / 教育データ科学&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;学生研究協力者&#34;&gt;学生・研究協力者&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TODO: メンバー情報を追記&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>教育データ科学</title>
-      <link>//localhost:1313/ja/research/research-3/</link>
+      <link>/ja/research/research-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/research/research-3/</guid>
+      <guid>/ja/research/research-3/</guid>
       <description>&lt;p&gt;学習・授業データを活用した可視化と授業改善に取り組みます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>業績</title>
-      <link>//localhost:1313/publications/</link>
+      <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publications/</guid>
+      <guid>/publications/</guid>
       <description>&lt;h2 id=&#34;代表業績抜粋&#34;&gt;代表業績（抜粋）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;著書抜粋&#34;&gt;著書（抜粋）&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;今こそ知りたい！ 学び続ける先生のための 基礎と実践から学べる小・中学校プログラミング教育（2021）&lt;/li&gt;&#xA;&lt;li&gt;小・中・高等学校でのプログラミング教育実践 : 問題解決を目的とした論理的思考力の育成（2019）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;論文抜粋&#34;&gt;論文（抜粋）&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;小学校における音楽リテラシーの向上を目指したICT活用による個別学習の効果（2025）&lt;/li&gt;&#xA;&lt;li&gt;展示物とWebを連動させた情報遺産ギャラリーの構築（2025）&lt;/li&gt;&#xA;&lt;li&gt;高校生の主体性及びGritと探究との関係（2024）&lt;/li&gt;&#xA;&lt;li&gt;中学校の計測・制御システム学習におけるPythonを用いたプログラミング教育（2022）&lt;/li&gt;&#xA;&lt;li&gt;小学校における簡単な動きのシミュレーションを取り入れたプログラミング授業実践の提案（2021）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;受賞&#34;&gt;受賞&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 論文賞（2018年度、2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 奨励賞（2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 学生優秀発表賞（2015年度）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;全件リスト&#34;&gt;全件リスト&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;TODO: DOI・URLを含む全業績を追記&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>研究室概要</title>
-      <link>//localhost:1313/overview/</link>
+      <link>/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/overview/</guid>
-      <description>&lt;h2 id=&#34;阪東-哲也-研究室&#34;&gt;阪東 哲也 研究室&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;名称: 阪東 哲也 研究室（Tetsuya BANDO Lab）&lt;/li&gt;&#xA;&lt;li&gt;所属: 鳴門教育大学 大学院学校教育研究科&lt;/li&gt;&#xA;&lt;li&gt;職名: 准教授&lt;/li&gt;&#xA;&lt;li&gt;学位: 博士（学校教育学）&lt;/li&gt;&#xA;&lt;li&gt;学位論文題目: 情報モラル意識の形成に及ぼす個人内特性の影響&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;所属コース&#34;&gt;所属コース&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;高度学校教育実践専攻（教科・総合系）&lt;/li&gt;&#xA;&lt;li&gt;技術・工業・情報科教育コース&lt;/li&gt;&#xA;&lt;li&gt;学習指導力・ICT教育実践力開発コース&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;関連センター&#34;&gt;関連センター&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;情報基盤センター&lt;/li&gt;&#xA;&lt;li&gt;教師のためのAI・DS研究開発センター&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;研究キーワード&#34;&gt;研究キーワード&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;情報教育&lt;/li&gt;&#xA;&lt;li&gt;小学校プログラミング教育&lt;/li&gt;&#xA;&lt;li&gt;教育データ科学&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;所属学会&#34;&gt;所属学会&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会&lt;/li&gt;&#xA;&lt;li&gt;日本教育情報学会&lt;/li&gt;&#xA;&lt;li&gt;日本教育工学会&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;主な活動&#34;&gt;主な活動&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 理事&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;受賞&#34;&gt;受賞&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 論文賞（2018年度、2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 奨励賞（2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 学生優秀発表賞（2015年度）&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>/overview/</guid>
+      <description>&lt;h2 id=&#34;教育データ活用学びデザイン研究室&#34;&gt;教育データ活用・学びデザイン研究室&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;名称: 教育データ活用・学びデザイン研究室（Education Data &amp;amp; Learning Design Lab）&lt;/li&gt;&#xA;&lt;li&gt;所属: 鳴門教育大学 大学院学校教育研究科&lt;/li&gt;&#xA;&lt;li&gt;職名: 准教授&lt;/li&gt;&#xA;&lt;li&gt;学位: 博士（学校教育学）&lt;/li&gt;&#xA;&lt;li&gt;学位論文題目: 情報モラル意識の形成に及ぼす個人内特性の影響&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;所属コース&#34;&gt;所属コース&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;高度学校教育実践専攻（教科・総合系）&lt;/li&gt;&#xA;&lt;li&gt;技術・工業・情報科教育コース&lt;/li&gt;&#xA;&lt;li&gt;学習指導力・ICT教育実践力開発コース&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;関連センター&#34;&gt;関連センター&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;情報基盤センター&lt;/li&gt;&#xA;&lt;li&gt;教師のためのAI・DS研究開発センター&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;研究キーワード&#34;&gt;研究キーワード&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;情報教育&lt;/li&gt;&#xA;&lt;li&gt;小学校プログラミング教育&lt;/li&gt;&#xA;&lt;li&gt;教育データ科学&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;所属学会&#34;&gt;所属学会&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会&lt;/li&gt;&#xA;&lt;li&gt;日本教育情報学会&lt;/li&gt;&#xA;&lt;li&gt;日本教育工学会&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;主な活動&#34;&gt;主な活動&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 理事&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;受賞&#34;&gt;受賞&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;日本産業技術教育学会 論文賞（2018年度、2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 奨励賞（2021年度）&lt;/li&gt;&#xA;&lt;li&gt;日本産業技術教育学会 学生優秀発表賞（2015年度）&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>小学校プログラミング教育</title>
-      <link>//localhost:1313/ja/research/research-2/</link>
+      <link>/ja/research/research-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/research/research-2/</guid>
+      <guid>/ja/research/research-2/</guid>
       <description>&lt;p&gt;初等教育段階におけるプログラミング学習の設計と評価を行います。&lt;/p&gt;</description>
     </item>
     <item>
       <title>情報教育</title>
-      <link>//localhost:1313/ja/research/research-1/</link>
+      <link>/ja/research/research-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/research/research-1/</guid>
+      <guid>/ja/research/research-1/</guid>
       <description>&lt;p&gt;学校現場でのICT活用と学習の質向上に関する研究を進めています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>配属・共同研究</title>
-      <link>//localhost:1313/join/</link>
+      <link>/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/join/</guid>
+      <guid>/join/</guid>
       <description>&lt;h2 id=&#34;配属を希望する方へ&#34;&gt;配属を希望する方へ&lt;/h2&gt;&#xA;&lt;p&gt;まずは研究テーマを確認のうえ、問い合わせフォームからご連絡ください。&lt;/p&gt;</description>
     </item>
   </channel>

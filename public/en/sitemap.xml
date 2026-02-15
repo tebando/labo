@@ -2,329 +2,329 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/en/event/</loc>
+    <loc>/en/event/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/event/"
+                href="/ja/event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/event/"
+                href="/en/event/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/event/event-1/</loc>
+    <loc>/en/event/event-1/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/event/event-2/</loc>
+    <loc>/en/event/event-2/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/event/event-3/</loc>
+    <loc>/en/event/event-3/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/event/event-4/</loc>
+    <loc>/en/event/event-4/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/event/event-5/</loc>
+    <loc>/en/event/event-5/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/event/event-6/</loc>
+    <loc>/en/event/event-6/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/</loc>
+    <loc>/en/</loc>
     <lastmod>2030-03-09T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/"
+                href="/ja/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/"
+                href="/en/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/tags/advice/</loc>
+    <loc>/en/tags/advice/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/ai/</loc>
+    <loc>/en/tags/ai/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/course/course-5/</loc>
+    <loc>/en/course/course-5/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/course/course-3/</loc>
+    <loc>/en/course/course-3/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/automation/</loc>
+    <loc>/en/tags/automation/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/categories/automation-system/</loc>
+    <loc>/en/categories/automation-system/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/categories/</loc>
+    <loc>/en/categories/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/categories/"
+                href="/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/categories/"
+                href="/en/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/categories/deep-learning/</loc>
+    <loc>/en/categories/deep-learning/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/eco/</loc>
+    <loc>/en/tags/eco/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/categories/eco-system/</loc>
+    <loc>/en/categories/eco-system/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/education/</loc>
+    <loc>/en/tags/education/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/categories/education-system/</loc>
+    <loc>/en/categories/education-system/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/blog-post-1/</loc>
+    <loc>/en/blog/blog-post-1/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/blog-post-2/</loc>
+    <loc>/en/blog/blog-post-2/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/blog-post-3/</loc>
+    <loc>/en/blog/blog-post-3/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/blog-post-4/</loc>
+    <loc>/en/blog/blog-post-4/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/blog-post-5/</loc>
+    <loc>/en/blog/blog-post-5/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/blog-post-6/</loc>
+    <loc>/en/blog/blog-post-6/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/english/</loc>
+    <loc>/en/tags/english/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/categories/english-learning/</loc>
+    <loc>/en/categories/english-learning/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/research/research-1/</loc>
+    <loc>/en/research/research-1/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-1/"
+                href="/ja/research/research-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/research-1/"
+                href="/en/research/research-1/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/research/research-2/</loc>
+    <loc>/en/research/research-2/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-2/"
+                href="/ja/research/research-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/research-2/"
+                href="/en/research/research-2/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/research/research-3/</loc>
+    <loc>/en/research/research-3/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-3/"
+                href="/ja/research/research-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/research-3/"
+                href="/en/research/research-3/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/research/research-4/</loc>
+    <loc>/en/research/research-4/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/research-4/"
+                href="/ja/research/research-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/research-4/"
+                href="/en/research/research-4/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/research/research-5/</loc>
+    <loc>/en/research/research-5/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/research/research-6/</loc>
+    <loc>/en/research/research-6/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/course/course-4/</loc>
+    <loc>/en/course/course-4/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/blog/</loc>
+    <loc>/en/blog/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/course/course-2/</loc>
+    <loc>/en/course/course-2/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/categories/mathmatics-learning/</loc>
+    <loc>/en/categories/mathmatics-learning/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/notice/</loc>
+    <loc>/en/notice/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/"
+                href="/ja/notice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/notice/"
+                href="/en/notice/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/course/</loc>
+    <loc>/en/course/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/research/</loc>
+    <loc>/en/research/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/research/"
+                href="/ja/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/research/"
+                href="/en/research/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/course/course-1/</loc>
+    <loc>/en/course/course-1/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/rules/</loc>
+    <loc>/en/tags/rules/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/tags/</loc>
+    <loc>/en/tags/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/tags/"
+                href="/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/tags/"
+                href="/en/tags/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/notice/notice-1/</loc>
+    <loc>/en/notice/notice-1/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/notice-1/"
+                href="/ja/notice/notice-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/notice/notice-1/"
+                href="/en/notice/notice-1/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/notice/notice-2/</loc>
+    <loc>/en/notice/notice-2/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/notice-2/"
+                href="/ja/notice/notice-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/notice/notice-2/"
+                href="/en/notice/notice-2/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/notice/notice-3/</loc>
+    <loc>/en/notice/notice-3/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/notice/notice-3/"
+                href="/ja/notice/notice-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/notice/notice-3/"
+                href="/en/notice/notice-3/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/notice/notice-4/</loc>
+    <loc>/en/notice/notice-4/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/notice/notice-5/</loc>
+    <loc>/en/notice/notice-5/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/notice/notice-6/</loc>
+    <loc>/en/notice/notice-6/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/course/course-6/</loc>
+    <loc>/en/course/course-6/</loc>
     <lastmod>2019-07-06T15:27:17+06:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/about/</loc>
+    <loc>/en/about/</loc>
   </url><url>
-    <loc>//localhost:1313/en/contact/</loc>
+    <loc>/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="//localhost:1313/ja/contact/"
+                href="/ja/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="//localhost:1313/en/contact/"
+                href="/en/contact/"
                 />
   </url><url>
-    <loc>//localhost:1313/en/teacher/alex-rook/</loc>
+    <loc>/en/teacher/alex-rook/</loc>
   </url><url>
-    <loc>//localhost:1313/en/author/</loc>
+    <loc>/en/author/</loc>
   </url><url>
-    <loc>//localhost:1313/en/scholarship/scholarship-1/</loc>
+    <loc>/en/scholarship/scholarship-1/</loc>
   </url><url>
-    <loc>//localhost:1313/en/scholarship/scholarship-2/</loc>
+    <loc>/en/scholarship/scholarship-2/</loc>
   </url><url>
-    <loc>//localhost:1313/en/scholarship/scholarship-3/</loc>
+    <loc>/en/scholarship/scholarship-3/</loc>
   </url><url>
-    <loc>//localhost:1313/en/teacher/clark-malik/</loc>
+    <loc>/en/teacher/clark-malik/</loc>
   </url><url>
-    <loc>//localhost:1313/en/teacher/devid-luis/</loc>
+    <loc>/en/teacher/devid-luis/</loc>
   </url><url>
-    <loc>//localhost:1313/en/teacher/duis-rio/</loc>
+    <loc>/en/teacher/duis-rio/</loc>
   </url><url>
-    <loc>//localhost:1313/en/teacher/jacke-mastio/</loc>
+    <loc>/en/teacher/jacke-mastio/</loc>
   </url><url>
-    <loc>//localhost:1313/en/author/john-doe/</loc>
+    <loc>/en/author/john-doe/</loc>
   </url><url>
-    <loc>//localhost:1313/en/author/mark-dinn/</loc>
+    <loc>/en/author/mark-dinn/</loc>
   </url><url>
-    <loc>//localhost:1313/en/teacher/</loc>
+    <loc>/en/teacher/</loc>
   </url><url>
-    <loc>//localhost:1313/en/scholarship/</loc>
+    <loc>/en/scholarship/</loc>
   </url><url>
-    <loc>//localhost:1313/en/teacher/zim-cook/</loc>
+    <loc>/en/teacher/zim-cook/</loc>
   </url>
 </urlset>

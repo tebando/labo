@@ -7,9 +7,9 @@ bg_image: "images/backgrounds/page-title.jpg"
 description: "研究室の基本情報"
 ---
 
-## 阪東 哲也 研究室
+## 教育データ活用・学びデザイン研究室
 
-- 名称: 阪東 哲也 研究室（Tetsuya BANDO Lab）
+- 名称: 教育データ活用・学びデザイン研究室（Education Data & Learning Design Lab）
 - 所属: 鳴門教育大学 大学院学校教育研究科
 - 職名: 准教授
 - 学位: 博士（学校教育学）
