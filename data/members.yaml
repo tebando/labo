@@ -70,29 +70,25 @@
   note:
 
 - id: collab-1
-  name: "共同研究者1"
+  name: "共同研究者"
   group: "collaborator"
   internal: false
-  role: "教授"
-  affiliation: "〇〇大学 教育学部"
+  role: 
+  affiliation: 
   keywords:
-    - "教育工学"
-    - "学習分析"
   profile:
   enrolled_year:
-  external_url: "https://example.com/"
+  external_url: 
   note:
 
 - id: collab-2
-  name: "共同研究者2"
+  name: "共同研究者"
   group: "collaborator"
   internal: false
-  role: "准教授"
-  affiliation: "△△研究機関"
+  role: 
+  affiliation: 
   keywords:
-    - "データサイエンス教育"
-    - "授業デザイン"
   profile:
   enrolled_year:
-  external_url: "https://example.org/"
+  external_url: 
   note:
