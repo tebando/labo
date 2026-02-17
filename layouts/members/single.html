@@ -2,14 +2,12 @@
 
 {{ $isEn := eq site.Language.Lang "en" }}
 {{ $name := .Params.member_name | default .Title }}
-{{ $role := .Params.role | default "-" }}
-{{ $degree := .Params.degree | default "-" }}
-{{ $affiliation := .Params.affiliation | default "-" }}
+{{ $role := .Params.role }}
+{{ $degree := .Params.degree }}
+{{ $affiliation := .Params.affiliation }}
 {{ $website := .Params.website | default "" }}
 {{ $education := .Params.education_career }}
-{{ $researchFallback := cond $isEn "Please add research details." "研究内容を記入してください。" }}
-{{ $comingSoon := cond $isEn "Information coming soon." "記載準備中です。" }}
-{{ $research := .Params.research_overview | default $researchFallback }}
+{{ $research := .Params.research_overview }}
 {{ $awards := .Params.awards }}
 {{ $journal := slice }}
 {{ $oral := slice }}
@@ -17,6 +15,8 @@
 {{ $profileLabel := cond $isEn "Profile" "プロフィール" }}
 {{ $nameLabel := cond $isEn "Name" "氏名" }}
 {{ $positionLabel := cond $isEn "Position" "職位" }}
+{{ $gradeLabel := cond $isEn "Year" "学年" }}
+{{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "在籍年" }}
 {{ $degreeLabel := cond $isEn "Degree" "学位" }}
 {{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
 {{ $educationLabel := cond $isEn "Education and Career" "学歴・職歴" }}
@@ -25,7 +25,16 @@
 {{ $publicationsLabel := cond $isEn "Publications" "研究業績" }}
 {{ $journalLabel := cond $isEn "Peer-reviewed Journals" "論文誌(査読付き)" }}
 {{ $oralLabel := cond $isEn "Oral Presentations" "口頭発表" }}
-{{ $freeTextLabel := cond $isEn "Additional Notes" "自由記述" }}
+{{ $positionFieldLabel := $positionLabel }}
+{{ $positionValue := $role }}
+{{ $memberGroup := .Params.member_group }}
+{{ if or (eq $memberGroup "phd") (eq $memberGroup "master") }}
+  {{ $positionFieldLabel = $gradeLabel }}
+  {{ $positionValue = trim (partial "grade.html" .) " \n\t" }}
+{{ else if eq $memberGroup "research_student" }}
+  {{ $positionFieldLabel = $enrollmentYearLabel }}
+  {{ $positionValue = .Params.enrolled_year }}
+{{ end }}
 {{ with .Params.publications }}
   {{ with .journal_peer_reviewed }}{{ $journal = . }}{{ end }}
   {{ with .oral_presentations }}{{ $oral = . }}{{ end }}
@@ -59,8 +68,8 @@
                     <td>{{ $name }}</td>
                   </tr>
                   <tr>
-                    <th>{{ $positionLabel }}</th>
-                    <td>{{ $role }}</td>
+                    <th>{{ $positionFieldLabel }}</th>
+                    <td>{{ $positionValue }}</td>
                   </tr>
                   <tr>
                     <th>{{ $degreeLabel }}</th>
@@ -75,8 +84,6 @@
                     <td>
                       {{ if $website }}
                       <a class="member-bio-url" href="{{ $website | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $website }}</a>
-                      {{ else }}
-                      -
                       {{ end }}
                     </td>
                   </tr>
@@ -88,13 +95,11 @@
           <section class="member-bio-section">
             <h2 class="member-bio-section-title">{{ $educationLabel }}</h2>
             {{ if $education }}
-            <ul class="member-bio-list">
+            <ul class="member-bio-list member-bio-list-plain">
               {{ range $education }}
               <li>{{ . }}</li>
               {{ end }}
             </ul>
-            {{ else }}
-            <p class="member-bio-section-text">{{ $comingSoon }}</p>
             {{ end }}
           </section>
         </div>
@@ -114,8 +119,6 @@
             <li>{{ . }}</li>
             {{ end }}
           </ul>
-          {{ else }}
-          <p class="member-bio-section-text">{{ $comingSoon }}</p>
           {{ end }}
         </section>
 
@@ -130,13 +133,6 @@
           <h3 class="member-bio-subtitle">MISC</h3>
           {{ partial "member_publication_items.html" (dict "items" $misc) }}
         </section>
-
-        {{ if .Content }}
-        <section class="member-bio-section">
-          <h2 class="member-bio-section-title">{{ $freeTextLabel }}</h2>
-          <div class="content">{{ .Content }}</div>
-        </section>
-        {{ end }}
       </div>
     </article>
   </div>

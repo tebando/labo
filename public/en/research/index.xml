@@ -2,37 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
-    <link>//localhost:1313/en/research/</link>
+    <link>/en/research/</link>
     <description>Recent content in Research on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/en/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Literacy</title>
-      <link>//localhost:1313/en/research/research-4/</link>
+      <link>/en/research/research-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/research/research-4/</guid>
+      <guid>/en/research/research-4/</guid>
       <description>&lt;p&gt;We practically examine AI literacy development through foundational understanding of AI and hands-on utilization experiences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Educational Data Science</title>
-      <link>//localhost:1313/en/research/research-3/</link>
+      <link>/en/research/research-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/research/research-3/</guid>
+      <guid>/en/research/research-3/</guid>
       <description>&lt;p&gt;We work on visualization and lesson improvement using learning and lesson data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Elementary School Programming Education</title>
-      <link>//localhost:1313/en/research/research-2/</link>
+      <link>/en/research/research-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/research/research-2/</guid>
+      <guid>/en/research/research-2/</guid>
       <description>&lt;p&gt;We design and evaluate programming learning in elementary education.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Information Education</title>
-      <link>//localhost:1313/en/research/research-1/</link>
+      <link>/en/research/research-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/research/research-1/</guid>
+      <guid>/en/research/research-1/</guid>
       <description>&lt;p&gt;We are conducting research on ICT utilization in school settings and improving the quality of learning.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Members on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
-    <link>//localhost:1313/en/members/</link>
+    <link>/en/members/</link>
     <description>Recent content in Members on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/en/members/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/en/members/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alumnus A</title>
-      <link>//localhost:1313/en/members/alumni-1/</link>
+      <link>/en/members/alumni-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/alumni-1/</guid>
+      <guid>/en/members/alumni-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Doctoral Research Student A</title>
-      <link>//localhost:1313/en/members/rs-1/</link>
+      <link>/en/members/rs-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/rs-1/</guid>
+      <guid>/en/members/rs-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Doctoral Student A</title>
-      <link>//localhost:1313/en/members/phd-1/</link>
+      <link>/en/members/phd-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/phd-1/</guid>
+      <guid>/en/members/phd-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Master&#39;s Student A</title>
-      <link>//localhost:1313/en/members/m-1/</link>
+      <link>/en/members/m-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/m-1/</guid>
+      <guid>/en/members/m-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tetsuya Bando</title>
-      <link>//localhost:1313/en/members/faculty/</link>
+      <link>/en/members/faculty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/faculty/</guid>
+      <guid>/en/members/faculty/</guid>
       <description></description>
     </item>
     <item>
       <title>Master&#39;s Student B</title>
-      <link>//localhost:1313/en/members/m-2/</link>
+      <link>/en/members/m-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/m-2/</guid>
+      <guid>/en/members/m-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Master&#39;s Student C</title>
-      <link>//localhost:1313/en/members/m-3/</link>
+      <link>/en/members/m-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/members/m-3/</guid>
+      <guid>/en/members/m-3/</guid>
       <description></description>
     </item>
   </channel>

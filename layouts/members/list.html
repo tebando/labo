@@ -16,12 +16,11 @@
 {{ $nameLabel := cond $isEn "Name" "氏名" }}
 {{ $positionLabel := cond $isEn "Position" "職位" }}
 {{ $gradeLabel := cond $isEn "Year" "学年" }}
-{{ $gradeNoteLabel := cond $isEn "Year / Note" "学年 / 注記" }}
+{{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "在籍年" }}
 {{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
 {{ $themeKeywordLabel := cond $isEn "Research Themes (Keywords)" "研究テーマ（キーワード）" }}
 {{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年度" }}
 {{ $researchThemeLabel := cond $isEn "Research Theme" "研究テーマ" }}
-{{ $commentLabel := cond $isEn "Comment (Optional)" "一言（任意）" }}
 
 <section class="section">
   <div class="container members-page">
@@ -39,7 +38,7 @@
       <h2 class="members-section-title">{{ $staffTitle }}</h2>
       {{ if gt (len $staff) 0 }}
       <div class="table-responsive members-table-wrap">
-        <table class="table members-table">
+        <table class="table members-table members-table-4col">
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
@@ -67,7 +66,7 @@
       <h2 class="members-section-title">{{ $phdTitle }}</h2>
       {{ if gt (len $phd) 0 }}
       <div class="table-responsive members-table-wrap">
-        <table class="table members-table">
+        <table class="table members-table members-table-4col">
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
@@ -81,7 +80,7 @@
             {{ $grade := trim (partial "grade.html" .) " \n\t" }}
             <tr>
               <td>{{ partial "member_link.html" . }}</td>
-              <td>{{ if $grade }}{{ $grade }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
+              <td>{{ $grade }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
@@ -96,7 +95,7 @@
       <h2 class="members-section-title">{{ $masterTitle }}</h2>
       {{ if gt (len $master) 0 }}
       <div class="table-responsive members-table-wrap">
-        <table class="table members-table">
+        <table class="table members-table members-table-4col">
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
@@ -110,7 +109,7 @@
             {{ $grade := trim (partial "grade.html" .) " \n\t" }}
             <tr>
               <td>{{ partial "member_link.html" . }}</td>
-              <td>{{ if $grade }}{{ $grade }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
+              <td>{{ $grade }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
@@ -125,23 +124,22 @@
       <h2 class="members-section-title">{{ $researchStudentTitle }}</h2>
       {{ if gt (len $researchStudent) 0 }}
       <div class="table-responsive members-table-wrap">
-        <table class="table members-table">
+        <table class="table members-table members-table-4col">
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
-              <th>{{ $gradeNoteLabel }}</th>
+              <th>{{ $enrollmentYearLabel }}</th>
               <th>{{ $affiliationLabel }}</th>
               <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
             {{ range $researchStudent }}
-            {{ $grade := trim (partial "grade.html" .) " \n\t" }}
             <tr>
               <td>{{ partial "member_link.html" . }}</td>
-              <td>{{ if $grade }}{{ $grade }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
+              <td>{{ .Params.enrolled_year | default "-" }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else if .Params.note }}{{ .Params.note }}{{ else }}-{{ end }}</td>
+              <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
             {{ end }}
           </tbody>
@@ -154,7 +152,7 @@
       <h2 class="members-section-title">{{ $collaboratorTitle }}</h2>
       {{ if gt (len $collaborator) 0 }}
       <div class="table-responsive members-table-wrap">
-        <table class="table members-table">
+        <table class="table members-table members-table-4col">
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
@@ -169,7 +167,7 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ .Params.role | default "-" }}</td>
               <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ .Params.note | default "-" }}{{ end }}</td>
+              <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>
             {{ end }}
           </tbody>
@@ -182,13 +180,12 @@
       <h2 class="members-section-title">Alumni</h2>
       {{ if gt (len $alumni) 0 }}
       <div class="table-responsive members-table-wrap">
-        <table class="table members-table">
+        <table class="table members-table members-table-3col">
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
               <th>{{ $graduationYearLabel }}</th>
               <th>{{ $researchThemeLabel }}</th>
-              <th>{{ $commentLabel }}</th>
             </tr>
           </thead>
           <tbody>
@@ -197,7 +194,6 @@
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ .Params.graduation_year | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
-              <td>{{ .Params.comment | default "-" }}</td>
             </tr>
             {{ end }}
           </tbody>

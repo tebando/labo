@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>メンバー on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
-    <link>//localhost:1313/ja/members/</link>
+    <link>/ja/members/</link>
     <description>Recent content in メンバー on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
-    <atom:link href="//localhost:1313/ja/members/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/ja/members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>カーロ・シャーリン</title>
+      <link>/ja/members/phd-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ja/members/phd-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>吉川 喜久</title>
+      <link>/ja/members/rs-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/ja/members/rs-1/</guid>
+      <description>&lt;h2 id=&#34;プロフィール&#34;&gt;プロフィール&lt;/h2&gt;&#xA;&lt;p&gt;certifications:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;2023年3月 幼稚園・小学校・中学校（技術）・高等学校（工業）の専修免許状を取得&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;2023年2月 IELTS 6.0（CEFR B2）取得&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>阪東 哲也</title>
-      <link>//localhost:1313/ja/members/faculty/</link>
+      <link>/ja/members/faculty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/faculty/</guid>
+      <guid>/ja/members/faculty/</guid>
       <description></description>
     </item>
     <item>
       <title>修士学生A</title>
-      <link>//localhost:1313/ja/members/m-1/</link>
+      <link>/ja/members/m-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/m-1/</guid>
+      <guid>/ja/members/m-1/</guid>
       <description></description>
     </item>
     <item>
       <title>修了生A</title>
-      <link>//localhost:1313/ja/members/alumni-1/</link>
+      <link>/ja/members/alumni-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/alumni-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>博士学生A</title>
-      <link>//localhost:1313/ja/members/phd-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/phd-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>博士研究生A</title>
-      <link>//localhost:1313/ja/members/rs-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/rs-1/</guid>
+      <guid>/ja/members/alumni-1/</guid>
       <description></description>
     </item>
     <item>
       <title>修士学生B</title>
-      <link>//localhost:1313/ja/members/m-2/</link>
+      <link>/ja/members/m-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/m-2/</guid>
+      <guid>/ja/members/m-2/</guid>
       <description></description>
     </item>
     <item>
       <title>修士学生C</title>
-      <link>//localhost:1313/ja/members/m-3/</link>
+      <link>/ja/members/m-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/ja/members/m-3/</guid>
+      <guid>/ja/members/m-3/</guid>
       <description></description>
     </item>
   </channel>

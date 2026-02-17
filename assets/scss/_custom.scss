@@ -508,6 +508,11 @@ html[lang^="ja"] .home-hero-title {
   list-style: decimal;
 }
 
+.member-bio-list-plain {
+  padding-left: 0;
+  list-style: none;
+}
+
 .member-bio-list li + li {
   margin-top: 8px;
 }
@@ -575,13 +580,50 @@ html[lang^="ja"] .home-hero-title {
 .members-table {
   margin-bottom: 0;
   color: var(--dark);
+  width: 100%;
+  table-layout: fixed;
+}
+
+.members-table-4col th:nth-child(1),
+.members-table-4col td:nth-child(1) {
+  width: 22%;
+}
+
+.members-table-4col th:nth-child(2),
+.members-table-4col td:nth-child(2) {
+  width: 14%;
+}
+
+.members-table-4col th:nth-child(3),
+.members-table-4col td:nth-child(3) {
+  width: 24%;
+}
+
+.members-table-4col th:nth-child(4),
+.members-table-4col td:nth-child(4) {
+  width: 40%;
+}
+
+.members-table-3col th:nth-child(1),
+.members-table-3col td:nth-child(1) {
+  width: 26%;
+}
+
+.members-table-3col th:nth-child(2),
+.members-table-3col td:nth-child(2) {
+  width: 20%;
+}
+
+.members-table-3col th:nth-child(3),
+.members-table-3col td:nth-child(3) {
+  width: 54%;
 }
 
 .members-table thead th {
   background: rgba(47, 93, 80, 0.1);
   color: var(--dark);
   border-bottom: 1px solid rgba(43, 43, 43, 0.18);
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .members-table td,
@@ -589,6 +631,7 @@ html[lang^="ja"] .home-hero-title {
   padding: 0.72rem 0.8rem;
   border-top: 1px solid rgba(43, 43, 43, 0.12);
   vertical-align: middle;
+  overflow-wrap: anywhere;
 }
 
 .members-name-link {
