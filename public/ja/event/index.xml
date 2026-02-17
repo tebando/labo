@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>セミナー/イベント on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
-    <link>/ja/event/</link>
+    <link>//localhost:1313/ja/event/</link>
     <description>Recent content in セミナー/イベント on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="/ja/event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/ja/event/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

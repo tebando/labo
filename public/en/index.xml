@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
-    <link>/en/</link>
+    <link>//localhost:1313/en/</link>
     <description>Recent content on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alumnus A</title>
-      <link>/en/members/alumni-1/</link>
+      <link>//localhost:1313/en/members/alumni-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/alumni-1/</guid>
+      <guid>//localhost:1313/en/members/alumni-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Doctoral Research Student A</title>
-      <link>/en/members/rs-1/</link>
+      <link>//localhost:1313/en/members/rs-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/rs-1/</guid>
+      <guid>//localhost:1313/en/members/rs-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Doctoral Student A</title>
-      <link>/en/members/phd-1/</link>
+      <link>//localhost:1313/en/members/phd-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/phd-1/</guid>
+      <guid>//localhost:1313/en/members/phd-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Master&#39;s Student A</title>
-      <link>/en/members/m-1/</link>
+      <link>//localhost:1313/en/members/m-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/m-1/</guid>
+      <guid>//localhost:1313/en/members/m-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tetsuya Bando</title>
-      <link>/en/members/faculty/</link>
+      <link>//localhost:1313/en/members/faculty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/faculty/</guid>
+      <guid>//localhost:1313/en/members/faculty/</guid>
       <description></description>
     </item>
     <item>
       <title>Master&#39;s Student B</title>
-      <link>/en/members/m-2/</link>
+      <link>//localhost:1313/en/members/m-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/m-2/</guid>
+      <guid>//localhost:1313/en/members/m-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Master&#39;s Student C</title>
-      <link>/en/members/m-3/</link>
+      <link>//localhost:1313/en/members/m-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/members/m-3/</guid>
+      <guid>//localhost:1313/en/members/m-3/</guid>
       <description></description>
     </item>
     <item>
       <title>Lab website has been launched (temporary)</title>
-      <link>/en/notice/notice-1/</link>
+      <link>//localhost:1313/en/notice/notice-1/</link>
       <pubDate>Sun, 15 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>/en/notice/notice-1/</guid>
+      <guid>//localhost:1313/en/notice/notice-1/</guid>
       <description>&lt;p&gt;The initial version of the lab website has been launched. Content will be updated sequentially.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research themes page has been updated (temporary)</title>
-      <link>/en/notice/notice-2/</link>
+      <link>//localhost:1313/en/notice/notice-2/</link>
       <pubDate>Sat, 14 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>/en/notice/notice-2/</guid>
+      <guid>//localhost:1313/en/notice/notice-2/</guid>
       <description>&lt;p&gt;An overview of our research themes has been posted. Details will be added later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact form has been published</title>
-      <link>/en/notice/notice-3/</link>
+      <link>//localhost:1313/en/notice/notice-3/</link>
       <pubDate>Fri, 13 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>/en/notice/notice-3/</guid>
+      <guid>//localhost:1313/en/notice/notice-3/</guid>
       <description>&lt;p&gt;The contact form has been published. Please contact us via the URL below.&lt;br&gt;&#xA;&lt;a href=&#34;https://forms.gle/27n7coB55JCUKAwFA&#34;&gt;https://forms.gle/27n7coB55JCUKAwFA&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Access</title>
-      <link>/en/access/</link>
+      <link>//localhost:1313/en/access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/access/</guid>
+      <guid>//localhost:1313/en/access/</guid>
       <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;&#xA;&lt;p&gt;748 Nakajima, Takashima, Naruto-cho, Naruto-shi, Tokushima 772-8502, Japan&lt;br&gt;&#xA;Naruto University of Education&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Literacy</title>
-      <link>/en/research/research-4/</link>
+      <link>//localhost:1313/en/research/research-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/research/research-4/</guid>
+      <guid>//localhost:1313/en/research/research-4/</guid>
       <description>&lt;p&gt;We practically examine AI literacy development through foundational understanding of AI and hands-on utilization experiences.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Educational Data Science</title>
-      <link>/en/research/research-3/</link>
+      <link>//localhost:1313/en/research/research-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/research/research-3/</guid>
+      <guid>//localhost:1313/en/research/research-3/</guid>
       <description>&lt;p&gt;We work on visualization and lesson improvement using learning and lesson data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Elementary School Programming Education</title>
-      <link>/en/research/research-2/</link>
+      <link>//localhost:1313/en/research/research-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/research/research-2/</guid>
+      <guid>//localhost:1313/en/research/research-2/</guid>
       <description>&lt;p&gt;We design and evaluate programming learning in elementary education.&lt;/p&gt;</description>
     </item>
     <item>
       <title>For Those Who Want to Conduct Research with Us</title>
-      <link>/en/join/</link>
+      <link>//localhost:1313/en/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/join/</guid>
+      <guid>//localhost:1313/en/join/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;The information environment surrounding school sites continues to change greatly, including the use of one GIGA device per student, the use of educational data, and elementary school programming education. From now on, not only information specialists but each of us is required to acquire basic literacy related to information and to engage in problem solving while appropriately using data and ICT. In particular, enhancing information education in elementary and secondary education is an important issue in fostering the qualities and abilities needed for everyone to use information and information technology appropriately and live richly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Information Education</title>
-      <link>/en/research/research-1/</link>
+      <link>//localhost:1313/en/research/research-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/research/research-1/</guid>
+      <guid>//localhost:1313/en/research/research-1/</guid>
       <description>&lt;p&gt;We are conducting research on ICT utilization in school settings and improving the quality of learning.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab Overview</title>
-      <link>/en/overview/</link>
+      <link>//localhost:1313/en/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/overview/</guid>
+      <guid>//localhost:1313/en/overview/</guid>
       <description>&lt;h2 id=&#34;education-data-utilization-and-learning-design-lab&#34;&gt;Education Data Utilization and Learning Design Lab&lt;/h2&gt;&#xA;&lt;p&gt;Our lab promotes practical research that can be applied in school settings, with three pillars: information education, elementary school programming education, and educational data science.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>/en/publications/</link>
+      <link>//localhost:1313/en/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/en/publications/</guid>
+      <guid>//localhost:1313/en/publications/</guid>
       <description>&lt;p&gt;This page automatically aggregates publication data registered on each member&amp;rsquo;s profile page.&lt;br&gt;&#xA;Duplicates are detected by normalized paper titles, and entries with the same title are merged into one (rule: newer year is prioritized).&lt;/p&gt;</description>
     </item>
   </channel>

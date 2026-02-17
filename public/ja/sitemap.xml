@@ -2,322 +2,322 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/ja/members/phd-1/</loc>
+    <loc>//localhost:1313/ja/members/phd-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/phd-1/"
+                href="//localhost:1313/en/members/phd-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/phd-1/"
+                href="//localhost:1313/ja/members/phd-1/"
                 />
   </url><url>
-    <loc>/ja/members/rs-1/</loc>
+    <loc>//localhost:1313/ja/members/rs-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/rs-1/"
+                href="//localhost:1313/en/members/rs-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/rs-1/"
+                href="//localhost:1313/ja/members/rs-1/"
                 />
   </url><url>
-    <loc>/ja/members/faculty/</loc>
+    <loc>//localhost:1313/ja/members/faculty/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/faculty/"
+                href="//localhost:1313/en/members/faculty/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/faculty/"
+                href="//localhost:1313/ja/members/faculty/"
                 />
   </url><url>
-    <loc>/ja/members/m-1/</loc>
+    <loc>//localhost:1313/ja/members/m-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/m-1/"
+                href="//localhost:1313/en/members/m-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/m-1/"
+                href="//localhost:1313/ja/members/m-1/"
                 />
   </url><url>
-    <loc>/ja/members/alumni-1/</loc>
+    <loc>//localhost:1313/ja/members/alumni-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/alumni-1/"
+                href="//localhost:1313/en/members/alumni-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/alumni-1/"
+                href="//localhost:1313/ja/members/alumni-1/"
                 />
   </url><url>
-    <loc>/ja/members/m-2/</loc>
+    <loc>//localhost:1313/ja/members/m-2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/m-2/"
+                href="//localhost:1313/en/members/m-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/m-2/"
+                href="//localhost:1313/ja/members/m-2/"
                 />
   </url><url>
-    <loc>/ja/members/m-3/</loc>
+    <loc>//localhost:1313/ja/members/m-3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/m-3/"
+                href="//localhost:1313/en/members/m-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/m-3/"
+                href="//localhost:1313/ja/members/m-3/"
                 />
   </url><url>
-    <loc>/ja/event/</loc>
+    <loc>//localhost:1313/ja/event/</loc>
     <lastmod>2026-03-15T10:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/event/"
+                href="//localhost:1313/en/event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/event/"
+                href="//localhost:1313/ja/event/"
                 />
   </url><url>
-    <loc>/ja/</loc>
+    <loc>//localhost:1313/ja/</loc>
     <lastmod>2026-03-15T10:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/"
+                href="//localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/"
+                href="//localhost:1313/ja/"
                 />
   </url><url>
-    <loc>/ja/notice/</loc>
+    <loc>//localhost:1313/ja/notice/</loc>
     <lastmod>2026-02-15T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/notice/"
+                href="//localhost:1313/en/notice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/notice/"
+                href="//localhost:1313/ja/notice/"
                 />
   </url><url>
-    <loc>/ja/notice/notice-1/</loc>
+    <loc>//localhost:1313/ja/notice/notice-1/</loc>
     <lastmod>2026-02-15T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/notice/notice-1/"
+                href="//localhost:1313/en/notice/notice-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/notice/notice-1/"
+                href="//localhost:1313/ja/notice/notice-1/"
                 />
   </url><url>
-    <loc>/ja/notice/notice-2/</loc>
+    <loc>//localhost:1313/ja/notice/notice-2/</loc>
     <lastmod>2026-02-14T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/notice/notice-2/"
+                href="//localhost:1313/en/notice/notice-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/notice/notice-2/"
+                href="//localhost:1313/ja/notice/notice-2/"
                 />
   </url><url>
-    <loc>/ja/notice/notice-3/</loc>
+    <loc>//localhost:1313/ja/notice/notice-3/</loc>
     <lastmod>2026-02-13T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/notice/notice-3/"
+                href="//localhost:1313/en/notice/notice-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/notice/notice-3/"
+                href="//localhost:1313/ja/notice/notice-3/"
                 />
   </url><url>
-    <loc>/ja/research/research-4/</loc>
+    <loc>//localhost:1313/ja/research/research-4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/research/research-4/"
+                href="//localhost:1313/en/research/research-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/research/research-4/"
+                href="//localhost:1313/ja/research/research-4/"
                 />
   </url><url>
-    <loc>/ja/categories/</loc>
+    <loc>//localhost:1313/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/categories/"
+                href="//localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/categories/"
+                href="//localhost:1313/ja/categories/"
                 />
   </url><url>
-    <loc>/ja/tags/</loc>
+    <loc>//localhost:1313/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/tags/"
+                href="//localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/tags/"
+                href="//localhost:1313/ja/tags/"
                 />
   </url><url>
-    <loc>/ja/access/</loc>
+    <loc>//localhost:1313/ja/access/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/access/"
+                href="//localhost:1313/en/access/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/access/"
+                href="//localhost:1313/ja/access/"
                 />
   </url><url>
-    <loc>/ja/contact/</loc>
+    <loc>//localhost:1313/ja/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/contact/"
+                href="//localhost:1313/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/contact/"
+                href="//localhost:1313/ja/contact/"
                 />
   </url><url>
-    <loc>/ja/members/</loc>
+    <loc>//localhost:1313/ja/members/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/members/"
+                href="//localhost:1313/en/members/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/members/"
+                href="//localhost:1313/ja/members/"
                 />
   </url><url>
-    <loc>/ja/join/</loc>
+    <loc>//localhost:1313/ja/join/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/join/"
+                href="//localhost:1313/en/join/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/join/"
+                href="//localhost:1313/ja/join/"
                 />
   </url><url>
-    <loc>/ja/research/research-3/</loc>
+    <loc>//localhost:1313/ja/research/research-3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/research/research-3/"
+                href="//localhost:1313/en/research/research-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/research/research-3/"
+                href="//localhost:1313/ja/research/research-3/"
                 />
   </url><url>
-    <loc>/ja/publications/</loc>
+    <loc>//localhost:1313/ja/publications/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/publications/"
+                href="//localhost:1313/en/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/publications/"
+                href="//localhost:1313/ja/publications/"
                 />
   </url><url>
-    <loc>/ja/research/</loc>
+    <loc>//localhost:1313/ja/research/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/research/"
+                href="//localhost:1313/en/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/research/"
+                href="//localhost:1313/ja/research/"
                 />
   </url><url>
-    <loc>/ja/overview/</loc>
+    <loc>//localhost:1313/ja/overview/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/overview/"
+                href="//localhost:1313/en/overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/overview/"
+                href="//localhost:1313/ja/overview/"
                 />
   </url><url>
-    <loc>/ja/research/research-2/</loc>
+    <loc>//localhost:1313/ja/research/research-2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/research/research-2/"
+                href="//localhost:1313/en/research/research-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/research/research-2/"
+                href="//localhost:1313/ja/research/research-2/"
                 />
   </url><url>
-    <loc>/ja/research/research-1/</loc>
+    <loc>//localhost:1313/ja/research/research-1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="/en/research/research-1/"
+                href="//localhost:1313/en/research/research-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-jp"
-                href="/ja/research/research-1/"
+                href="//localhost:1313/ja/research/research-1/"
                 />
   </url>
 </urlset>

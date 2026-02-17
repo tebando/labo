@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notice on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
-    <link>/en/notice/</link>
+    <link>//localhost:1313/en/notice/</link>
     <description>Recent content in Notice on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="/en/notice/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/notice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lab website has been launched (temporary)</title>
-      <link>/en/notice/notice-1/</link>
+      <link>//localhost:1313/en/notice/notice-1/</link>
       <pubDate>Sun, 15 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>/en/notice/notice-1/</guid>
+      <guid>//localhost:1313/en/notice/notice-1/</guid>
       <description>&lt;p&gt;The initial version of the lab website has been launched. Content will be updated sequentially.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research themes page has been updated (temporary)</title>
-      <link>/en/notice/notice-2/</link>
+      <link>//localhost:1313/en/notice/notice-2/</link>
       <pubDate>Sat, 14 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>/en/notice/notice-2/</guid>
+      <guid>//localhost:1313/en/notice/notice-2/</guid>
       <description>&lt;p&gt;An overview of our research themes has been posted. Details will be added later.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact form has been published</title>
-      <link>/en/notice/notice-3/</link>
+      <link>//localhost:1313/en/notice/notice-3/</link>
       <pubDate>Fri, 13 Feb 2026 09:00:00 +0900</pubDate>
-      <guid>/en/notice/notice-3/</guid>
+      <guid>//localhost:1313/en/notice/notice-3/</guid>
       <description>&lt;p&gt;The contact form has been published. Please contact us via the URL below.&lt;br&gt;&#xA;&lt;a href=&#34;https://forms.gle/27n7coB55JCUKAwFA&#34;&gt;https://forms.gle/27n7coB55JCUKAwFA&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
