@@ -8,7 +8,7 @@ member_group: "phd"
 internal: true
 role: "博士後期課程"
 degree: "修士（教育工学）"
-enrolled_year: 2024
+enrolled_year: 2025
 affiliation: "鳴門教育大学"
 website: "https://researchmap.jp/carlot_charline"
 profile_image: ""

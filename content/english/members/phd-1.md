@@ -8,12 +8,12 @@ member_group: "phd"
 internal: true
 role: "Doctoral Program"
 degree: ""
-enrolled_year: 2024
+enrolled_year: 2025
 affiliation: "Naruto University of Education"
 website: ""
 profile_image: "images/teachers/teacher-2.jpg"
 education_career:
-  - "(Example) 2024: Entered the Doctoral Program, Graduate School of Education, Naruto University of Education"
+  - "(Example) 2025: Entered the Doctoral Program, Graduate School of Education, Naruto University of Education"
 research_overview: "I am exploring methods to feed analysis results of learning behavior logs back into lesson design and assessment improvement."
 awards: []
 publications:
