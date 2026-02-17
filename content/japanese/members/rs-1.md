@@ -6,7 +6,7 @@ weight: 10
 member_group: "research_student"
 internal: true
 degree: "専門職修士"
-enrolled_year: 2026
+enrolled_year: 2025
 affiliation: "兵庫教育大学"
 website: ""
 profile_image: "images/members/phd2.jpeg"
