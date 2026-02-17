@@ -509,8 +509,12 @@ html[lang^="ja"] .home-hero-title {
 }
 
 .member-bio-list-plain {
-  padding-left: 0;
+  padding-left: 10px;
   list-style: none;
+}
+
+.member-bio-list-plain li + li {
+  margin-top: 12px;
 }
 
 .member-bio-list li + li {
