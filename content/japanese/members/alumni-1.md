@@ -11,7 +11,7 @@ degree: "教職修士"
 graduation_year: "2026"
 affiliation: "学習指導力・ICT教育実践力開発コース"
 website: ""
-profile_image: "images/members/al1.jpg"
+profile_image: "images/members/al1.jpeg"
 education_career:
  - "2023年4月〜2026年3月 鳴門教育大学教職大学院 高度学校教育実践専攻 教職系学習指導力・ICT教育実践力開発コース 修了"
 research_overview: "生成AIを活用し 児童の創造性発揮と価値創造を促す授業デザインの構築を研究. 理論と実践を往還しながら 教育現場で実装可能な枠組みの確立を目指している."
