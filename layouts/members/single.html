@@ -17,6 +17,7 @@
 {{ $positionLabel := cond $isEn "Position" "職位" }}
 {{ $gradeLabel := cond $isEn "Year" "学年" }}
 {{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "在籍年" }}
+{{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年度" }}
 {{ $degreeLabel := cond $isEn "Degree" "学位" }}
 {{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
 {{ $educationLabel := cond $isEn "Education and Career" "学歴・職歴" }}
@@ -34,6 +35,9 @@
 {{ else if eq $memberGroup "research_student" }}
   {{ $positionFieldLabel = $enrollmentYearLabel }}
   {{ $positionValue = .Params.enrolled_year }}
+{{ else if eq $memberGroup "alumni" }}
+  {{ $positionFieldLabel = $graduationYearLabel }}
+  {{ $positionValue = .Params.graduation_year }}
 {{ end }}
 {{ with .Params.publications }}
   {{ with .journal_peer_reviewed }}{{ $journal = . }}{{ end }}

@@ -1,1 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>セミナー/イベント on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title><link>https://tebando.github.io/tb_lab/ja/event/</link><description>Recent content in セミナー/イベント on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 15 Mar 2026 10:00:00 +0900</lastBuildDate><atom:link href="https://tebando.github.io/tb_lab/ja/event/index.xml" rel="self" type="application/rss+xml"/><item><title>研究発表会（日時未定）</title><link>https://tebando.github.io/tb_lab/ja/event/event-2/</link><pubDate>Sun, 15 Mar 2026 10:00:00 +0900</pubDate><guid>https://tebando.github.io/tb_lab/ja/event/event-2/</guid><description>&lt;p&gt;研究成果共有の場として研究発表会を予定しています。詳細は確定後に更新します。&lt;/p&gt;</description></item><item><title>ゼミ（日時未定）</title><link>https://tebando.github.io/tb_lab/ja/event/event-1/</link><pubDate>Sun, 01 Mar 2026 10:00:00 +0900</pubDate><guid>https://tebando.github.io/tb_lab/ja/event/event-1/</guid><description>&lt;p&gt;研究テーマに関するゼミを予定しています。詳細は確定後に更新します。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>セミナー/イベント on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+    <link>http://localhost:1313/tb_lab/ja/event/</link>
+    <description>Recent content in セミナー/イベント on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/tb_lab/ja/event/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

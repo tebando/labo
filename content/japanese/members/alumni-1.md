@@ -1,28 +1,41 @@
 ---
-title: "修了生A"
+title: "田中 茂道"
 draft: false
-description: "Alumniプロフィール"
+description: "田中-生成AIを活用した価値創造型授業デザインの研究"
 member_id: "alumni-1"
 weight: 10
 member_group: "alumni"
 internal: true
-role: "Alumni"
-degree: ""
-graduation_year: "2025"
-affiliation: "鳴門教育大学"
+role: ""
+degree: "教職修士"
+graduation_year: "2026"
+affiliation: "学習指導力・ICT教育実践力開発コース"
 website: ""
-profile_image: "images/teachers/teacher-1.jpg"
+profile_image: ""
 education_career:
-  - "（記入例）2025年 鳴門教育大学 大学院 学校教育研究科 修了"
-research_overview: "情報教育と授業設計の接続をテーマに実践研究を行いました。"
+ - "2023年4月〜2026年3月 鳴門教育大学教職大学院 高度学校教育実践専攻 教職系学習指導力・ICT教育実践力開発コース 修了"
+research_overview: "生成AIを活用し 児童の創造性発揮と価値創造を促す授業デザインの構築を研究. 理論と実践を往還しながら 教育現場で実装可能な枠組みの確立を目指している."
 awards: []
 publications:
-  journal_peer_reviewed: []
-  oral_presentations: []
+  journal_peer_reviewed:
+    - "田中茂道，阪東哲也(2024) 児童の価値創造力を育成するための生成AIを活用した授業デザイン. 日本教育工学会論文誌，48(suppl.)：149-152"
+ 
+  oral_presentations:
+    - "田中茂道，阪東哲也(2023) 小学校国語科の俳句創作における生成AI活用方法の検討. 日本産業技術教育学会2023年度技術教育分科会講演論文集，22-23"
+    - "田中茂道，阪東哲也(2024) 創造性創出モデルを踏まえた生成AIを活用した授業デザインの検討. 日本教育工学会2024年春季全国大会論文集，109-110"
+    - "田中茂道，阪東哲也(2024) 改訂版タキソノミーによる生成AIを活用した先行事例の分析. 日本教育工学会2024年秋季全国大会論文集，483-484"
+    - "TANAKA, S. and BANDO, T.(2024) Exploring the Educational Effect of Generative AI-Driven 'Wall-Hitting' Activities in Elementary Japanese Language Classes. 22nd International Conference for Media in Education Conference Proceedings，436-437"
+    - "田中茂道，阪東哲也(2025) 画像生成AIの活用が児童の創造性発揮に及ぼす影響. 日本教育工学会2025年春季全国大会論文集，19-20"
+    - "田中茂道，阪東哲也(2025) 画像生成AIを用いた協働学習における児童のAIリテラシーと創造性変容の検討. 日本教育工学会2026年秋季全国大会論文集，679-680"
+ 
   misc:
-    - "（記入例）修士論文：〇〇〇〇"
-comment: "教育現場で学びのデータ活用を実践中。"
+    - "2025年度 最終成果報告書『児童が新たなテクノロジーを活用して新たな価値を生み出す授業デザインの構築』"
+    - "2025年7月 デジタル学習基盤と情報活用能力 佐藤和紀・三井一希・泰山裕 編著 事例執筆"
+ 
 keywords:
-  - "情報教育"
-  - "授業設計"
+  - "生成AI"
+  - "創造性"
+  - "協働学習"
+  - "価値創造"
+  - "授業デザイン"
 ---
