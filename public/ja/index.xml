@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tb_lab/ja/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Mame</title>
+      <link>http://localhost:1313/tb_lab/ja/members/m-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/m-1/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>カーロ・シャーリン</title>
       <link>http://localhost:1313/tb_lab/ja/members/phd-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -30,21 +37,7 @@
       <description></description>
     </item>
     <item>
-      <title>修士学生A</title>
-      <link>http://localhost:1313/tb_lab/ja/members/m-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tb_lab/ja/members/m-1/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>田中 茂道</title>
-      <link>http://localhost:1313/tb_lab/ja/members/alumni-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tb_lab/ja/members/alumni-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>修士学生B</title>
       <link>http://localhost:1313/tb_lab/ja/members/m-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tb_lab/ja/members/m-2/</guid>

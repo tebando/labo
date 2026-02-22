@@ -4,7 +4,7 @@ draft: false
 description: "Alumni profile"
 member_id: "alumni-1"
 weight: 10
-member_group: "alumni"
+member_group: "master"
 internal: true
 role: "Alumni"
 degree: ""

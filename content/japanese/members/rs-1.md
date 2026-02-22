@@ -5,8 +5,9 @@ description: "吉川のプロフィール"
 weight: 10
 member_group: "research_student"
 internal: true
-degree: "専門職修士"
-enrolled_year: 2025
+degree: "教職修士(専門職)"
+enrolled_year: "2025"
+graduation_year: ""
 affiliation: "兵庫教育大学"
 website: ""
 profile_image: "images/members/phd2.jpeg"

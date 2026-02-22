@@ -1,25 +1,77 @@
 {{ define "main" }}
 
-{{ $memberPages := .RegularPages }}
-{{ $staff := (where $memberPages "Params.member_group" "staff").ByWeight }}
-{{ $phd := (where $memberPages "Params.member_group" "phd").ByWeight }}
-{{ $master := (where $memberPages "Params.member_group" "master").ByWeight }}
-{{ $researchStudent := (where $memberPages "Params.member_group" "research_student").ByWeight }}
-{{ $collaborator := (where $memberPages "Params.member_group" "collaborator").ByWeight }}
-{{ $alumni := (where $memberPages "Params.member_group" "alumni").ByWeight }}
+{{ $memberPages := .RegularPages.ByWeight }}
+{{ $currentYear := int (now.Format "2006") }}
+{{ $staff := slice }}
+{{ $phd := slice }}
+{{ $master := slice }}
+{{ $researchStudent := slice }}
+{{ $trainingStudent := slice }}
+{{ $alumni := slice }}
+{{ range $memberPages }}
+  {{ $rawGroup := .Params.member_group | default "" }}
+  {{ $group := $rawGroup }}
+  {{ if eq $rawGroup "スタッフ" }}
+    {{ $group = "staff" }}
+  {{ else if eq $rawGroup "博士学生" }}
+    {{ $group = "phd" }}
+  {{ else if eq $rawGroup "修士学生" }}
+    {{ $group = "master" }}
+  {{ else if eq $rawGroup "博士研究生" }}
+    {{ $group = "research_student" }}
+  {{ else if eq $rawGroup "教育研修留学生" }}
+    {{ $group = "training_student" }}
+  {{ else if eq $rawGroup "共同研究者" }}
+    {{ $group = "training_student" }}
+  {{ else if eq $rawGroup "修了生" }}
+    {{ $group = "alumni" }}
+  {{ else if eq $rawGroup "alu" }}
+    {{ $group = "alumni" }}
+  {{ else if eq $rawGroup "collaborator" }}
+    {{ $group = "training_student" }}
+  {{ end }}
+  {{ $graduationYear := .Params.graduation_year | default "" }}
+  {{ $graduationYearText := printf "%v" $graduationYear }}
+  {{ $graduationYearMatch := findRE "[0-9]{4}" $graduationYearText 1 }}
+  {{ $graduationYearInt := 0 }}
+  {{ if gt (len $graduationYearMatch) 0 }}
+    {{ $graduationYearInt = int (index $graduationYearMatch 0) }}
+  {{ end }}
+  {{ $hasGraduationYear := gt $graduationYearInt 0 }}
+  {{ $effectiveGroup := $group }}
+  {{ if and $hasGraduationYear (le $graduationYearInt $currentYear) (ne $group "staff") (ne $group "") }}
+    {{ $effectiveGroup = "alumni" }}
+  {{ end }}
+  {{ if eq $effectiveGroup "staff" }}
+    {{ $staff = $staff | append . }}
+  {{ else if eq $effectiveGroup "phd" }}
+    {{ $phd = $phd | append . }}
+  {{ else if eq $effectiveGroup "master" }}
+    {{ $master = $master | append . }}
+  {{ else if eq $effectiveGroup "research_student" }}
+    {{ $researchStudent = $researchStudent | append . }}
+  {{ else if eq $effectiveGroup "training_student" }}
+    {{ $trainingStudent = $trainingStudent | append . }}
+  {{ else if eq $effectiveGroup "alumni" }}
+    {{ $alumni = $alumni | append . }}
+  {{ end }}
+{{ end }}
 {{ $isEn := eq site.Language.Lang "en" }}
 {{ $staffTitle := cond $isEn "Staff" "スタッフ" }}
 {{ $phdTitle := cond $isEn "Doctoral Students" "博士学生" }}
 {{ $masterTitle := cond $isEn "Master's Students" "修士学生" }}
 {{ $researchStudentTitle := cond $isEn "Doctoral Research Students" "博士研究生" }}
-{{ $collaboratorTitle := cond $isEn "Collaborators" "共同研究者" }}
+{{ $trainingStudentTitle := cond $isEn "Educational Training International Students" "教育研修留学生" }}
+{{ $alumniTitle := "Alumni" }}
 {{ $nameLabel := cond $isEn "Name" "氏名" }}
 {{ $positionLabel := cond $isEn "Position" "職位" }}
 {{ $gradeLabel := cond $isEn "Year" "学年" }}
-{{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "在籍年" }}
+{{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "入学年" }}
+{{ $enrollmentStatusLabel := cond $isEn "Enrollment Status" "在籍状況" }}
+{{ $activeLabel := cond $isEn "Active" "在籍中" }}
 {{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
 {{ $themeKeywordLabel := cond $isEn "Research Themes (Keywords)" "研究テーマ（キーワード）" }}
-{{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年度" }}
+{{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年" }}
 
 <section class="section">
   <div class="container members-page">
@@ -127,13 +179,41 @@
           <thead>
             <tr>
               <th>{{ $nameLabel }}</th>
-              <th>{{ $enrollmentYearLabel }}</th>
+              <th>{{ $enrollmentStatusLabel }}</th>
               <th>{{ $affiliationLabel }}</th>
               <th>{{ $themeKeywordLabel }}</th>
             </tr>
           </thead>
           <tbody>
             {{ range $researchStudent }}
+            <tr>
+              <td>{{ partial "member_link.html" . }}</td>
+              <td>{{ $activeLabel }}</td>
+              <td>{{ .Params.affiliation | default "-" }}</td>
+              <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+      {{ end }}
+    </section>
+
+    <section class="members-section">
+      <h2 class="members-section-title">{{ $trainingStudentTitle }}</h2>
+      {{ if gt (len $trainingStudent) 0 }}
+      <div class="table-responsive members-table-wrap">
+        <table class="table members-table members-table-4col">
+          <thead>
+            <tr>
+              <th>{{ $nameLabel }}</th>
+              <th>{{ $enrollmentYearLabel }}</th>
+              <th>{{ $affiliationLabel }}</th>
+              <th>{{ $themeKeywordLabel }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $trainingStudent }}
             <tr>
               <td>{{ partial "member_link.html" . }}</td>
               <td>{{ .Params.enrolled_year | default "-" }}</td>
@@ -148,35 +228,7 @@
     </section>
 
     <section class="members-section">
-      <h2 class="members-section-title">{{ $collaboratorTitle }}</h2>
-      {{ if gt (len $collaborator) 0 }}
-      <div class="table-responsive members-table-wrap">
-        <table class="table members-table members-table-4col">
-          <thead>
-            <tr>
-              <th>{{ $nameLabel }}</th>
-              <th>{{ $positionLabel }}</th>
-              <th>{{ $affiliationLabel }}</th>
-              <th>{{ $themeKeywordLabel }}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ range $collaborator }}
-            <tr>
-              <td>{{ partial "member_link.html" . }}</td>
-              <td>{{ .Params.role | default "-" }}</td>
-              <td>{{ .Params.affiliation | default "-" }}</td>
-              <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
-            </tr>
-            {{ end }}
-          </tbody>
-        </table>
-      </div>
-      {{ end }}
-    </section>
-
-    <section class="members-section">
-      <h2 class="members-section-title">Alumni</h2>
+      <h2 class="members-section-title">{{ $alumniTitle }}</h2>
       {{ if gt (len $alumni) 0 }}
       <div class="table-responsive members-table-wrap">
         <table class="table members-table members-table-3col">
@@ -189,8 +241,14 @@
           </thead>
           <tbody>
             {{ range $alumni }}
+            {{ $internal := true }}
+            {{ if isset .Params "internal" }}
+              {{ $internal = .Params.internal }}
+            {{ end }}
+            {{ $alumniRawGroup := .Params.member_group | default "" }}
+            {{ $isDirectAlumniGroup := or (eq $alumniRawGroup "修了生") (eq $alumniRawGroup "alumni") (eq $alumniRawGroup "alu") }}
             <tr>
-              <td>{{ partial "member_link.html" . }}</td>
+              <td{{ if and $isDirectAlumniGroup (not $internal) }} class="members-name-cell-alumni"{{ end }}>{{ partial "member_link.html" . }}</td>
               <td>{{ .Params.graduation_year | default "-" }}</td>
               <td>{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}-{{ end }}</td>
             </tr>

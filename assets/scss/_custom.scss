@@ -649,6 +649,20 @@ html[lang^="ja"] .home-hero-title {
   text-decoration: underline;
 }
 
+.members-name-link-plain,
+.members-name-link-plain:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.members-name-cell-alumni .members-name-link {
+  color: var(--dark);
+}
+
+.members-name-cell-alumni .members-name-link:hover {
+  color: var(--dark);
+}
+
 .members-note {
   margin: 0;
   padding: 14px 16px;

@@ -4,7 +4,7 @@ draft: false
 description: "教員プロフィール"
 member_id: "faculty"
 weight: 10
-member_group: "staff"
+member_group: "スタッフ"
 internal: true
 role: "准教授"
 degree: "博士（学校教育学）"
@@ -1045,6 +1045,6 @@ publications:
 
 keywords:
   - "情報教育"
-  - "小学校プログラミング教育"
+  - "授業デザイン"
   - "教育データ科学"
 ---

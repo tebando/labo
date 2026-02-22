@@ -14,10 +14,13 @@
 {{ $misc := slice }}
 {{ $profileLabel := cond $isEn "Profile" "プロフィール" }}
 {{ $nameLabel := cond $isEn "Name" "氏名" }}
+{{ $categoryLabel := cond $isEn "Category" "区分" }}
 {{ $positionLabel := cond $isEn "Position" "職位" }}
 {{ $gradeLabel := cond $isEn "Year" "学年" }}
-{{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "在籍年" }}
-{{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年度" }}
+{{ $enrollmentStatusLabel := cond $isEn "Enrollment Status" "在籍状況" }}
+{{ $activeLabel := cond $isEn "Active" "在籍中" }}
+{{ $enrollmentYearLabel := cond $isEn "Enrollment Year" "入学年" }}
+{{ $graduationYearLabel := cond $isEn "Graduation Year" "修了年" }}
 {{ $degreeLabel := cond $isEn "Degree" "学位" }}
 {{ $affiliationLabel := cond $isEn "Affiliation" "所属" }}
 {{ $educationLabel := cond $isEn "Education and Career" "学歴・職歴" }}
@@ -26,19 +29,81 @@
 {{ $publicationsLabel := cond $isEn "Publications" "研究業績" }}
 {{ $journalLabel := cond $isEn "Peer-reviewed Journals" "論文誌(査読付き)" }}
 {{ $oralLabel := cond $isEn "Oral Presentations" "口頭発表" }}
+{{ $themeKeywordLabel := cond $isEn "Research Themes (Keywords)" "研究テーマ（キーワード）" }}
+{{ $rawMemberGroup := .Params.member_group | default "" }}
+{{ $isDirectAlumniGroup := or (eq $rawMemberGroup "修了生") (eq $rawMemberGroup "alumni") (eq $rawMemberGroup "alu") }}
+{{ $internal := true }}
+{{ if isset .Params "internal" }}
+  {{ $internal = .Params.internal }}
+{{ end }}
+{{ $isNoBioAlumni := and $isDirectAlumniGroup (not $internal) }}
+{{ $memberGroup := $rawMemberGroup }}
+{{ if eq $rawMemberGroup "スタッフ" }}
+  {{ $memberGroup = "staff" }}
+{{ else if eq $rawMemberGroup "博士学生" }}
+  {{ $memberGroup = "phd" }}
+{{ else if eq $rawMemberGroup "修士学生" }}
+  {{ $memberGroup = "master" }}
+{{ else if eq $rawMemberGroup "博士研究生" }}
+  {{ $memberGroup = "research_student" }}
+{{ else if eq $rawMemberGroup "教育研修留学生" }}
+  {{ $memberGroup = "training_student" }}
+{{ else if eq $rawMemberGroup "共同研究者" }}
+  {{ $memberGroup = "training_student" }}
+{{ else if eq $rawMemberGroup "修了生" }}
+  {{ $memberGroup = "alumni" }}
+{{ else if eq $rawMemberGroup "alu" }}
+  {{ $memberGroup = "alumni" }}
+{{ else if eq $rawMemberGroup "collaborator" }}
+  {{ $memberGroup = "training_student" }}
+{{ end }}
+{{ $currentYear := int (now.Format "2006") }}
+{{ $enrolledYear := .Params.enrolled_year | default "" }}
+{{ $graduationYear := .Params.graduation_year | default "" }}
+{{ $hasEnrolledYear := ne (printf "%v" $enrolledYear) "" }}
+{{ $graduationYearText := printf "%v" $graduationYear }}
+{{ $graduationYearMatch := findRE "[0-9]{4}" $graduationYearText 1 }}
+{{ $graduationYearInt := 0 }}
+{{ if gt (len $graduationYearMatch) 0 }}
+  {{ $graduationYearInt = int (index $graduationYearMatch 0) }}
+{{ end }}
+{{ $hasGraduationYear := ne (trim $graduationYearText " \n\t") "" }}
+{{ $isGraduated := and (gt $graduationYearInt 0) (le $graduationYearInt $currentYear) }}
+{{ $effectiveGroup := $memberGroup }}
+{{ if and $isGraduated (ne $memberGroup "staff") (ne $memberGroup "") }}
+  {{ $effectiveGroup = "alumni" }}
+{{ end }}
+{{ $groupNameJa := dict
+  "staff" "スタッフ"
+  "phd" "博士学生"
+  "master" "修士学生"
+  "research_student" "博士研究生"
+  "training_student" "教育研修留学生"
+  "alumni" "Alumni"
+}}
+{{ $groupNameEn := dict
+  "staff" "Staff"
+  "phd" "Doctoral Student"
+  "master" "Master's Student"
+  "research_student" "Doctoral Research Student"
+  "training_student" "Educational Training International Student"
+  "alumni" "Alumni"
+}}
+{{ $groupNameMap := cond $isEn $groupNameEn $groupNameJa }}
+{{ $memberCategory := index $groupNameMap $effectiveGroup | default "-" }}
 {{ $positionFieldLabel := $positionLabel }}
 {{ $positionValue := $role }}
-{{ $memberGroup := .Params.member_group }}
-{{ if or (eq $memberGroup "phd") (eq $memberGroup "master") }}
+{{ if eq $effectiveGroup "alumni" }}
+  {{ $positionFieldLabel = $graduationYearLabel }}
+  {{ $positionValue = $graduationYear }}
+{{ else if or (eq $effectiveGroup "phd") (eq $effectiveGroup "master") }}
   {{ $positionFieldLabel = $gradeLabel }}
   {{ $positionValue = trim (partial "grade.html" .) " \n\t" }}
-{{ else if eq $memberGroup "research_student" }}
-  {{ $positionFieldLabel = $enrollmentYearLabel }}
-  {{ $positionValue = .Params.enrolled_year }}
-{{ else if eq $memberGroup "alumni" }}
-  {{ $positionFieldLabel = $graduationYearLabel }}
-  {{ $positionValue = .Params.graduation_year }}
+{{ else if or (eq $effectiveGroup "research_student") (eq $effectiveGroup "training_student") }}
+  {{ $positionFieldLabel = $enrollmentStatusLabel }}
+  {{ $positionValue = $activeLabel }}
 {{ end }}
+{{ $positionValue = $positionValue | default "-" }}
 {{ with .Params.publications }}
   {{ with .journal_peer_reviewed }}{{ $journal = . }}{{ end }}
   {{ with .oral_presentations }}{{ $oral = . }}{{ end }}
@@ -52,6 +117,7 @@
   <div class="container">
     <article class="member-bio-card">
       <div class="row no-gutters member-bio-top">
+        {{ if not $isNoBioAlumni }}
         <div class="col-lg-4 order-lg-2 member-bio-side">
           <div class="member-bio-figure">
             {{ with .Params.profile_image }}
@@ -61,7 +127,8 @@
             {{ end }}
           </div>
         </div>
-        <div class="col-lg-8 order-lg-1 member-bio-main">
+        {{ end }}
+        <div class="{{ if $isNoBioAlumni }}col-lg-12{{ else }}col-lg-8 order-lg-1{{ end }} member-bio-main">
           <section class="member-bio-section">
             <h2 class="member-bio-section-title">{{ $profileLabel }}</h2>
             <div class="table-responsive member-bio-fact-wrap">
@@ -71,17 +138,39 @@
                     <th>{{ $nameLabel }}</th>
                     <td>{{ $name }}</td>
                   </tr>
+                  {{ if $isNoBioAlumni }}
+                  <tr>
+                    <th>{{ $graduationYearLabel }}</th>
+                    <td>{{ $graduationYear | default "-" }}</td>
+                  </tr>
+                  {{ else }}
+                  <tr>
+                    <th>{{ $categoryLabel }}</th>
+                    <td>{{ $memberCategory }}</td>
+                  </tr>
                   <tr>
                     <th>{{ $positionFieldLabel }}</th>
                     <td>{{ $positionValue }}</td>
                   </tr>
+                  {{ if and $hasEnrolledYear (ne $positionFieldLabel $enrollmentYearLabel) (ne $effectiveGroup "alumni") (ne $effectiveGroup "research_student") }}
+                  <tr>
+                    <th>{{ $enrollmentYearLabel }}</th>
+                    <td>{{ $enrolledYear }}</td>
+                  </tr>
+                  {{ end }}
+                  {{ if and $hasGraduationYear (ne $positionFieldLabel $graduationYearLabel) }}
+                  <tr>
+                    <th>{{ $graduationYearLabel }}</th>
+                    <td>{{ $graduationYear }}</td>
+                  </tr>
+                  {{ end }}
                   <tr>
                     <th>{{ $degreeLabel }}</th>
-                    <td>{{ $degree }}</td>
+                    <td>{{ $degree | default "-" }}</td>
                   </tr>
                   <tr>
                     <th>{{ $affiliationLabel }}</th>
-                    <td>{{ $affiliation }}</td>
+                    <td>{{ $affiliation | default "-" }}</td>
                   </tr>
                   <tr>
                     <th>URL</th>
@@ -91,11 +180,13 @@
                       {{ end }}
                     </td>
                   </tr>
+                  {{ end }}
                 </tbody>
               </table>
             </div>
           </section>
 
+          {{ if not $isNoBioAlumni }}
           <section class="member-bio-section">
             <h2 class="member-bio-section-title">{{ $educationLabel }}</h2>
             {{ if $education }}
@@ -106,10 +197,25 @@
             </ul>
             {{ end }}
           </section>
+          {{ end }}
         </div>
       </div>
 
       <div class="member-bio-wide">
+        {{ if $isNoBioAlumni }}
+        <section class="member-bio-section">
+          <h2 class="member-bio-section-title">{{ $themeKeywordLabel }}</h2>
+          {{ if .Params.keywords }}
+          <ul class="member-bio-list">
+            {{ range .Params.keywords }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <p class="member-bio-section-text">-</p>
+          {{ end }}
+        </section>
+        {{ else }}
         <section class="member-bio-section">
           <h2 class="member-bio-section-title">{{ $researchLabel }}</h2>
           <p class="member-bio-section-text">{{ $research | markdownify }}</p>
@@ -137,6 +243,7 @@
           <h3 class="member-bio-subtitle">MISC</h3>
           {{ partial "member_publication_items.html" (dict "items" $misc) }}
         </section>
+        {{ end }}
       </div>
     </article>
   </div>

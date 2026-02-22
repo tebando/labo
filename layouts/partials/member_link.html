@@ -1,10 +1,15 @@
 {{- $name := .Params.member_name | default .Title -}}
 {{- $internal := true -}}
+{{- $rawGroup := printf "%v" (.Params.member_group | default "") -}}
+{{- $isDirectAlumniGroup := or (eq $rawGroup "修了生") (eq $rawGroup "alumni") (eq $rawGroup "alu") -}}
 {{- if isset .Params "internal" -}}
   {{- $internal = .Params.internal -}}
 {{- end -}}
+{{- $isNoBioAlumni := and $isDirectAlumniGroup (not $internal) -}}
 
-{{- if and (not $internal) .Params.external_url -}}
+{{- if $isNoBioAlumni -}}
+<span class="members-name-link members-name-link-plain">{{ $name }}</span>
+{{- else if and (not $internal) .Params.external_url -}}
 <a class="members-name-link" href="{{ .Params.external_url | safeURL }}" target="_blank" rel="noopener noreferrer">{{ $name }}</a>
 {{- else if $internal -}}
 <a class="members-name-link" href="{{ .RelPermalink }}">{{ $name }}</a>

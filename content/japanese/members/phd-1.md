@@ -4,7 +4,7 @@ draft: false
 description: "カーロのプロフィール"
 member_id: "phd-1"
 weight: 10
-member_group: "phd"
+member_group: "博士学生"
 internal: true
 role: "博士後期課程"
 degree: "修士（教育工学）"

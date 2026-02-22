@@ -1,8 +1,15 @@
 {{- $group := .Params.member_group | default "" -}}
+{{- if eq $group "修士学生" -}}
+  {{- $group = "master" -}}
+{{- else if eq $group "博士学生" -}}
+  {{- $group = "phd" -}}
+{{- end -}}
 {{- if and .Params.enrolled_year (or (eq $group "master") (eq $group "phd")) -}}
   {{- $now := now -}}
-  {{- $fiscalYear := int ($now.Format "2006") -}}
-  {{- if lt (int ($now.Format "1")) 4 -}}
+  {{- $year := int ($now.Format "2006") -}}
+  {{- $month := int ($now.Format "01") -}}
+  {{- $fiscalYear := $year -}}
+  {{- if lt $month 4 -}}
     {{- $fiscalYear = sub $fiscalYear 1 -}}
   {{- end -}}
   {{- $diff := sub $fiscalYear (int .Params.enrolled_year) -}}
