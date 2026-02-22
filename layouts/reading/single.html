@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <article class="bg-white p-4 shadow-sm">
+          <h2 class="section-title mb-3">{{ .Title }}</h2>
+
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item mr-4 mb-2 text-muted">
+              <i class="ti-calendar mr-1"></i>{{ .Date.Format "2006-01-02" }}
+            </li>
+            <li class="list-inline-item mr-4 mb-2 text-muted">
+              <i class="ti-user mr-1"></i>{{ .Params.presenter | default "-" }}
+            </li>
+            <li class="list-inline-item mr-4 mb-2 text-muted">
+              <i class="ti-check-box mr-1"></i>{{ .Params.status | default "done" }}
+            </li>
+          </ul>
+
+          {{ with .Params.tags }}
+          <p class="mb-4">
+            {{ range . }}
+            <span class="badge badge-light border mr-1">{{ . }}</span>
+            {{ end }}
+          </p>
+          {{ end }}
+
+          <h3 class="h5 mb-2">引用情報</h3>
+          {{ if .Params.citation }}
+          <pre class="bg-light border rounded p-3 mb-4" style="white-space: pre-wrap;">{{ .Params.citation }}</pre>
+          {{ else }}
+          <p class="text-muted mb-4">引用情報は未入力です。</p>
+          {{ end }}
+
+          <div class="content mb-4">
+            {{ .Content }}
+          </div>
+
+          {{ with .Params.source_issue_url }}
+          <p class="small text-muted mb-0">
+            source issue:
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">
+              #{{ $.Params.source_issue | default "-" }}
+            </a>
+          </p>
+          {{ end }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

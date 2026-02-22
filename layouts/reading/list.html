@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    {{ if .Content }}
+    <div class="row">
+      <div class="col-12">
+        <div class="content mb-5">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="row">
+      {{ $pages := .RegularPages.ByDate.Reverse }}
+      {{ if gt (len $pages) 0 }}
+        {{ range $pages }}
+        {{ $points := findRE "(?m)^-\\s+.+$" .RawContent }}
+        <div class="col-lg-6 mb-4 d-flex">
+          <article class="card w-100 border-0 shadow-sm hover-shadow">
+            <div class="card-body d-flex flex-column">
+              <h3 class="h4 mb-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              <p class="text-muted mb-3">
+                <i class="ti-calendar mr-1"></i>{{ .Date.Format "2006-01-02" }}
+                <span class="mx-2">|</span>
+                <i class="ti-user mr-1"></i>{{ .Params.presenter | default "-" }}
+              </p>
+
+              {{ with .Params.tags }}
+              <p class="mb-3">
+                {{ range . }}
+                <span class="badge badge-light border mr-1">{{ . }}</span>
+                {{ end }}
+              </p>
+              {{ end }}
+
+              <p class="text-muted mb-2">引用: {{ if .Params.citation }}あり{{ else }}なし{{ end }}</p>
+
+              {{ if gt (len $points) 0 }}
+              <ul class="mb-4 pl-3">
+                {{ range first 3 $points }}
+                <li>{{ replaceRE "(?m)^-\\s+" "" . }}</li>
+                {{ end }}
+              </ul>
+              {{ else }}
+              <p class="text-muted mb-4">要点は未記入です。</p>
+              {{ end }}
+
+              <a class="btn btn-sm btn-outline-primary mt-auto align-self-start" href="{{ .RelPermalink }}">詳細を見る</a>
+            </div>
+          </article>
+        </div>
+        {{ end }}
+      {{ else }}
+      <div class="col-12">
+        <p class="mb-0">まだ輪読会の投稿がありません。</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

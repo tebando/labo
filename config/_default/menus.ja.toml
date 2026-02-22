@@ -6,18 +6,18 @@ url = "overview/"
 weight = 1
 
 [[main]]
-name = "研究"
-url = "research/"
-weight = 2
-
-[[main]]
 name = "メンバー"
 url = "members/"
-weight = 3
+weight = 2
 
 [[main]]
 name = "業績"
 url = "publications/"
+weight = 3
+
+[[main]]
+name = "輪読会"
+url = "reading/"
 weight = 4
 
 [[main]]
@@ -46,16 +46,16 @@ name = "研究室概要"
 url = "overview/"
 
 [[footer]]
-name = "研究"
-url = "research/"
-
-[[footer]]
 name = "メンバー"
 url = "members/"
 
 [[footer]]
 name = "業績"
 url = "publications/"
+
+[[footer]]
+name = "輪読会"
+url = "reading/"
 
 [[footer]]
 name = "お問い合わせ"

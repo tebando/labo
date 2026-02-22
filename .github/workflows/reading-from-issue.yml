@@ -1,0 +1,53 @@
+name: Create Reading Post From Issue
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  reading-from-issue:
+    # Extend allowlist by adding usernames to this comma-wrapped string.
+    if: >
+      contains(github.event.issue.labels.*.name, 'reading') &&
+      contains(',tebando,', format(',{0},', github.actor))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate markdown from issue form
+        run: |
+          python scripts/issue_to_reading_md.py \
+            --event-path "$GITHUB_EVENT_PATH" \
+            --output-dir "content/ja/reading" \
+            --mirror-dir "content/japanese/reading"
+
+      - name: Create or update pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: main
+          branch: reading/issue-${{ github.event.issue.number }}
+          title: "reading: issue #${{ github.event.issue.number }}"
+          body: |
+            This PR is auto-generated from issue #${{ github.event.issue.number }}.
+
+            - Source issue: ${{ github.event.issue.html_url }}
+            - Trigger actor: @${{ github.actor }}
+            - Workflow: `${{ github.workflow }}`
+          commit-message: "reading: issue #${{ github.event.issue.number }} を反映"
+          add-paths: |
+            content/ja/reading
+            content/japanese/reading
+          labels: |
+            reading

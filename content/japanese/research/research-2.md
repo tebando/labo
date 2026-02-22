@@ -1,6 +1,7 @@
 ---
 title: "小学校プログラミング教育"
-draft: false
+draft: true
+weight: 2
 image: "images/banner/banner-1.jpg"
 bg_image: "images/backgrounds/page-title.jpg"
 description: "小学校プログラミング教育に関する研究"

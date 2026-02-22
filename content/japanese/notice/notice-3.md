@@ -1,7 +1,7 @@
 ---
 title: "お問い合わせフォームを公開しました"
 draft: false
-date: 2026-02-13T09:00:00+09:00
+date: 2026-02-15T09:00:00+09:00
 bg_image: "images/backgrounds/page-title.jpg"
 description: "問い合わせ導線の公開"
 ---

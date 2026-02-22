@@ -1,0 +1,13 @@
+{{ $researchSection := .Site.GetPage "section" "research" }}
+{{ if $researchSection }}
+  {{ $pages := $researchSection.RegularPages.ByWeight }}
+  {{ if gt (len $pages) 0 }}
+  <div class="row">
+    {{ range $pages }}
+    <div class="col-lg-6 col-md-6 mb-4 d-flex">
+      {{ partial "research-card.html" . }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+{{ end }}

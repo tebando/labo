@@ -4,7 +4,7 @@ draft: false
 layout: "pages"
 url: "overview/"
 bg_image: "images/backgrounds/page-title.jpg"
-description: "研究室の基本情報"
+description: "研究室の基本情報と研究テーマ"
 ---
 
 ## 教育データ活用・学びデザイン研究室
@@ -16,6 +16,12 @@ description: "研究室の基本情報"
 - 学習ログや授業データに基づく、授業改善のための教育データ活用
 - 目標・評価・活動を接続する、実践可能な学びのデザイン
 - 生成AIを含むICT活用を踏まえた、AIリテラシー育成
+
+### 研究テーマ
+
+以下のテーマを中心に、学校現場で活用できる研究を進めています。
+
+{{< research-panels >}}
 
 ### 教育・研究連携
 

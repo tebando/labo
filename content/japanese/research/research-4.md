@@ -1,6 +1,7 @@
 ---
 title: "AIリテラシー"
 draft: false
+weight: 3
 image: "images/about/about-page.jpg"
 bg_image: "images/backgrounds/page-title.jpg"
 description: "AIリテラシーに関する研究"

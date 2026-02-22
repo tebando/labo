@@ -1,6 +1,7 @@
 ---
 title: "教育データ科学"
 draft: false
+weight: 2
 image: "images/about/about-us.jpg"
 bg_image: "images/backgrounds/page-title.jpg"
 description: "教育データ科学に関する研究"

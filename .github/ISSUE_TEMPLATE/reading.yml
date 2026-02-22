@@ -1,0 +1,66 @@
+name: Reading Note
+description: 輪読会記録を投稿します
+title: "reading: "
+labels: ["reading"]
+body:
+  - type: input
+    id: reading_date
+    attributes:
+      label: 開催日
+      description: 輪読会の開催日を入力してください
+      placeholder: 2026-02-22
+    validations:
+      required: true
+
+  - type: input
+    id: presenter
+    attributes:
+      label: 文責
+      description: 記録の作成者（発表者）
+      placeholder: 山田 太郎
+    validations:
+      required: true
+
+  - type: textarea
+    id: citation
+    attributes:
+      label: 引用情報
+      description: Google Scholar の引用情報をそのまま貼り付けてください（複数行可）
+      render: markdown
+      placeholder: |
+        Author, A., & Author, B. (2024). Paper title. Journal Name, 1(1), 1-10.
+    validations:
+      required: true
+
+  - type: textarea
+    id: key_points
+    attributes:
+      label: 要点
+      description: 箇条書きで3〜5点を入力してください
+      render: markdown
+      placeholder: |
+        - 要点1
+        - 要点2
+        - 要点3
+    validations:
+      required: true
+
+  - type: textarea
+    id: reflection
+    attributes:
+      label: リフレクション
+      description: 任意。議論や出た意見の整理
+      render: markdown
+      placeholder: |
+        議論メモ（任意）
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: タグ
+      description: 任意。カンマ区切りで入力（例: LLM, 教育評価, CSCL）
+      placeholder: LLM, 教育評価
+    validations:
+      required: false
