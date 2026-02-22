@@ -14,6 +14,8 @@ from typing import Dict, List, Optional
 FIELD_MAP = {
     "開催日": "date",
     "文責": "presenter",
+    "ステータス": "status",
+    "論文タイトル": "paper_title",
     "引用情報": "citation",
     "要点": "key_points",
     "リフレクション": "reflection",
@@ -150,13 +152,13 @@ def slugify(text: str) -> str:
 def derive_slug(citation: str, title: str, issue_number: int) -> str:
     if title:
         candidate = slugify(title)
-        if candidate:
+        if len(candidate) >= 4:
             return candidate
 
     for line in citation.splitlines():
         if line.strip():
             candidate = slugify(line.strip())
-            if candidate:
+            if len(candidate) >= 4:
                 return candidate
 
     return f"issue-{issue_number}"
@@ -216,6 +218,7 @@ def build_markdown(
     presenter: str,
     citation: str,
     tags: List[str],
+    status: str,
     issue_number: int,
     issue_url: str,
     key_points: List[str],
@@ -238,7 +241,7 @@ def build_markdown(
 
     lines.extend(
         [
-            "status: done",
+            f"status: {status}",
             f"source_issue: {issue_number}",
             f"source_issue_url: {quote_yaml(issue_url)}",
             "---",
@@ -287,14 +290,18 @@ def main() -> int:
 
     reading_date = normalize_date(fields["date"])
     presenter = fields["presenter"].strip()
+    raw_status = fields.get("status", "").strip().lower()
+    status = raw_status if raw_status in {"done", "upcoming"} else "done"
+    paper_title = fields.get("paper_title", "").strip()
     citation = normalize_newlines(fields["citation"]).strip()
     key_points = normalize_points(fields["key_points"])
     reflection = normalize_newlines(fields["reflection"]).strip()
     tags = normalize_tags(fields["tags"])
 
     extracted_title = extract_title_from_citation(citation)
-    title = extracted_title if extracted_title else f"Reading #{reading_date}"
-    slug = derive_slug(citation, extracted_title, issue_number)
+    title = paper_title if paper_title else extracted_title if extracted_title else f"Reading #{reading_date}"
+    slug_source_title = paper_title if paper_title else extracted_title
+    slug = derive_slug(citation, slug_source_title, issue_number)
 
     output_dir = Path(args.output_dir)
     mirror_dir = Path(args.mirror_dir) if args.mirror_dir else None
@@ -309,6 +316,7 @@ def main() -> int:
         presenter=presenter,
         citation=citation,
         tags=tags,
+        status=status,
         issue_number=issue_number,
         issue_url=issue_url,
         key_points=key_points,

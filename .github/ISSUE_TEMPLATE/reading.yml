@@ -3,6 +3,12 @@ description: 輪読会記録を投稿します
 title: "reading: "
 labels: ["reading"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 1. 基本情報
+        輪読会の実施情報を入力してください。
+
   - type: input
     id: reading_date
     attributes:
@@ -21,23 +27,63 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: status
+    attributes:
+      label: ステータス
+      description: 記録の状態（通常は done）
+      options:
+        - done
+        - upcoming
+      default: 0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 2. 論文情報
+        論文情報を入力してください（引用情報は必須）。
+
+  - type: input
+    id: paper_title
+    attributes:
+      label: 論文タイトル
+      description: 任意。引用情報からの抽出に失敗する場合はここに入力してください
+      placeholder: Prompt Engineering for Education
+    validations:
+      required: false
+
   - type: textarea
     id: citation
     attributes:
       label: 引用情報
       description: Google Scholar の引用情報をそのまま貼り付けてください（複数行可）
-      render: markdown
       placeholder: |
         Author, A., & Author, B. (2024). Paper title. Journal Name, 1(1), 1-10.
     validations:
       required: true
+
+  - type: input
+    id: paper_url
+    attributes:
+      label: 論文URL
+      description: 任意。出版社ページやDOI URLなど
+      placeholder: https://doi.org/xx.xxxx/xxxxx
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 3. 輪読メモ
+        要点と議論メモを入力してください。
 
   - type: textarea
     id: key_points
     attributes:
       label: 要点
       description: 箇条書きで3〜5点を入力してください
-      render: markdown
       placeholder: |
         - 要点1
         - 要点2
@@ -50,11 +96,16 @@ body:
     attributes:
       label: リフレクション
       description: 任意。議論や出た意見の整理
-      render: markdown
       placeholder: |
         議論メモ（任意）
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## 4. メタ情報
+        任意の分類情報を入力してください。
 
   - type: input
     id: tags
