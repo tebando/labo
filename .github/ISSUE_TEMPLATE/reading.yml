@@ -111,7 +111,7 @@ body:
     id: tags
     attributes:
       label: タグ
-      description: 任意。カンマ区切りで入力（例: LLM, 教育評価, CSCL）
+      description: "任意。カンマ区切りで入力（例: LLM, 教育評価, CSCL）"
       placeholder: LLM, 教育評価
     validations:
       required: false
