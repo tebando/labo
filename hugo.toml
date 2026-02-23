@@ -1,4 +1,4 @@
-baseURL = "https://tebando.github.io/labo/"
+baseURL = "https://tebando.github.io/tb_lab/"
 languageCode = "ja"
 title = "labo"
 theme = "educenter-hugo"

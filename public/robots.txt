@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tebando.github.io/tb_lab/sitemap.xml
