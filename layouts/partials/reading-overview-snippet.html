@@ -12,6 +12,6 @@
 
 {{- $summary = replaceRE `(?m)^\s*[-*+]\s*` "" $summary -}}
 {{- $summary = replaceRE `\r?\n` " " $summary -}}
-{{- $summary = replaceRE `\s+` " " $summary | strings.TrimSpace -}}
+{{- $summary = replaceRE `\s+` " " $summary | replaceRE `^\s+|\s+$` "" -}}
 
 {{- return (truncate 200 $summary) -}}

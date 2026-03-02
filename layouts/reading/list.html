@@ -31,7 +31,7 @@
           {{ end }}
         {{ end }}
         {{ range $tags }}
-          {{ $tag := strings.TrimSpace (printf "%v" .) }}
+          {{ $tag := replaceRE "^\\s+|\\s+$" "" (printf "%v" .) }}
           {{ if and $tag (not (in $keywords $tag)) }}
             {{ $keywords = $keywords | append $tag }}
           {{ end }}
@@ -90,7 +90,7 @@
       {{ end }}
       {{ end }}
       {{ $summary := partial "reading-overview-snippet.html" . }}
-      {{ $citationCompact := replaceRE "\\s+" " " (.Params.citation | default "") | strings.TrimSpace | truncate 150 }}
+      {{ $citationCompact := replaceRE "\\s+" " " (.Params.citation | default "") | replaceRE "^\\s+|\\s+$" "" | truncate 150 }}
       {{ $searchText := lower (printf "%s %s %v %s %s %s" $displayTitle (.Params.presenter | default "") $tags $summary $citationCompact .Plain) }}
       {{ $tagToken := "|" }}
       {{ if gt (len $tags) 0 }}
