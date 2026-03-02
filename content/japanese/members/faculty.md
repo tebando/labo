@@ -276,8 +276,7 @@ publications:
     title: "中学生の「情報活用の実践力」における構造モデルの検討"
     source: "日本教育工学会論文誌 32 101-104 2008年12月"
     url: ""
-
-  oral_presentations: []
+    
   oral_presentations:
   - authors: "阪東哲也"
     year: "2025"
