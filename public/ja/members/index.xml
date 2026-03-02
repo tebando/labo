@@ -1,6 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>メンバー on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title><link>https://tebando.github.io/tb_lab/ja/members/</link><description>Recent content in メンバー on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description><generator>Hugo</generator><language>ja-jp</language><atom:link href="https://tebando.github.io/tb_lab/ja/members/index.xml" rel="self" type="application/rss+xml"/><item><title>Mame</title><link>https://tebando.github.io/tb_lab/ja/members/m-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/m-1/</guid><description/></item><item><title>カーロ・シャーリン</title><link>https://tebando.github.io/tb_lab/ja/members/phd-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/phd-1/</guid><description/></item><item><title>吉川 喜久</title><link>https://tebando.github.io/tb_lab/ja/members/rs-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/rs-1/</guid><description>&lt;h2 id="プロフィール"&gt;プロフィール&lt;/h2&gt;
-&lt;p&gt;certifications:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;ldquo;2023年3月 幼稚園・小学校・中学校（技術）・高等学校（工業）の専修免許状を取得&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;2023年2月 IELTS 6.0（CEFR B2）取得&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>阪東 哲也</title><link>https://tebando.github.io/tb_lab/ja/members/faculty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/faculty/</guid><description/></item><item><title>田中 茂道</title><link>https://tebando.github.io/tb_lab/ja/members/m-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/m-2/</guid><description/></item><item><title>修士学生A</title><link>https://tebando.github.io/tb_lab/ja/members/m-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/m-3/</guid><description/></item><item><title>修士学生B</title><link>https://tebando.github.io/tb_lab/ja/members/m-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/m-4/</guid><description/></item><item><title>Alumni1</title><link>https://tebando.github.io/tb_lab/ja/members/alumni-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/alumni-1/</guid><description/></item><item><title>Alumni2</title><link>https://tebando.github.io/tb_lab/ja/members/alumni-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/alumni-2/</guid><description/></item><item><title>Alumni3(教育研修留学生)</title><link>https://tebando.github.io/tb_lab/ja/members/alumni-3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tebando.github.io/tb_lab/ja/members/alumni-3/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>メンバー on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+    <link>http://localhost:1313/tb_lab/ja/members/</link>
+    <description>Recent content in メンバー on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <atom:link href="http://localhost:1313/tb_lab/ja/members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mame</title>
+      <link>http://localhost:1313/tb_lab/ja/members/m-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/m-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>カーロ・シャーリン</title>
+      <link>http://localhost:1313/tb_lab/ja/members/phd-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/phd-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>吉川 喜久</title>
+      <link>http://localhost:1313/tb_lab/ja/members/rs-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/rs-1/</guid>
+      <description>&lt;h2 id=&#34;プロフィール&#34;&gt;プロフィール&lt;/h2&gt;&#xA;&lt;p&gt;certifications:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;2023年3月 幼稚園・小学校・中学校（技術）・高等学校（工業）の専修免許状を取得&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;2023年2月 IELTS 6.0（CEFR B2）取得&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>阪東 哲也</title>
+      <link>http://localhost:1313/tb_lab/ja/members/faculty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/faculty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>田中 茂道</title>
+      <link>http://localhost:1313/tb_lab/ja/members/m-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/m-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>修士学生A</title>
+      <link>http://localhost:1313/tb_lab/ja/members/m-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/m-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>仲川　和磨</title>
+      <link>http://localhost:1313/tb_lab/ja/members/m-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/m-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alumni1</title>
+      <link>http://localhost:1313/tb_lab/ja/members/alumni-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/alumni-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alumni2</title>
+      <link>http://localhost:1313/tb_lab/ja/members/alumni-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/alumni-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alumni3(教育研修留学生)</title>
+      <link>http://localhost:1313/tb_lab/ja/members/alumni-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/members/alumni-3/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

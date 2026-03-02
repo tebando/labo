@@ -277,7 +277,6 @@ publications:
     source: "Journal of the Japan Society for Educational Technology 32 101-104 December 2008"
     url: ""
 
-  oral_presentations: []
   oral_presentations:
   - authors: "阪東哲也"
     year: "2025"

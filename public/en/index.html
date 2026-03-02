@@ -1,9 +1,842 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><title>教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab</title><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1"><meta name=description content="A lab exploring lesson improvement and learning quality through information education, elementary programming education, and educational data science."><link rel=canonical href=https://tebando.github.io/tb_lab/en/><meta name=author content="Education Data & Learning Design Lab"><meta name=theme-name content="educenter-hugo"><meta property="og:type" content="website"><meta property="og:title" content="教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab"><meta property="og:description" content="A lab exploring lesson improvement and learning quality through information education, elementary programming education, and educational data science."><meta property="og:url" content="https://tebando.github.io/tb_lab/en/"><meta property="og:site_name" content="教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab"><meta property="og:image" content="https://tebando.github.io/tb_lab/images/logo.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab"><meta name=twitter:description content="A lab exploring lesson improvement and learning quality through information education, elementary programming education, and educational data science."><meta name=twitter:image content="https://tebando.github.io/tb_lab/images/logo.png"><meta name=generator content="Hugo 0.149.0"><link rel=alternate hreflang=ja href=https://tebando.github.io/tb_lab/ja/><link rel=alternate hreflang=en href=https://tebando.github.io/tb_lab/en/><link rel=stylesheet href=https://tebando.github.io/tb_lab/plugins/bootstrap/bootstrap.min.css><link rel=stylesheet href=https://tebando.github.io/tb_lab/plugins/slick/slick.css><link rel=stylesheet href=https://tebando.github.io/tb_lab/plugins/animate/animate.css><link rel=stylesheet href=https://tebando.github.io/tb_lab/plugins/venobox/venobox.css><link rel=stylesheet href=https://tebando.github.io/tb_lab/plugins/themify-icons/themify-icons.css><link rel=stylesheet href=https://tebando.github.io/tb_lab/scss/main.b99e11e43276aa19f2e84bbdfd5f442ce7b9c2cd9326685fa24ef68f7b5083b8bb91bf01910e348a3e980134242337dc84d2574600f27e2e84df4035f3e8b09a.css integrity="sha512-uZ4R5DJ2qhny6Eu9/V9ELOe5ws2TJmhfok72j3tQg7i7kb8BkQ40ij6YATQkIzfchNJXRgDyfi6E30A18+iwmg==" media=screen><link rel="shortcut icon" href=https://tebando.github.io/tb_lab/images/favicon.png type=image/x-icon><link rel=icon href=https://tebando.github.io/tb_lab/images/favicon.png type=image/x-icon></head><body><div class=preloader><img src=/tb_lab/images/preloader.gif loading=lazy decoding=async alt=preloader class=img width height></div><header class="fixed-top header"><div class="navigation w-100"><div class=container><nav class="navbar navbar-expand-lg navbar-light p-0"><a class=navbar-brand href=/tb_lab/en><picture><source srcset=/tb_lab/images/logo_hu_a030dfe721d94365.webp media="(max-width: 575px)"><source srcset=/tb_lab/images/logo_hu_c0bcf0baf73c27bd.webp media="(max-width: 767px)"><source srcset=/tb_lab/images/logo_hu_6c4f0559f099621e.webp media="(max-width: 991px)"><source srcset=/tb_lab/images/logo_hu_d1471f3aa49b6bbb.webp><img loading=lazy decoding=async src=/tb_lab/images/logo_hu_405702cbfa477fa3.png class="img-fluid img" alt="教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab" width=666 height=204>
-</picture></a><button class="navbar-toggler rounded-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse text-left" id=navigation><ul class="navbar-nav ml-auto"><li class=nav-item><a class=nav-link href=/tb_lab/en>Home</a></li><li class=nav-item><a class=nav-link href=https://tebando.github.io/tb_lab/en/overview/>Lab Overview</a></li><li class=nav-item><a class=nav-link href=https://tebando.github.io/tb_lab/en/research/>Research</a></li><li class=nav-item><a class=nav-link href=https://tebando.github.io/tb_lab/en/members/>Members</a></li><li class=nav-item><a class=nav-link href=https://tebando.github.io/tb_lab/en/publications/>Publications</a></li><li class=nav-item><a class=nav-link href=https://tebando.github.io/tb_lab/en/notice/>Notice</a></li><li class=nav-item><a class=nav-link href=https://tebando.github.io/tb_lab/en/join/>Join Us</a></li><li class=nav-item><a class=nav-link href=https://www.naruto-u.ac.jp/access.html>Access</a></li><li class=nav-item><a class=nav-link href=https://forms.gle/27n7coB55JCUKAwFA>Contact</a></li></ul><select class="m-2 border-0 mb-3 mb-lg-0" id=select-language onchange="location=this.value"><option id=ja value=https://tebando.github.io/tb_lab/ja/>日本語</option><option id=en value=https://tebando.github.io/tb_lab/en/ selected>English</option></select></div></nav></div></div></header><section class=home-hero><div class=container><div class=home-hero-panel><div class="row align-items-center"><div class=col-lg-8><span class=home-hero-kicker>Education Data & Learning Design Lab</span><h1 class=home-hero-title>Education Data Utilization and Learning Design Lab</h1><p class=home-hero-text></p><div class=home-hero-actions></div></div><div class="col-lg-4 d-none d-lg-block"><div class="home-hero-art home-hero-art--icon"><img class=home-hero-art-icon src=https://tebando.github.io/tb_lab/images/home/learning-design-mark.svg alt="Lab icon" loading=lazy decoding=async></div></div></div></div></div></section><section class="home-pillars section-sm"><div class=container><div class=row><div class="col-md-4 mb-4"><article class=pillar-card><div class=pillar-icon><i class=ti-bar-chart></i></div><h3 class=pillar-title>Education Analytics</h3><p class=pillar-text>We visualize learning logs and lesson data to conduct analyses that support decision-making and lesson improvement.</p></article></div><div class="col-md-4 mb-4"><article class=pillar-card><div class=pillar-icon><i class=ti-layout-grid2></i></div><h3 class=pillar-title>Learning Design</h3><p class=pillar-text>We connect goals, assessment, and learning activities to design and validate practical learning designs.</p></article></div><div class="col-md-4 mb-4"><article class=pillar-card><div class=pillar-icon><i class=ti-light-bulb></i></div><h3 class=pillar-title>AI Literacy</h3><p class=pillar-text>Based on the use of generative AI in educational settings, we work on foundational understanding and practical AI literacy development.</p></article></div></div></div></section><section class="section home-about-section"><div class=container><article class=home-about-card><div class="row align-items-stretch no-gutters home-about-layout"><div class="col-lg-7 order-2 order-lg-1"><div class=home-about-body><span class=home-about-kicker>Lab Overview</span><h2 class=section-title>Lab Overview</h2><p>Centered on educational data science, we explore lesson improvement and enhancement of learning quality. We pursue learning design using AI and ICT.</p><a href=https://tebando.github.io/tb_lab/en/overview/ class="btn btn-outline-primary">View Lab Overview</a></div></div><div class="col-lg-5 order-1 order-lg-2"><div class=home-about-image-wrap><img src=/tb_lab/images/about/about-data-science.svg loading=lazy decoding=async alt="about image" class="img-fluid w-100 home-about-image img" width height></div></div></div></article></div></section><section class="section home-notice-section"><div class=container><article class=home-notice-card><div class=row><div class=col-12><h2 class=section-title>Notice</h2></div></div><div class=row><div class=col-12><ul class=notice-slim-list><li class=notice-slim-item><a class=notice-slim-link href=https://tebando.github.io/tb_lab/en/notice/notice-1/><time class=notice-slim-date datetime=2026-02-15>2026.02.15</time>
-<span class=notice-slim-title>Lab website has been launched (temporary)</span>
-<span class=notice-slim-arrow aria-hidden=true>></span></a></li><li class=notice-slim-item><a class=notice-slim-link href=https://tebando.github.io/tb_lab/en/notice/notice-2/><time class=notice-slim-date datetime=2026-02-14>2026.02.14</time>
-<span class=notice-slim-title>Research themes page has been updated (temporary)</span>
-<span class=notice-slim-arrow aria-hidden=true>></span></a></li><li class=notice-slim-item><a class=notice-slim-link href=https://tebando.github.io/tb_lab/en/notice/notice-3/><time class=notice-slim-date datetime=2026-02-13>2026.02.13</time>
-<span class=notice-slim-title>Contact form has been published</span>
-<span class=notice-slim-arrow aria-hidden=true>></span></a></li></ul></div></div></article></div></section><section class=home-cta><div class=container><div class=home-cta-panel><div class="row align-items-center"><div class="col-lg-8 mb-4 mb-lg-0"><h6 class="home-cta-subtitle font-secondary mb-2">If you are interested in learning and research in our lab, please contact us via the inquiry form.</h6><h2 class=home-cta-title>For Those Who Want to Conduct Research with Us</h2></div><div class="col-lg-4 text-lg-right"><a href=https://forms.gle/27n7coB55JCUKAwFA class="btn btn-primary">Contact</a></div></div></div></div></section><footer><div class="footer bg-footer section"><div class=container><div class="row align-items-center footer-compact-row"><div class="col-md-4 text-center text-md-left mb-3 mb-md-0"><a class=logo-footer href=/tb_lab/en><picture><source srcset=/tb_lab/images/logo_hu_a030dfe721d94365.webp media="(max-width: 575px)"><source srcset=/tb_lab/images/logo_hu_c0bcf0baf73c27bd.webp media="(max-width: 767px)"><source srcset=/tb_lab/images/logo_hu_6c4f0559f099621e.webp media="(max-width: 991px)"><source srcset=/tb_lab/images/logo_hu_d1471f3aa49b6bbb.webp><img loading=lazy decoding=async src=/tb_lab/images/logo_hu_405702cbfa477fa3.png class="img-fluid img" alt="教育データ活用・学びデザイン研究室 | Education Data & Learning Design Lab" width=666 height=204></picture></a></div><div class="col-md-8 text-center text-md-left"><p class="footer-meta mb-1">Education Data Utilization and Learning Design Lab</p><p class="footer-meta mb-1">Naruto University of Education | Information Infrastructure Center, 1F (rear side)</p><p class="footer-meta mb-0">© 2026 Education Data Utilization and Learning Design Lab</p></div></div></div></div></footer><script src=https://tebando.github.io/tb_lab/plugins/jQuery/jquery.min.js></script><script src=https://tebando.github.io/tb_lab/plugins/bootstrap/bootstrap.min.js></script><script src=https://tebando.github.io/tb_lab/plugins/slick/slick.min.js></script><script src=https://tebando.github.io/tb_lab/plugins/venobox/venobox.min.js></script><script src=https://tebando.github.io/tb_lab/plugins/filterizr/jquery.filterizr.min.js></script><script src=https://tebando.github.io/tb_lab/plugins/google-map/gmap.js></script><script src=https://tebando.github.io/tb_lab/js/script.min.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/tb_lab/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tb_lab/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  
+  
+  <meta name="description" content="A lab exploring lesson improvement and learning quality through information education, elementary programming education, and educational data science.">
+  <link rel="canonical" href="http://localhost:1313/tb_lab/en/">
+  
+  <meta name="author" content="Education Data &amp; Learning Design Lab">
+  
+
+  
+  <meta name="theme-name" content="educenter-hugo" />
+
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- OGP -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab">
+  <meta property="og:description" content="A lab exploring lesson improvement and learning quality through information education, elementary programming education, and educational data science.">
+  <meta property="og:url" content="http://localhost:1313/tb_lab/en/">
+  <meta property="og:site_name" content="教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab">
+  
+  <meta property="og:image" content="http://localhost:1313/tb_lab/images/logo.png">
+  
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab">
+  <meta name="twitter:description" content="A lab exploring lesson improvement and learning quality through information education, elementary programming education, and educational data science.">
+  
+  <meta name="twitter:image" content="http://localhost:1313/tb_lab/images/logo.png">
+  
+
+  <meta name="generator" content="Hugo 0.157.0">
+  <!-- multilingual SEO optimizations -->
+  
+  
+  <link rel="alternate" hreflang="ja" href="http://localhost:1313/tb_lab/ja/">
+  
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/tb_lab/en/">
+  
+  
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/plugins/animate/animate.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/plugins/venobox/venobox.css">
+  
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/scss/main.b99e11e43276aa19f2e84bbdfd5f442ce7b9c2cd9326685fa24ef68f7b5083b8bb91bf01910e348a3e980134242337dc84d2574600f27e2e84df4035f3e8b09a.css" integrity="sha512-uZ4R5DJ2qhny6Eu9/V9ELOe5ws2TJmhfok72j3tQg7i7kb8BkQ40ij6YATQkIzfchNJXRgDyfi6E30A18&#43;iwmg==" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://localhost:1313/tb_lab/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/tb_lab/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/tb_lab/images/preloader.gif"
+        loading="lazy"
+        decoding="async"
+        alt="preloader"
+        class=" img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+  
+</div>
+<!-- preloader end -->
+
+<header class="fixed-top header">
+  
+  
+  
+  <div class="navigation w-100 ">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand" href="/tb_lab/en">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_1c2da6821a9da486.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_a93cfa26ca74a88a.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_3f9bfc3100368158.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_a804b7a47a273f0f.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/tb_lab/images/logo_hu_2479e8729afe72fd.png"
+            class=" img-fluid img"
+            alt="教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab"
+            width="666"
+            height="204" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+        </a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-left" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/tb_lab/en">Home</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:1313/tb_lab/en/overview/">Lab Overview</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:1313/tb_lab/en/research/">Research</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:1313/tb_lab/en/members/">Members</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:1313/tb_lab/en/publications/">Publications</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:1313/tb_lab/en/notice/">Notice</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:1313/tb_lab/en/join/">Join Us</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.naruto-u.ac.jp/access.html">Access</a>
+            </li>
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://forms.gle/27n7coB55JCUKAwFA">Contact</a>
+            </li>
+            
+            
+          </ul>
+
+          
+          
+          <select class="m-2 border-0 mb-3 mb-lg-0" id="select-language" onchange="location = this.value;">
+            
+            
+            
+            
+            
+            
+            
+            
+            <option id="ja" value="http://localhost:1313/tb_lab/ja/">日本語</option>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <option id="en" value="http://localhost:1313/tb_lab/en/" selected>English
+            </option>
+            
+            
+            
+            
+          </select>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+<section class="home-hero">
+  <div class="container">
+    <div class="home-hero-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="home-hero-kicker">Education Data &amp; Learning Design Lab</span>
+          <h1 class="home-hero-title">Education Data Utilization and Learning Design Lab</h1>
+          <p class="home-hero-text"></p>
+          <div class="home-hero-actions">
+            
+            
+          </div>
+        </div>
+        
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="home-hero-art home-hero-art--icon" >
+            
+            <img class="home-hero-art-icon" src="http://localhost:1313/tb_lab/images/home/learning-design-mark.svg" alt="Lab icon" loading="lazy" decoding="async">
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="home-pillars section-sm">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="ti-bar-chart"></i></div>
+          <h3 class="pillar-title">Education Analytics</h3>
+          <p class="pillar-text">We visualize learning logs and lesson data to conduct analyses that support decision-making and lesson improvement.</p>
+        </article>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="ti-layout-grid2"></i></div>
+          <h3 class="pillar-title">Learning Design</h3>
+          <p class="pillar-text">We connect goals, assessment, and learning activities to design and validate practical learning designs.</p>
+        </article>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+        <article class="pillar-card">
+          <div class="pillar-icon"><i class="ti-light-bulb"></i></div>
+          <h3 class="pillar-title">AI Literacy</h3>
+          <p class="pillar-text">Based on the use of generative AI in educational settings, we work on foundational understanding and practical AI literacy development.</p>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="section home-about-section">
+  <div class="container">
+    
+    <article class="home-about-card">
+      <div class="row align-items-stretch no-gutters home-about-layout">
+        <div class="col-lg-7 order-2 order-lg-1">
+          <div class="home-about-body">
+            <span class="home-about-kicker">Lab Overview</span>
+            <h2 class="section-title">Lab Overview</h2>
+            <p>Centered on educational data science, we explore lesson improvement and enhancement of learning quality. We pursue learning design using AI and ICT.</p>
+            
+            
+            <a href="http://localhost:1313/tb_lab/en/overview/" class="btn btn-outline-primary">View Lab Overview</a>
+            
+            
+          </div>
+        </div>
+        
+        <div class="col-lg-5 order-1 order-lg-2">
+          <div class="home-about-image-wrap">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      <img
+        src="/tb_lab/images/about/about-data-science.svg"
+        loading="lazy"
+        decoding="async"
+        alt="about image"
+        class="img-fluid w-100 home-about-image img"
+        width=""
+        height="" />
+    
+    
+  
+
+
+  
+
+
+          </div>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section home-notice-section">
+  <div class="container">
+    <article class="home-notice-card">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-title">Notice</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="notice-slim-list">
+            
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="http://localhost:1313/tb_lab/en/notice/notice-1/">
+                <time class="notice-slim-date" datetime="2026-02-15">2026.02.15</time>
+                <span class="notice-slim-title">Lab website has been launched (temporary)</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="http://localhost:1313/tb_lab/en/notice/notice-2/">
+                <time class="notice-slim-date" datetime="2026-02-14">2026.02.14</time>
+                <span class="notice-slim-title">Research themes page has been updated (temporary)</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="http://localhost:1313/tb_lab/en/notice/notice-3/">
+                <time class="notice-slim-date" datetime="2026-02-13">2026.02.13</time>
+                <span class="notice-slim-title">Contact form has been published</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="http://localhost:1313/tb_lab/en/notice/notice-4/">
+                <time class="notice-slim-date" datetime="2019-07-06">2019.07.06</time>
+                <span class="notice-slim-title">Teaching Materials and Testing Methods</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="http://localhost:1313/tb_lab/en/notice/notice-5/">
+                <time class="notice-slim-date" datetime="2019-07-06">2019.07.06</time>
+                <span class="notice-slim-title">Teaching Materials and Testing Methods</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            
+            <li class="notice-slim-item">
+              <a class="notice-slim-link" href="http://localhost:1313/tb_lab/en/notice/notice-6/">
+                <time class="notice-slim-date" datetime="2019-07-06">2019.07.06</time>
+                <span class="notice-slim-title">Teaching Materials and Testing Methods</span>
+                <span class="notice-slim-arrow" aria-hidden="true">&gt;</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="home-cta">
+  <div class="container">
+    <div class="home-cta-panel">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mb-4 mb-lg-0">
+          <h6 class="home-cta-subtitle font-secondary mb-2">If you are interested in learning and research in our lab, please contact us via the inquiry form.</h6>
+          <h2 class="home-cta-title">For Those Who Want to Conduct Research with Us</h2>
+        </div>
+        <div class="col-lg-4 text-lg-right">
+          
+          
+          <a href="https://forms.gle/27n7coB55JCUKAwFA" class="btn btn-primary">Contact</a>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<footer>
+  <div class="footer bg-footer section">
+    <div class="container">
+      <div class="row align-items-center footer-compact-row">
+        <div class="col-md-4 text-center text-md-left mb-3 mb-md-0">
+          <a class="logo-footer" href="/tb_lab/en">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  
+    
+      
+    
+
+
+    
+    
+
+
+    
+    
+      
+      
+    
+    
+    
+
+
+    
+    
+      
+      
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+
+        
+        
+
+
+        <picture>
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_1c2da6821a9da486.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_a93cfa26ca74a88a.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_3f9bfc3100368158.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/tb_lab/images/logo_hu_a804b7a47a273f0f.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/tb_lab/images/logo_hu_2479e8729afe72fd.png"
+            class=" img-fluid img"
+            alt="教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab"
+            width="666"
+            height="204" />
+        </picture>
+      
+      
+    
+    
+  
+
+
+  
+
+
+          </a>
+        </div>
+        <div class="col-md-8 text-center text-md-left">
+          <p class="footer-meta mb-1">Education Data Utilization and Learning Design Lab</p>
+          <p class="footer-meta mb-1">Naruto University of Education | Information Infrastructure Center, 1F (rear side)</p>
+          <p class="footer-meta mb-0">© 2026 Education Data Utilization and Learning Design Lab</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Google Map API -->
+
+
+<!-- JS Plugins -->
+
+<script src="http://localhost:1313/tb_lab/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://localhost:1313/tb_lab/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://localhost:1313/tb_lab/plugins/slick/slick.min.js"></script>
+
+<script src="http://localhost:1313/tb_lab/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://localhost:1313/tb_lab/plugins/filterizr/jquery.filterizr.min.js"></script>
+
+<script src="http://localhost:1313/tb_lab/plugins/google-map/gmap.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="http://localhost:1313/tb_lab/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+</body>
+
+</html>
