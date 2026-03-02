@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生成AI on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+    <link>http://localhost:1313/tb_lab/ja/tags/%E7%94%9F%E6%88%90ai/</link>
+    <description>Recent content in 生成AI on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tb_lab/ja/tags/%E7%94%9F%E6%88%90ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生成AIフィードバックは教室対話をどう変えるか</title>
+      <link>http://localhost:1313/tb_lab/ja/reading/2026-02-10-generative-feedback-classroom/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/reading/2026-02-10-generative-feedback-classroom/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AIのフィードバックを即時提示すると、児童の説明の再構成回数が増えた。&lt;/li&gt;&#xA;&lt;li&gt;教師の問い返しとAI提案を併用した群で、深い理由づけが最も多かった。&lt;/li&gt;&#xA;&lt;li&gt;フィードバックの質は「短く具体的」なときに活用率が高かった。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ディスカッション&#34;&gt;ディスカッション&lt;/h2&gt;&#xA;&lt;p&gt;授業中にどこまでAIへ委ねるかの線引きが重要。次回は教員の介入タイミングを記録して比較する。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

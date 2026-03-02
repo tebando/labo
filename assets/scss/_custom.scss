@@ -309,6 +309,213 @@ html[lang^="ja"] .home-hero-title {
   background: rgba(217, 179, 108, 0.12);
 }
 
+.reading-intro-card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(43, 43, 43, 0.1);
+  border-radius: 12px;
+  padding: 20px 22px;
+}
+
+.reading-search-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  gap: 12px;
+  align-items: end;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(247, 242, 232, 0.86));
+  border: 1px solid rgba(43, 43, 43, 0.1);
+  border-radius: 16px;
+  padding: 12px 14px;
+  box-shadow: 0 8px 22px rgba(47, 93, 80, 0.08);
+}
+
+.reading-search-wrap {
+  position: sticky;
+  top: 94px;
+  z-index: 12;
+}
+
+.reading-search-group,
+.reading-tag-group {
+  min-width: 0;
+}
+
+.reading-search-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5f5a53;
+}
+
+.reading-search-shell {
+  position: relative;
+}
+
+.reading-search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #7b7468;
+  pointer-events: none;
+}
+
+.reading-search-input {
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(43, 43, 43, 0.16);
+  background: rgba(255, 255, 255, 0.95);
+  padding-left: 38px;
+  padding-right: 42px;
+}
+
+.reading-search-input:focus {
+  border-color: rgba(47, 93, 80, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(47, 93, 80, 0.14);
+}
+
+.reading-search-clear {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(43, 43, 43, 0.06);
+  color: #665f55;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, background-color 0.18s ease;
+}
+
+.reading-search-clear.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.reading-search-clear:hover {
+  background: rgba(43, 43, 43, 0.12);
+}
+
+.reading-search-status {
+  margin-top: 7px;
+  font-size: 13px;
+  color: #706a60;
+  padding-left: 4px;
+}
+
+.reading-tag-select {
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(43, 43, 43, 0.14);
+  background: rgba(255, 255, 255, 0.92);
+  padding-left: 14px;
+}
+
+.reading-tag-select:focus {
+  border-color: rgba(47, 93, 80, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(47, 93, 80, 0.12);
+}
+
+.reading-card {
+  border: 1px solid rgba(43, 43, 43, 0.1);
+  border-top: 4px solid rgba(47, 93, 80, 0.32);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reading-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(47, 93, 80, 0.12);
+}
+
+.reading-card .card-body {
+  padding: 20px 20px 18px;
+}
+
+.reading-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  font-size: 14px;
+  color: #706a60;
+}
+
+.reading-card-meta span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.reading-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.reading-card-summary {
+  color: #3f3a33;
+  line-height: 1.66;
+}
+
+.reading-card-citation {
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(43, 43, 43, 0.1);
+  font-size: 13px;
+  line-height: 1.6;
+  color: #5f5a53;
+}
+
+.reading-single-card {
+  border: 1px solid rgba(43, 43, 43, 0.1);
+  border-top: 4px solid rgba(47, 93, 80, 0.32);
+  border-radius: 12px;
+}
+
+.reading-single-title {
+  margin: 0 0 14px;
+  font-size: 1.75rem;
+  line-height: 1.35;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.reading-block-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #5f5a53;
+}
+
+.reading-citation {
+  white-space: pre-wrap;
+}
+
+.reading-single-card .content > :first-child {
+  margin-top: 0;
+}
+
+.reading-single-card .content h2 {
+  font-size: 1.22rem;
+  font-weight: 600;
+  color: #4d483f;
+  margin: 1.35rem 0 0.55rem;
+}
+
+.reading-single-card .content h3 {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #5c564c;
+  margin: 1.05rem 0 0.45rem;
+}
+
 .btn {
   border-radius: 8px;
 }
@@ -896,6 +1103,38 @@ html[lang^="ja"] .home-hero-title {
   .notice-slim-date {
     min-width: 88px;
     font-size: 12px;
+  }
+
+  .reading-intro-card {
+    padding: 16px 14px;
+  }
+
+  .reading-search-panel {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 10px 10px;
+  }
+
+  .reading-search-wrap {
+    top: 78px;
+  }
+
+  .reading-search-input {
+    height: 42px;
+  }
+
+  .reading-tag-select {
+    height: 42px;
+    font-size: 13px;
+  }
+
+  .reading-card .card-body {
+    padding: 16px 14px 14px;
+  }
+
+  .reading-card-meta {
+    gap: 8px 14px;
+    font-size: 13px;
   }
 
   .members-section-title {

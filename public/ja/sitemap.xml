@@ -26,18 +26,6 @@
                 href="http://localhost:1313/tb_lab/ja/research/research-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tb_lab/ja/research/research-2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tb_lab/en/research/research-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="http://localhost:1313/tb_lab/ja/research/research-2/"
-                />
-  </url><url>
     <loc>http://localhost:1313/tb_lab/ja/research/research-4/</loc>
     <xhtml:link
                 rel="alternate"
@@ -179,6 +167,34 @@
                 href="http://localhost:1313/tb_lab/ja/"
                 />
   </url><url>
+    <loc>http://localhost:1313/tb_lab/ja/tags/ai%E8%A9%95%E4%BE%A1/</loc>
+    <lastmod>2026-02-18T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tb_lab/ja/reading/2026-02-24/</loc>
+    <lastmod>2026-02-18T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tb_lab/ja/tags/</loc>
+    <lastmod>2026-02-18T00:00:00-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/tb_lab/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-jp"
+                href="http://localhost:1313/tb_lab/ja/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tb_lab/ja/tags/%E9%9F%B3%E6%A5%BD/</loc>
+    <lastmod>2026-02-18T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tb_lab/ja/tags/%E5%8F%AF%E8%A6%96%E5%8C%96/</loc>
+    <lastmod>2026-02-18T00:00:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tb_lab/ja/reading/</loc>
+    <lastmod>2026-02-18T00:00:00-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tb_lab/ja/notice/</loc>
     <lastmod>2026-02-15T09:00:00+09:00</lastmod>
     <xhtml:link
@@ -241,18 +257,6 @@
                 rel="alternate"
                 hreflang="ja-jp"
                 href="http://localhost:1313/tb_lab/ja/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tb_lab/ja/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/tb_lab/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="http://localhost:1313/tb_lab/ja/tags/"
                 />
   </url><url>
     <loc>http://localhost:1313/tb_lab/ja/access/</loc>
@@ -338,7 +342,5 @@
                 hreflang="ja-jp"
                 href="http://localhost:1313/tb_lab/ja/overview/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tb_lab/ja/reading/</loc>
   </url>
 </urlset>

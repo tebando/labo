@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSCL on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</title>
+    <link>http://localhost:1313/tb_lab/ja/tags/cscl/</link>
+    <description>Recent content in CSCL on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tb_lab/ja/tags/cscl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSCLにおける学習調整支援ダッシュボードの効果</title>
+      <link>http://localhost:1313/tb_lab/ja/reading/2026-02-24-cscl-regulation-dashboard/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/reading/2026-02-24-cscl-regulation-dashboard/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ダッシュボード導入群は、タスク分担の偏りが有意に減少した。&lt;/li&gt;&#xA;&lt;li&gt;「発話量」だけでなく「未解決課題数」を示す指標が議論を促進した。&lt;/li&gt;&#xA;&lt;li&gt;可視化項目が多すぎると、逆に自己調整が低下する可能性が示唆された。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ディスカッション&#34;&gt;ディスカッション&lt;/h2&gt;&#xA;&lt;p&gt;研究室実践では、表示項目を3つ程度に絞るデザインがよさそう。次回は授業ログとの連携方法を検討する。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

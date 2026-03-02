@@ -6,6 +6,14 @@
     <description>Recent content in 輪読会 on 教育データ活用・学びデザイン研究室 | Education Data &amp; Learning Design Lab</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
+    <lastBuildDate>Wed, 18 Feb 2026 00:00:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/tb_lab/ja/reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatic Assessment of Tone Quality in Violin Music Performance</title>
+      <link>http://localhost:1313/tb_lab/ja/reading/2026-02-24/</link>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/tb_lab/ja/reading/2026-02-24/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;本論文の目的は、ヴァイオリンの音色（トーン）の良し悪しを、人の主観評価に近い形で自動的に判定する方法を作ることである。方法としては、まず録音データを集め、専門家や聴取者に音色を評価してもらい、その結果を教師ラベル（正解データ）として用いた。次に、録音からスペクトルや倍音、エネルギーの時間変化などの音響特徴量を抽出し、機械学習モデルにより音色評価を予測できるよう学習させた。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

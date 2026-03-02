@@ -64,7 +64,7 @@
 
   <!-- Main Stylesheet -->
   
-  <link rel="stylesheet" href="http://localhost:1313/tb_lab/scss/main.b99e11e43276aa19f2e84bbdfd5f442ce7b9c2cd9326685fa24ef68f7b5083b8bb91bf01910e348a3e980134242337dc84d2574600f27e2e84df4035f3e8b09a.css" integrity="sha512-uZ4R5DJ2qhny6Eu9/V9ELOe5ws2TJmhfok72j3tQg7i7kb8BkQ40ij6YATQkIzfchNJXRgDyfi6E30A18&#43;iwmg==" media="screen">
+  <link rel="stylesheet" href="http://localhost:1313/tb_lab/scss/main.f6f7d49ca3d21f21779e21c40a8dfb6982ce51957912f8e7c74c493ca25bccdacb866f055d3042eb5ea2083535e07c9f7d0a33566f52581776e6ab0847a4e262.css" integrity="sha512-9vfUnKPSHyF3niHECo37aYLOUZV5Evjnx0xJPKJbzNrLhm8FXTBC616iCDU14HyffQozVm9SWBd25qsIR6TiYg==" media="screen">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="http://localhost:1313/tb_lab/images/favicon.png" type="image/x-icon">
@@ -354,6 +354,8 @@
       <div class="col-md-10">
         
         
+        
+        
         <ul class="list-inline custom-breadcrumb">
           <li class="list-inline-item h2">
             <a class="font-secondary" href="/tb_lab/ja">ホーム</a>
@@ -370,30 +372,226 @@
 
 	
 
-<section class="section">
+<section class="section reading-page-section">
   <div class="container">
     
-    <div class="row">
-      <div class="col-12">
-        <div class="content mb-5">
-          <p>研究室の輪読会記録です。Google Scholarの引用情報を貼るだけで投稿できます。</p>
-<p><a class="btn btn-primary mt-3" href="https://github.com/tebando/tb_lab/issues/new?template=reading.yml" target="_blank" rel="noopener noreferrer">輪読会を投稿する</a></p>
 
+    
+    
+    
+    
+    
+    
+      
+        
+        
+        
+          
+            
+          
+        
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+      
+      
+    
+    
+    <div class="row mb-4 reading-search-row">
+      <div class="col-12">
+        <div class="reading-search-wrap">
+        <div class="reading-search-panel">
+          <div class="reading-search-group">
+            <label class="reading-search-label" for="reading-card-search">検索</label>
+            <div class="reading-search-shell">
+              <span class="reading-search-icon" aria-hidden="true"><i class="ti-search"></i></span>
+              <input id="reading-card-search" class="form-control reading-search-input" type="search" list="reading-tag-suggestions" placeholder="タイトル・発表者・文献情報で検索">
+              <button id="reading-card-search-clear" class="reading-search-clear" type="button" aria-label="検索をクリア">
+                <i class="ti-close" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="reading-tag-group">
+            <label class="reading-search-label" for="reading-tag-filter">タグ</label>
+            <select id="reading-tag-filter" class="form-control reading-tag-select" aria-label="タグで絞り込み">
+              <option value="">タグで絞り込み</option>
+              
+              <option value="AI評価">AI評価</option>
+              
+              <option value="音楽">音楽</option>
+              
+              <option value="可視化">可視化</option>
+              
+            </select>
+          </div>
+          <datalist id="reading-tag-suggestions">
+            
+            <option value="AI評価"></option>
+            
+            <option value="音楽"></option>
+            
+            <option value="可視化"></option>
+            
+          </datalist>
+          
+        </div>
+        <p id="reading-search-status" class="reading-search-status mb-0"></p>
         </div>
       </div>
     </div>
     
-
     <div class="row">
       
       
-      <div class="col-12">
-        <p class="mb-0">まだ輪読会の投稿がありません。</p>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-lg-6 mb-4 d-flex" data-reading-item>
+        <article class="card w-100 reading-card" data-reading-card data-reading-text="automatic assessment of tone quality in violin music performance mame [ai評価 可視化 音楽] 本論文の目的は、ヴァイオリンの音色（トーン）の良し悪しを、人の主観評価に近い形で自動的に判定する方法を作ることである。方法としては、まず録音データを集め、専門家や聴取者に音色を評価してもらい、その結果を教師ラベル（正解データ）として用いた。次に、録音からスペクトルや倍音、エネルギーの時間変化などの音響特徴量を抽出し、機械学習モデルにより音色評価を予測できるよう学習させた。 結果として、主観評価と音 … giraldo, s., waddell, g., nou, i., ortega, a., mayor, o., perez, a., williamon, a. and ramirez, r., 2019. automatic assessment of tone quality in … 概要 本論文の目的は、ヴァイオリンの音色（トーン）の良し悪しを、人の主観評価に近い形で自動的に判定する方法を作ることである。方法としては、まず録音データを集め、専門家や聴取者に音色を評価してもらい、その結果を教師ラベル（正解データ）として用いた。次に、録音からスペクトルや倍音、エネルギーの時間変化などの音響特徴量を抽出し、機械学習モデルにより音色評価を予測できるよう学習させた。
+結果として、主観評価と音響特徴量の対応関係をモデルが学習でき、音色の自動判定が可能であることが示された。また、どの特徴量がどの評価に影響しやすいかについても解析が行われ、評価の手がかりとなる要素が整理された。
+結論として、音色の自動評価は実現可能であり、学習モデルが主観的評価と特徴量の関係を捉えられることが示された点に意義がある。教育現場への応用としては、学習者が自分の音色を定量的に把握し、改善に向けた具体的なフィードバックを得られる可能性が重要である。一方で今後の課題として、より多様な奏者・楽器・演奏条件に対する一般化、専門家間の評価差（ばらつき）への対応、音色評価の解釈性向上が挙げられた。
+ディスカッション 今回の話し合いでは、音楽の可視化を授業でどう生かせるかを検討した。カラオケのように音程やリズム、拍の位置を見せる仕組みは直感的で、基本的な技能の習得に有効だと確認できた。一方で、授業では「曲想」を考えさせたい場面が多く、そのためには強弱やアクセント、音色、アーティキュレーション（スタッカート／レガート等）、フレーズの区切りといった表現要素を扱える可視化が必要になる。
+既存のグラフ化アプリは多数あるものの、歌詞が表示されないなどの理由で、範唱と演奏者の違いを見つけにくい場合がある点も課題として挙がった。また試しにchatgptへ音源を入力して演奏の評価を文章で返させたところ、内容はかなり正確だったが、グラフとして見せる指示では見やすさに課題が残った。
+実践案としては、児童の「こう演奏したい」という思いをaiに問いかけるところから始め、演奏を録音してaiに解析させ、意図が聴き手に伝わっているかを確認する方法がすぐに実施可能だと整理した。ただしこれは可視化そのものとは異なる。今後の重要なテーマは、子どもが考えた曲想と対応する「納得感のあるグラフ」を作れるかどうかであり、どの表現要素をどの形で見せると学びにつながるのかを引き続き検討していく。
+" data-reading-tag-token="|ai評価|可視化|音楽|">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h4 mb-2 pr-2"><a href="/tb_lab/ja/reading/2026-02-24/">Automatic Assessment of Tone Quality in Violin Music Performance</a></h3>
+
+            <p class="reading-card-meta mb-2">
+              <span><i class="ti-calendar mr-1"></i>2026-02-18</span>
+              <span><i class="ti-user mr-1"></i>Mame</span>
+            </p>
+
+            
+            <p class="reading-chip-list mb-3">
+              
+              <span class="badge badge-light border mr-1">AI評価</span>
+              
+              <span class="badge badge-light border mr-1">可視化</span>
+              
+              <span class="badge badge-light border mr-1">音楽</span>
+              
+            </p>
+            
+
+            
+            <p class="reading-card-summary mb-2">本論文の目的は、ヴァイオリンの音色（トーン）の良し悪しを、人の主観評価に近い形で自動的に判定する方法を作ることである。方法としては、まず録音データを集め、専門家や聴取者に音色を評価してもらい、その結果を教師ラベル（正解データ）として用いた。次に、録音からスペクトルや倍音、エネルギーの時間変化などの音響特徴量を抽出し、機械学習モデルにより音色評価を予測できるよう学習させた。 結果として、主観評価と音 …</p>
+            
+
+            
+            <p class="reading-card-citation mb-4">Giraldo, S., Waddell, G., Nou, I., Ortega, A., Mayor, O., Perez, A., Williamon, A. and Ramirez, R., 2019. Automatic Assessment of Tone Quality in …</p>
+            
+
+            <a class="btn btn-sm btn-outline-primary mt-auto align-self-start" href="/tb_lab/ja/reading/2026-02-24/">詳細を見る</a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="col-12 d-none" id="reading-search-empty">
+        <p class="mb-0">条件に合う輪読会がありません。</p>
       </div>
       
     </div>
+
+    
   </div>
 </section>
+
+
+<script>
+  (function () {
+    var input = document.getElementById("reading-card-search");
+    var status = document.getElementById("reading-search-status");
+    var clear = document.getElementById("reading-card-search-clear");
+    var tagFilter = document.getElementById("reading-tag-filter");
+    if (!input || !status) return;
+
+    var items = Array.prototype.slice.call(document.querySelectorAll("[data-reading-item]"));
+    var cards = Array.prototype.slice.call(document.querySelectorAll("[data-reading-card]"));
+    var empty = document.getElementById("reading-search-empty");
+
+    function applyFilter() {
+      var query = (input.value || "").toLowerCase().trim();
+      var selectedTag = tagFilter ? (tagFilter.value || "").toLowerCase().trim() : "";
+      var visibleCount = 0;
+
+      cards.forEach(function (card, idx) {
+        var text = (card.getAttribute("data-reading-text") || "").toLowerCase();
+        var tagToken = (card.getAttribute("data-reading-tag-token") || "|").toLowerCase();
+        var textMatch = !query || text.indexOf(query) !== -1;
+        var tagMatch = !selectedTag || tagToken.indexOf("|" + selectedTag + "|") !== -1;
+        var show = textMatch && tagMatch;
+        if (items[idx]) {
+          items[idx].classList.toggle("d-none", !show);
+        }
+        if (show) visibleCount += 1;
+      });
+
+      if (empty) {
+        empty.classList.toggle("d-none", visibleCount !== 0);
+      }
+      status.textContent = query ? (visibleCount + "件ヒット / 全" + cards.length + "件") : (cards.length + "件を表示中");
+      if (selectedTag) {
+        status.textContent = status.textContent + "（タグ: " + selectedTag + "）";
+      }
+      if (clear) {
+        clear.classList.toggle("is-visible", query.length > 0 || selectedTag.length > 0);
+      }
+    }
+
+    if (clear) {
+      clear.addEventListener("click", function () {
+        input.value = "";
+        if (tagFilter) {
+          tagFilter.value = "";
+        }
+        applyFilter();
+        input.focus();
+      });
+    }
+    input.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        input.value = "";
+        if (tagFilter) {
+          tagFilter.value = "";
+        }
+        applyFilter();
+      }
+    });
+    if (tagFilter) {
+      tagFilter.addEventListener("change", applyFilter);
+    }
+    input.addEventListener("input", applyFilter);
+    applyFilter();
+  })();
+</script>
+
 
 
 

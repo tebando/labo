@@ -1,64 +1,240 @@
 {{ define "main" }}
 
-<section class="section">
+<section class="section reading-page-section">
   <div class="container">
     {{ if .Content }}
     <div class="row">
       <div class="col-12">
-        <div class="content mb-5">
-          {{ .Content }}
-        </div>
+        <article class="reading-intro-card mb-5">
+          <div class="content mb-0">
+            {{ .Content }}
+          </div>
+        </article>
       </div>
     </div>
     {{ end }}
 
-    <div class="row">
-      {{ $pages := .RegularPages.ByDate.Reverse }}
-      {{ if gt (len $pages) 0 }}
-        {{ range $pages }}
-        {{ $points := findRE "(?m)^-\\s+.+$" .RawContent }}
-        <div class="col-lg-6 mb-4 d-flex">
-          <article class="card w-100 border-0 shadow-sm hover-shadow">
-            <div class="card-body d-flex flex-column">
-              <h3 class="h4 mb-2"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-              <p class="text-muted mb-3">
-                <i class="ti-calendar mr-1"></i>{{ .Date.Format "2006-01-02" }}
-                <span class="mx-2">|</span>
-                <i class="ti-user mr-1"></i>{{ .Params.presenter | default "-" }}
-              </p>
-
-              {{ with .Params.tags }}
-              <p class="mb-3">
-                {{ range . }}
-                <span class="badge badge-light border mr-1">{{ . }}</span>
-                {{ end }}
-              </p>
-              {{ end }}
-
-              <p class="text-muted mb-2">引用: {{ if .Params.citation }}あり{{ else }}なし{{ end }}</p>
-
-              {{ if gt (len $points) 0 }}
-              <ul class="mb-4 pl-3">
-                {{ range first 3 $points }}
-                <li>{{ replaceRE "(?m)^-\\s+" "" . }}</li>
-                {{ end }}
-              </ul>
-              {{ else }}
-              <p class="text-muted mb-4">要点は未記入です。</p>
-              {{ end }}
-
-              <a class="btn btn-sm btn-outline-primary mt-auto align-self-start" href="{{ .RelPermalink }}">詳細を見る</a>
-            </div>
-          </article>
-        </div>
+    {{ $allPages := .RegularPages.ByDate.Reverse }}
+    {{ $hasPages := gt (len $allPages) 0 }}
+    {{ $paginator := .Paginate $allPages 5 }}
+    {{ $pages := $paginator.Pages }}
+    {{ $keywords := slice }}
+    {{ if $hasPages }}
+      {{ range $allPages }}
+        {{ $rawTags := .Params.tags }}
+        {{ $tags := slice }}
+        {{ if $rawTags }}
+          {{ if reflect.IsSlice $rawTags }}
+            {{ $tags = $rawTags }}
+          {{ else }}
+            {{ $tags = slice $rawTags }}
+          {{ end }}
         {{ end }}
+        {{ range $tags }}
+          {{ $tag := strings.TrimSpace (printf "%v" .) }}
+          {{ if and $tag (not (in $keywords $tag)) }}
+            {{ $keywords = $keywords | append $tag }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $keywords = sort $keywords }}
+    {{ end }}
+    {{ if $hasPages }}
+    <div class="row mb-4 reading-search-row">
+      <div class="col-12">
+        <div class="reading-search-wrap">
+        <div class="reading-search-panel">
+          <div class="reading-search-group">
+            <label class="reading-search-label" for="reading-card-search">検索</label>
+            <div class="reading-search-shell">
+              <span class="reading-search-icon" aria-hidden="true"><i class="ti-search"></i></span>
+              <input id="reading-card-search" class="form-control reading-search-input" type="search" list="reading-tag-suggestions" placeholder="タイトル・発表者・文献情報で検索">
+              <button id="reading-card-search-clear" class="reading-search-clear" type="button" aria-label="検索をクリア">
+                <i class="ti-close" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+          {{ if gt (len $keywords) 0 }}
+          <div class="reading-tag-group">
+            <label class="reading-search-label" for="reading-tag-filter">タグ</label>
+            <select id="reading-tag-filter" class="form-control reading-tag-select" aria-label="タグで絞り込み">
+              <option value="">タグで絞り込み</option>
+              {{ range $keywords }}
+              <option value="{{ . }}">{{ . }}</option>
+              {{ end }}
+            </select>
+          </div>
+          <datalist id="reading-tag-suggestions">
+            {{ range $keywords }}
+            <option value="{{ . }}"></option>
+            {{ end }}
+          </datalist>
+          {{ end }}
+        </div>
+        <p id="reading-search-status" class="reading-search-status mb-0"></p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      {{ if $hasPages }}
+      {{ range $pages }}
+      {{ $displayTitle := .Title }}
+      {{ $rawTags := .Params.tags }}
+      {{ $tags := slice }}
+      {{ if $rawTags }}
+      {{ if reflect.IsSlice $rawTags }}
+      {{ $tags = $rawTags }}
+      {{ else }}
+      {{ $tags = slice $rawTags }}
+      {{ end }}
+      {{ end }}
+      {{ $summary := partial "reading-overview-snippet.html" . }}
+      {{ $citationCompact := replaceRE "\\s+" " " (.Params.citation | default "") | strings.TrimSpace | truncate 150 }}
+      {{ $searchText := lower (printf "%s %s %v %s %s %s" $displayTitle (.Params.presenter | default "") $tags $summary $citationCompact .Plain) }}
+      {{ $tagToken := "|" }}
+      {{ if gt (len $tags) 0 }}
+      {{ $tagToken = lower (printf "|%s|" (delimit $tags "|")) }}
+      {{ end }}
+      <div class="col-lg-6 mb-4 d-flex" data-reading-item>
+        <article class="card w-100 reading-card" data-reading-card data-reading-text="{{ $searchText }}" data-reading-tag-token="{{ $tagToken }}">
+          <div class="card-body d-flex flex-column">
+            <h3 class="h4 mb-2 pr-2"><a href="{{ .RelPermalink }}">{{ $displayTitle }}</a></h3>
+
+            <p class="reading-card-meta mb-2">
+              <span><i class="ti-calendar mr-1"></i>{{ .Date.Format "2006-01-02" }}</span>
+              <span><i class="ti-user mr-1"></i>{{ .Params.presenter | default "-" }}</span>
+            </p>
+
+            {{ if gt (len $tags) 0 }}
+            <p class="reading-chip-list mb-3">
+              {{ range $tags }}
+              <span class="badge badge-light border mr-1">{{ . }}</span>
+              {{ end }}
+            </p>
+            {{ end }}
+
+            {{ if $summary }}
+            <p class="reading-card-summary mb-2">{{ $summary }}</p>
+            {{ else }}
+            <p class="text-muted mb-2">概要は未記入です。</p>
+            {{ end }}
+
+            {{ if $citationCompact }}
+            <p class="reading-card-citation mb-4">{{ $citationCompact }}</p>
+            {{ else }}
+            <p class="text-muted mb-4">文献情報は未入力です。</p>
+            {{ end }}
+
+            <a class="btn btn-sm btn-outline-primary mt-auto align-self-start" href="{{ .RelPermalink }}">詳細を見る</a>
+          </div>
+        </article>
+      </div>
+      {{ end }}
+      <div class="col-12 d-none" id="reading-search-empty">
+        <p class="mb-0">条件に合う輪読会がありません。</p>
+      </div>
       {{ else }}
       <div class="col-12">
         <p class="mb-0">まだ輪読会の投稿がありません。</p>
       </div>
       {{ end }}
     </div>
+
+    {{ if and $hasPages (gt $paginator.TotalPages 1) }}
+    <div class="row mt-2">
+      <div class="col-12">
+        <ul class="pagination justify-content-center reading-pagination">
+          {{ if $paginator.HasPrev }}
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Prev.URL }}" aria-label="前へ">&laquo;</a>
+          </li>
+          {{ end }}
+          {{ range $paginator.Pagers }}
+          <li class="page-item{{ if eq . $paginator }} active{{ end }}">
+            <a class="page-link" href="{{ .URL }}">{{ .PageNumber }}</a>
+          </li>
+          {{ end }}
+          {{ if $paginator.HasNext }}
+          <li class="page-item">
+            <a class="page-link" href="{{ $paginator.Next.URL }}" aria-label="次へ">&raquo;</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    {{ end }}
   </div>
 </section>
+
+{{ if $hasPages }}
+<script>
+  (function () {
+    var input = document.getElementById("reading-card-search");
+    var status = document.getElementById("reading-search-status");
+    var clear = document.getElementById("reading-card-search-clear");
+    var tagFilter = document.getElementById("reading-tag-filter");
+    if (!input || !status) return;
+
+    var items = Array.prototype.slice.call(document.querySelectorAll("[data-reading-item]"));
+    var cards = Array.prototype.slice.call(document.querySelectorAll("[data-reading-card]"));
+    var empty = document.getElementById("reading-search-empty");
+
+    function applyFilter() {
+      var query = (input.value || "").toLowerCase().trim();
+      var selectedTag = tagFilter ? (tagFilter.value || "").toLowerCase().trim() : "";
+      var visibleCount = 0;
+
+      cards.forEach(function (card, idx) {
+        var text = (card.getAttribute("data-reading-text") || "").toLowerCase();
+        var tagToken = (card.getAttribute("data-reading-tag-token") || "|").toLowerCase();
+        var textMatch = !query || text.indexOf(query) !== -1;
+        var tagMatch = !selectedTag || tagToken.indexOf("|" + selectedTag + "|") !== -1;
+        var show = textMatch && tagMatch;
+        if (items[idx]) {
+          items[idx].classList.toggle("d-none", !show);
+        }
+        if (show) visibleCount += 1;
+      });
+
+      if (empty) {
+        empty.classList.toggle("d-none", visibleCount !== 0);
+      }
+      status.textContent = query ? (visibleCount + "件ヒット / 全" + cards.length + "件") : (cards.length + "件を表示中");
+      if (selectedTag) {
+        status.textContent = status.textContent + "（タグ: " + selectedTag + "）";
+      }
+      if (clear) {
+        clear.classList.toggle("is-visible", query.length > 0 || selectedTag.length > 0);
+      }
+    }
+
+    if (clear) {
+      clear.addEventListener("click", function () {
+        input.value = "";
+        if (tagFilter) {
+          tagFilter.value = "";
+        }
+        applyFilter();
+        input.focus();
+      });
+    }
+    input.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        input.value = "";
+        if (tagFilter) {
+          tagFilter.value = "";
+        }
+        applyFilter();
+      }
+    });
+    if (tagFilter) {
+      tagFilter.addEventListener("change", applyFilter);
+    }
+    input.addEventListener("input", applyFilter);
+    applyFilter();
+  })();
+</script>
+{{ end }}
 
 {{ end }}
