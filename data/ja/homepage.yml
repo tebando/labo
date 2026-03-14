@@ -3,7 +3,7 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
-    - title : "教育データ活用・学びデザイン研究室  鳴門教育大学"
+    - title : "教育データ活用・学びデザイン研究室. 鳴門教育大学"
       icon_image : "images/home/learning-design-mark.svg"
       animation_in : "left"
       animation_out : "right"
